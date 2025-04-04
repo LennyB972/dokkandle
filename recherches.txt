@@ -7,3 +7,12 @@ imgid est l'id de l'image d'une carte, et c'est simplement l'id de la carte avec
 --------------------------------------------
 | LES ID SONT LES MÊMES SUR TOUS LES SITES |
 --------------------------------------------
+
+l'ID d'une carte commence toujours par un 1, sauf si c'est une transfo: les cartes transfo ont leur id qui commence par un 4. 
+De plus, entre une carte de base et chacune de ses versions transfo, il faut simplement rajouter 10 à l'ID pour trouver celui de la transfo d'après.
+Exemple: 
+cell 1ere forme AGI : 1024381
+cell 2eme forme AGI : 4024391
+cell forme finale AGI : 4024401
+cell forme finale (mode rage) AGI : 4024411
+
