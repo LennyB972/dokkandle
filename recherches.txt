@@ -16,3 +16,5 @@ cell 2eme forme AGI : 4024391
 cell forme finale AGI : 4024401
 cell forme finale (mode rage) AGI : 4024411
 
+rareté des UR : 4
+rareté des LR : 5
