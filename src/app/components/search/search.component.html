@@ -1,0 +1,13 @@
+<div class="search-container">
+    <div class="search-input-wrapper">
+      <input 
+        type="text" 
+        [(ngModel)]="searchTerm" 
+        placeholder="Rechercher une carte par nom..." 
+        class="search-input"
+        (keyup.enter)="onSearch()"
+      >
+      <button *ngIf="searchTerm" class="clear-button" (click)="clearSearch()">✕</button>
+    </div>
+    <button class="search-button" (click)="onSearch()">Rechercher</button>
+  </div>
