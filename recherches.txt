@@ -3,3 +3,7 @@ les id de chaque carte finissent par 1.
 pour trouver l'image de la carte, il faut aller sur :
 https://dokkan.wiki/assets/global/en/character/thumb/card_imgid_thumb.png 
 imgid est l'id de l'image d'une carte, et c'est simplement l'id de la carte avec un 0 au lieu du 1 à la fin.
+
+--------------------------------------------
+| LES ID SONT LES MÊMES SUR TOUS LES SITES |
+--------------------------------------------
