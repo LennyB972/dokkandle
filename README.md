@@ -64,18 +64,18 @@ Nous allons nous baser sur une **base de données Dokkan Battle** comprenant :
 ## 💡 Exemple d'interface pour le premier mode (Deviner le personnage depuis rien et ensuite être guidé)
 
 Entrée utilisateur : "Goku" 
-  -Indication 1:Type 
-  -Indication 2:Couleur
-  -Indication 3:Catégories
-  -Indication 4:Leader
-  -Inidcation 5:Année de sortie
+-Indication 1:Type 
+-Indication 2:Couleur
+-Indication 3:Catégories
+-Indication 4:Leader
+-Inidcation 5:Année de sortie
 
 ---
 
 ## 💡 Exemple d'interface pour les autres modes
 
 Entrée utilisateur : "Goku" 
-  -Indication: Faux/Vrai
+-Indication: Faux/Vrai
 
 ---
 
