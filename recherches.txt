@@ -18,3 +18,16 @@ cell forme finale (mode rage) AGI : 4024411
 
 rareté des UR : 4
 rareté des LR : 5
+
+
+----------------
+| GITHUB PAGES |
+----------------
+
+Il est possible de faire fonctionner un site web sur GitHub grâce à GitHub Pages. C'est un service gratuit qui vous permet d'héberger un site web statique directement depuis un dépôt GitHub.
+Voici comment cela fonctionne :
+
+GitHub Pages peut héberger des sites web statiques (HTML, CSS, JavaScript)
+Le contenu est servi directement depuis votre dépôt GitHub
+Vous pouvez utiliser un nom de domaine personnalisé ou utiliser le domaine par défaut (username.github.io)
+
