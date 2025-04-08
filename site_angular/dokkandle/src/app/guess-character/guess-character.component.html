@@ -1,9 +1,6 @@
 <div class="game-container">
   <div class="header">
     <h1>DEVINE LE PERSONNAGE DE DOKKAN BATTLE D'AUJOURD'HUI!</h1>
-    <div class="attempts-counter">
-      Essai {{ attempts }}/∞
-    </div>
   </div>
   
   <!-- Écran de chargement -->
@@ -20,47 +17,7 @@
   
   <!-- Zone principale du jeu -->
   <div class="game-content" *ngIf="!isLoading && !errorMessage">
-    <!-- Résultats des tentatives précédentes -->
-    <div class="results-container">
-      <div *ngIf="guesses.length === 0" class="no-guesses">
-        <p>Entrez le nom d'un personnage pour commencer à jouer!</p>
-      </div>
-      
-      <div class="guess-row" *ngFor="let guess of guesses">
-        <div class="character-name" [ngClass]="{'correct': guess.isCorrect}">
-          {{ guess.character.name }}
-        </div>
-        
-        <div class="hints-grid">
-          <!-- Type (Super/Extreme) -->
-          <div class="hint-box" [ngClass]="{'correct-hint': guess.hints.type, 'incorrect-hint': !guess.hints.type}">
-            {{ guess.character.type || '?' }}
-          </div>
-          
-          <!-- Couleur (AGL/TEQ/INT/STR/PHY) -->
-          <div class="hint-box" [ngClass]="{'correct-hint': guess.hints.color, 'incorrect-hint': !guess.hints.color}">
-            {{ guess.character.color || '?' }}
-          </div>
-          
-          <!-- Catégories -->
-          <div class="hint-box" [ngClass]="{'correct-hint': guess.hints.category, 'incorrect-hint': !guess.hints.category}">
-            <span>Catégories</span>
-          </div>
-          
-          <!-- Rareté -->
-          <div class="hint-box" [ngClass]="{'correct-hint': guess.hints.rarity, 'incorrect-hint': !guess.hints.rarity}">
-            {{ getCharacterRarity(guess.character) }}
-          </div>
-          
-          <!-- Année de sortie -->
-          <div class="hint-box" [ngClass]="{'correct-hint': guess.hints.releaseYear, 'incorrect-hint': !guess.hints.releaseYear}">
-            {{ getCharacterReleaseYear(guess.character) }}
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <!-- Zone de saisie -->
+    <!-- Zone de saisie (déplacée avant les résultats) -->
     <div class="input-area" [ngClass]="{'disabled': isGameOver}">
       <div class="input-container">
         <input 
@@ -99,6 +56,72 @@
           [disabled]="isGameOver">
           Abandonner
         </button>
+      </div>
+    </div>
+
+    <!-- Légende des indices (restructurée pour alignement) -->
+    <div class="hints-legend" *ngIf="guesses.length > 0">
+      <div class="name-spacer"></div>
+      <div class="hints-legend-grid">
+        <div class="legend-item">TYPE</div>
+        <div class="legend-item">COULEUR</div>
+        <div class="legend-item">HP,ATT,DEF</div>
+        <div class="legend-item">RARETÉ</div>
+        <div class="legend-item">ANNÉE</div>
+      </div>
+    </div>
+    
+    <!-- Résultats des tentatives précédentes -->
+    <div class="results-container">
+      <div *ngIf="guesses.length === 0" class="no-guesses">
+        <p>Entrez le nom d'un personnage pour commencer à jouer!</p>
+      </div>
+      
+      <div class="guess-row" *ngFor="let guess of guesses">
+        <!-- Nom du personnage sur le côté -->
+        <div class="character-name" [ngClass]="{'correct': guess.isCorrect}">
+          {{ guess.character.name }}
+        </div>
+        
+        <div class="hints-grid">
+          <!-- Type (Super/Extreme) -->
+          <div class="hint-box" [ngClass]="{'correct-hint': guess.hints.type, 'incorrect-hint': !guess.hints.type}">
+            {{ guess.character.type || '?' }}
+          </div>
+          
+          <!-- Couleur (AGL/TEQ/INT/STR/PHY) -->
+          <div class="hint-box" [ngClass]="{'correct-hint': guess.hints.color, 'incorrect-hint': !guess.hints.color}">
+            {{ guess.character.color || '?' }}
+          </div>
+          
+          <!-- Statistiques (HP, ATT, DEF) avec flèche -->
+          <div class="hint-box" [ngClass]="{
+            'correct-hint': guess.hints.stats === 'equal',
+            'higher-hint': guess.hints.stats === 'higher',
+            'lower-hint': guess.hints.stats === 'lower'
+          }">
+            <div class="stats-container">
+              <span>{{ getFormattedStats(guess.character) }}</span>
+              <span class="direction-arrow" *ngIf="guess.hints.stats === 'higher'">↓</span>
+              <span class="direction-arrow" *ngIf="guess.hints.stats === 'lower'">↑</span>
+            </div>
+          </div>
+          
+          <!-- Rareté -->
+          <div class="hint-box" [ngClass]="{'correct-hint': guess.hints.rarity, 'incorrect-hint': !guess.hints.rarity}">
+            {{ getCharacterRarity(guess.character) }}
+          </div>
+          
+          <!-- Année de sortie avec flèche directionnelle -->
+          <div class="hint-box" [ngClass]="{'correct-hint': guess.hints.releaseYear, 'incorrect-hint': !guess.hints.releaseYear}">
+            <div class="stats-container">
+              <span>{{ getCharacterReleaseYear(guess.character) }}</span>
+              <span class="direction-arrow" *ngIf="!guess.hints.releaseYear">
+                {{ getYearDirection(guess.character, targetCharacter) }}
+              </span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     

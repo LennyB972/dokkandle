@@ -8,7 +8,7 @@ import { CharacterService, DokkanCharacter } from '../character.service';
 interface GuessHint {
   type: boolean;
   color: boolean;
-  category: boolean;
+  stats: 'equal' | 'higher' | 'lower'; // Modifié : au lieu de category, on utilise stats
   rarity: boolean;
   releaseYear: boolean;
 }
@@ -119,7 +119,7 @@ export class GuessCharacterComponent implements OnInit {
     const hints: GuessHint = {
       type: selectedCharacter.type === this.targetCharacter.type,
       color: selectedCharacter.color === this.targetCharacter.color,
-      category: this.hasCommonCategory(selectedCharacter.categories, this.targetCharacter.categories),
+      stats: this.compareStats(selectedCharacter, this.targetCharacter),
       rarity: this.isSameRarity(selectedCharacter, this.targetCharacter),
       releaseYear: this.isSameReleaseYear(selectedCharacter, this.targetCharacter)
     };
@@ -139,17 +139,22 @@ export class GuessCharacterComponent implements OnInit {
     this.showSuggestions = false;
   }
   
-  // Méthodes utilitaires pour comparer les personnages
-  
-  hasCommonCategory(categories1?: string[], categories2?: string[]): boolean {
-    if (!categories1 || !categories2) return false;
-    return categories1.some(category => 
-      categories2.some(targetCategory => 
-        targetCategory.toLowerCase() === category.toLowerCase()
-      )
-    );
+  // Nouvelle méthode pour comparer les statistiques
+  compareStats(char1: DokkanCharacter, char2: DokkanCharacter): 'equal' | 'higher' | 'lower' {
+    // Calculer la moyenne des statistiques (HP, ATK, DEF)
+    const char1Stats = (char1.hp_max + char1.atk_max + char1.def_max) / 3;
+    const char2Stats = (char2.hp_max + char2.atk_max + char2.def_max) / 3;
+    
+    if (Math.abs(char1Stats - char2Stats) < 100) { // Marge d'erreur pour "égal"
+      return 'equal';
+    } else if (char1Stats > char2Stats) {
+      return 'higher';
+    } else {
+      return 'lower';
+    }
   }
   
+  // Méthodes utilitaires pour comparer les personnages
   isSameRarity(char1: DokkanCharacter, char2: DokkanCharacter): boolean {
     // Comparer les raretés (Dokkan Festival, Carnival, F2P, Other)
     if (char1.is_dokkan_fes && char2.is_dokkan_fes) return true;
@@ -171,8 +176,20 @@ export class GuessCharacterComponent implements OnInit {
     }
   }
   
-  // Méthodes pour obtenir des informations formatées
+  // Méthode pour obtenir la direction (flèche) pour les dates
+  getYearDirection(char1: DokkanCharacter, char2: DokkanCharacter): string {
+    try {
+      const year1 = new Date(char1.open_at).getFullYear();
+      const year2 = new Date(char2.open_at).getFullYear();
+      
+      if (year1 === year2) return '';
+      return year1 > year2 ? '↓' : '↑'; // Flèche vers le bas si plus récent, vers le haut si plus ancien
+    } catch (e) {
+      return '';
+    }
+  }
   
+  // Méthodes pour obtenir des informations formatées
   getCharacterRarity(character: DokkanCharacter): string {
     if (character.is_dokkan_fes) return 'Dokkan Festival';
     if (character.is_carnival_only) return 'Carnival';
@@ -188,6 +205,11 @@ export class GuessCharacterComponent implements OnInit {
       console.error('Erreur lors du traitement de la date:', e);
       return '';
     }
+  }
+  
+  // Méthode pour formater les statistiques
+  getFormattedStats(character: DokkanCharacter): string {
+    return `${character.hp_max}, ${character.atk_max}, ${character.def_max}`;
   }
   
   giveUp(): void {

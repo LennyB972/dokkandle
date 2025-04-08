@@ -17,11 +17,6 @@ h1 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
-.attempts-counter {
-  font-size: 18px;
-  color: #ffcc00;
-}
-
 /* Écran de chargement */
 .loading-screen {
   display: flex;
@@ -78,72 +73,9 @@ h1 {
   gap: 20px;
 }
 
-/* Zone des résultats */
-.results-container {
-  background-color: rgba(0, 0, 0, 0.7);
-  border-radius: 10px;
-  padding: 15px;
-  max-height: 400px;
-  overflow-y: auto;
-}
-
-.no-guesses {
-  color: rgba(255, 255, 255, 0.7);
-  text-align: center;
-  padding: 10px;
-}
-
-.guess-row {
-  background-color: rgba(255, 255, 255, 0.05);
-  border-radius: 8px;
-  padding: 12px;
-  margin-bottom: 10px;
-}
-
-.character-name {
-  font-size: 18px;
-  font-weight: bold;
-  margin-bottom: 10px;
-  padding-bottom: 5px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.character-name.correct {
-  color: #4CAF50;
-}
-
-.hints-grid {
-  display: flex;
-  justify-content: space-between;
-  gap: 8px;
-}
-
-.hint-box {
-  flex: 1;
-  text-align: center;
-  padding: 8px 5px;
-  border-radius: 5px;
-  background-color: #333;
-  font-size: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 40px;
-}
-
-.hint-box.correct-hint {
-  background-color: rgba(76, 175, 80, 0.8); /* Vert */
-  color: white;
-}
-
-.hint-box.incorrect-hint {
-  background-color: rgba(244, 67, 54, 0.8); /* Rouge */
-  color: white;
-}
-
-/* Zone de saisie */
+/* Zone de saisie - maintenant AVANT les résultats */
 .input-area {
-  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .input-container {
@@ -155,7 +87,7 @@ input {
   width: 100%;
   padding: 12px 15px;
   font-size: 16px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(0, 0, 0, 0.8); /* Fond noir comme demandé */
   border: 1px solid #ffcc00;
   border-radius: 5px;
   color: white;
@@ -234,6 +166,133 @@ button[disabled] {
   cursor: not-allowed;
 }
 
+/* Zone des résultats et légende des indices */
+.results-container {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 15px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+/* Structure commune pour la légende et les indices */
+.hint-container {
+  width: 100%;
+  display: flex;
+}
+
+/* Espaceur pour aligner la légende avec les hints-grid */
+.name-spacer {
+  min-width: 150px;
+  margin-right: 15px;
+}
+
+/* Légende des indices - nouvelle section */
+.hints-legend {
+  display: flex;
+  padding: 10px 15px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 5px;
+}
+
+.hints-legend-grid {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.legend-item {
+  flex: 1;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+}
+
+.no-guesses {
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  padding: 10px;
+}
+
+.guess-row {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 10px;
+  display: flex; /* Pour mettre le nom à côté des indices */
+  align-items: center;
+}
+
+.character-name {
+  font-size: 16px;
+  font-weight: bold;
+  min-width: 150px; /* Largeur fixe pour le nom */
+  padding-right: 15px;
+  margin-right: 15px;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.character-name.correct {
+  color: #4CAF50;
+}
+
+.hints-grid {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.hint-box {
+  flex: 1;
+  text-align: center;
+  padding: 8px 5px;
+  border-radius: 5px;
+  background-color: #333;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40px;
+}
+
+.hint-box.correct-hint {
+  background-color: rgba(76, 175, 80, 0.8); /* Vert */
+  color: white;
+}
+
+.hint-box.incorrect-hint {
+  background-color: rgba(244, 67, 54, 0.8); /* Rouge */
+  color: white;
+}
+
+.hint-box.higher-hint {
+  background-color: rgba(255, 152, 0, 0.8); /* Orange - pour les stats plus élevées */
+  color: white;
+}
+
+.hint-box.lower-hint {
+  background-color: rgba(33, 150, 243, 0.8); /* Bleu - pour les stats plus basses */
+  color: white;
+}
+
+/* Container pour afficher la valeur et la flèche */
+.stats-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.direction-arrow {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 2px;
+}
+
 /* Message de fin de jeu */
 .game-over-message {
   text-align: center;
@@ -281,9 +340,24 @@ button[disabled] {
 }
 
 /* Responsive design */
-@media (max-width: 600px) {
+@media (max-width: 700px) {
+  .guess-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .character-name {
+    width: 100%;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-right: 0;
+    margin-right: 0;
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
   .hints-grid {
-    flex-wrap: wrap;
+    width: 100%;
   }
   
   .hint-box {
@@ -293,5 +367,13 @@ button[disabled] {
   
   .buttons-container {
     flex-direction: column;
+  }
+  
+  .name-spacer {
+    display: none;
+  }
+  
+  .hints-legend {
+    padding: 10px 5px;
   }
 }
