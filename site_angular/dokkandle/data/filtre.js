@@ -37,7 +37,7 @@ const processFiles = async () => {
                     is_dokkan_fes: card.is_dokkan_fes,
                     is_carnival_only: card.is_carnival_only,
                     open_at: card.open_at,
-                    has_optimal_awakening_growths: card.hasOwnProperty("optimal_awakening_growths")
+                    has_optimal_awakening_growths: data.hasOwnProperty("optimal_awakening_growths")
                 };
 
                 // Sauvegarder le fichier filtré dans le dossier 'filtered-info'
