@@ -1,66 +1,59 @@
 /* Plein écran avec image de fond */
 .background {
-    background-image: url('../assets/fond_dokkan.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  /* Logo ou image du titre */
-  .titre-composant {
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 2; /* Augmenté pour s'assurer qu'il est au-dessus */
-    width: 300px; /* Largeur fixe pour le conteneur */
-    text-align: center;
-  }
-  
-  .titre-menu-image {
-    width: 100%; /* Prend 100% de la largeur du conteneur parent */
-    height: auto;
-    display: block; /* Élimine l'espace supplémentaire sous l'image */
-  }
-  
-  /* Conteneur de boutons centré verticalement */
-  .button-menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    z-index: 2; /* Augmenté également */
-    position: relative; /* Ajouté pour s'assurer que le z-index fonctionne */
-  }
-  
-  /* Style des boutons */
-  .button-menu button {
-    padding: 1rem 2rem;
-    font-size: 1.2rem;
-    border: none;
-    border-radius: 8px;
-    background-color: rgba(255, 255, 255, 0.8);
-    cursor: pointer;
-    transition: background-color 0.3s;
-    min-width: 200px; /* Largeur minimale pour les boutons */
-  }
-  
-  .button-menu button:hover {
-    background-color: rgba(255, 255, 255, 1);
-  }
+  background-image: url('/assets/fond_dokkan.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
 
-  .titre-composant {
-    border: 2px solid red;
-  }
-  .button-menu {
-    border: 2px solid blue;
-  }
+/* Conteneur du titre */
+.title-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+/* Image du titre */
+.title-image {
+  max-width: 80%;
+  height: auto;
+}
+
+/* Conteneur des boutons */
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+/* Style des boutons */
+.game-button {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  border: 2px solid #ffcc00;
+  border-radius: 8px;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  min-width: 200px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.game-button:hover {
+  background-color: rgba(255, 204, 0, 0.8);
+  color: black;
+  transform: scale(1.05);
+}
