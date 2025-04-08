@@ -1,0 +1,12 @@
+{
+  "name": "Goten (Kid)",
+  "id": 1010921,
+  "hp_max": 5499,
+  "atk_max": 7554,
+  "def_max": 3814,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-08-21 06:00:00",
+  "has_optimal_awakening_growths": false
+}

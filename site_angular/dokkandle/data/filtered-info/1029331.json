@@ -1,0 +1,12 @@
+{
+  "name": "Devilman",
+  "id": 1029331,
+  "hp_max": 8043,
+  "atk_max": 7876,
+  "def_max": 3940,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2024-08-21 06:30:00",
+  "has_optimal_awakening_growths": false
+}

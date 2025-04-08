@@ -1,0 +1,12 @@
+{
+  "name": "Jackie Chun Statue (Diamond)",
+  "id": 1023821,
+  "hp_max": 500,
+  "atk_max": 500,
+  "def_max": 500,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2021-12-27 15:00:00",
+  "has_optimal_awakening_growths": false
+}

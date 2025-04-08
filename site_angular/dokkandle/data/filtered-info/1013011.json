@@ -1,0 +1,12 @@
+{
+  "name": "Recoome",
+  "id": 1013011,
+  "hp_max": 8049,
+  "atk_max": 5213,
+  "def_max": 3883,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-07-30 06:30:00",
+  "has_optimal_awakening_growths": false
+}

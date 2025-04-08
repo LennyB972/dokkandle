@@ -1,0 +1,12 @@
+{
+  "name": "Gamma 1",
+  "id": 1025511,
+  "hp_max": 13075,
+  "atk_max": 9300,
+  "def_max": 8963,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2022-10-28 06:30:00",
+  "has_optimal_awakening_growths": false
+}

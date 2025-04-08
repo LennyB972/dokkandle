@@ -1,0 +1,12 @@
+{
+  "name": "Super Janemba",
+  "id": 1005051,
+  "hp_max": 7945,
+  "atk_max": 9219,
+  "def_max": 4222,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2016-07-08 06:30:00",
+  "has_optimal_awakening_growths": false
+}

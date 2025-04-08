@@ -1,0 +1,12 @@
+{
+  "name": "Broly (Kid)",
+  "id": 1018931,
+  "hp_max": 5878,
+  "atk_max": 6975,
+  "def_max": 2767,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-07-20 00:00:00",
+  "has_optimal_awakening_growths": false
+}

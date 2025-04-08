@@ -1,0 +1,12 @@
+{
+  "name": "Tien",
+  "id": 1010211,
+  "hp_max": 9168,
+  "atk_max": 8273,
+  "def_max": 4325,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-09-05 06:30:00",
+  "has_optimal_awakening_growths": false
+}

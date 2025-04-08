@@ -1,0 +1,12 @@
+{
+  "name": "Turles",
+  "id": 1008641,
+  "hp_max": 10100,
+  "atk_max": 7104,
+  "def_max": 4195,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2016-12-12 06:30:00",
+  "has_optimal_awakening_growths": false
+}

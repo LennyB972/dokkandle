@@ -1,0 +1,12 @@
+{
+  "name": "Kakunsa",
+  "id": 1020181,
+  "hp_max": 7131,
+  "atk_max": 7942,
+  "def_max": 4147,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-12-04 06:30:00",
+  "has_optimal_awakening_growths": false
+}

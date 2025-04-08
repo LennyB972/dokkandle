@@ -1,0 +1,12 @@
+{
+  "name": "Kale (Berserk)",
+  "id": 1026481,
+  "hp_max": 11190,
+  "atk_max": 12548,
+  "def_max": 5845,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2023-08-11 06:30:00",
+  "has_optimal_awakening_growths": false
+}

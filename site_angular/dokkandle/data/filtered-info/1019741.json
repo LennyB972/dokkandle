@@ -1,0 +1,12 @@
+{
+  "name": "Kefla",
+  "id": 1019741,
+  "hp_max": 11045,
+  "atk_max": 11736,
+  "def_max": 6933,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2020-08-11 00:00:00",
+  "has_optimal_awakening_growths": false
+}

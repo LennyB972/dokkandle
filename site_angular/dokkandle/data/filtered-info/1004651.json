@@ -1,0 +1,12 @@
+{
+  "name": "Perfect Cell",
+  "id": 1004651,
+  "hp_max": 9792,
+  "atk_max": 8432,
+  "def_max": 6034,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2016-03-11 08:10:00",
+  "has_optimal_awakening_growths": false
+}

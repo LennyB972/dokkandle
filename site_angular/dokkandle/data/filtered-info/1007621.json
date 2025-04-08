@@ -1,0 +1,12 @@
+{
+  "name": "Super Saiyan 2 Vegeta",
+  "id": 1007621,
+  "hp_max": 8439,
+  "atk_max": 7344,
+  "def_max": 4511,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-12-01 06:30:00",
+  "has_optimal_awakening_growths": false
+}

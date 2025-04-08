@@ -1,0 +1,12 @@
+{
+  "name": "Androids #17 & #18",
+  "id": 1027431,
+  "hp_max": 19745,
+  "atk_max": 9300,
+  "def_max": 5628,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2024-02-01 06:30:00",
+  "has_optimal_awakening_growths": false
+}

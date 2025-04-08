@@ -1,0 +1,12 @@
+{
+  "name": "Full Power Boujack",
+  "id": 1010461,
+  "hp_max": 9021,
+  "atk_max": 7691,
+  "def_max": 5036,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-08-01 06:30:00",
+  "has_optimal_awakening_growths": false
+}

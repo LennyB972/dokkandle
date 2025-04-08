@@ -1,0 +1,12 @@
+{
+  "name": "Beerus",
+  "id": 1012681,
+  "hp_max": 8837,
+  "atk_max": 8095,
+  "def_max": 4623,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-01-19 06:30:00",
+  "has_optimal_awakening_growths": false
+}

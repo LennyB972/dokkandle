@@ -1,0 +1,12 @@
+{
+  "name": "Piccolo & Gohan (Kid)",
+  "id": 1030041,
+  "hp_max": 7960,
+  "atk_max": 7876,
+  "def_max": 3981,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2024-10-21 04:00:00",
+  "has_optimal_awakening_growths": false
+}

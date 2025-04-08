@@ -1,0 +1,12 @@
+{
+  "name": "Grandpa Gohan",
+  "id": 1019921,
+  "hp_max": 6360,
+  "atk_max": 8158,
+  "def_max": 4748,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2021-07-02 06:30:00",
+  "has_optimal_awakening_growths": false
+}

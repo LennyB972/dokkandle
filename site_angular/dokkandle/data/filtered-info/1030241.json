@@ -1,0 +1,12 @@
+{
+  "name": "Goku (Mini) (DAIMA)",
+  "id": 1030241,
+  "hp_max": 7043,
+  "atk_max": 7686,
+  "def_max": 3620,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2024-10-21 08:00:00",
+  "has_optimal_awakening_growths": false
+}

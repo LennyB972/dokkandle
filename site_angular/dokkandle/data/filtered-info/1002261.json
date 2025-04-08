@@ -1,0 +1,12 @@
+{
+  "name": "Demon King Piccolo (Elder)",
+  "id": 1002261,
+  "hp_max": 9479,
+  "atk_max": 7177,
+  "def_max": 3252,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2015-10-30 00:00:00",
+  "has_optimal_awakening_growths": false
+}

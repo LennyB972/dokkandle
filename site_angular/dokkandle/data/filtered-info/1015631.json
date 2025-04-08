@@ -1,0 +1,12 @@
+{
+  "name": "Boujack",
+  "id": 1015631,
+  "hp_max": 9283,
+  "atk_max": 8710,
+  "def_max": 3320,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2019-01-25 06:30:00",
+  "has_optimal_awakening_growths": false
+}

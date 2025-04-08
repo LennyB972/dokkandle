@@ -1,0 +1,12 @@
+{
+  "name": "Tien & Chiaotzu",
+  "id": 1012131,
+  "hp_max": 15266,
+  "atk_max": 13723,
+  "def_max": 8526,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-08-24 06:30:00",
+  "has_optimal_awakening_growths": false
+}

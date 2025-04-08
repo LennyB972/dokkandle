@@ -1,0 +1,12 @@
+{
+  "name": "Kami",
+  "id": 1004951,
+  "hp_max": 9479,
+  "atk_max": 7177,
+  "def_max": 3252,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2016-07-29 06:30:00",
+  "has_optimal_awakening_growths": false
+}

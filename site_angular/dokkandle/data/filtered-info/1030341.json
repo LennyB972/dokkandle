@@ -1,0 +1,12 @@
+{
+  "name": "Super Saiyan 3 Goku (GT) (Golden Giant Ape)",
+  "id": 1030341,
+  "hp_max": 16900,
+  "atk_max": 14935,
+  "def_max": 10506,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": true,
+  "open_at": "2025-01-28 21:00:00",
+  "has_optimal_awakening_growths": false
+}

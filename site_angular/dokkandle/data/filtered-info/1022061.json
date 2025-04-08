@@ -1,0 +1,12 @@
+{
+  "name": "Super Garlic Jr.",
+  "id": 1022061,
+  "hp_max": 9475,
+  "atk_max": 7811,
+  "def_max": 6271,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2021-10-06 00:00:00",
+  "has_optimal_awakening_growths": false
+}

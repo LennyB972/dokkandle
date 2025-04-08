@@ -1,0 +1,12 @@
+{
+  "name": "Majin Vegeta",
+  "id": 1013181,
+  "hp_max": 7217,
+  "atk_max": 8997,
+  "def_max": 3993,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-07-08 05:30:00",
+  "has_optimal_awakening_growths": false
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Super Saiyan God SS Vegeta",
+  "id": 1016121,
+  "hp_max": 6669,
+  "atk_max": 8017,
+  "def_max": 3701,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2019-02-01 06:30:00",
+  "has_optimal_awakening_growths": false
+}

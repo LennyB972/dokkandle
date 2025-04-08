@@ -1,0 +1,12 @@
+{
+  "name": "Cyborg Tao",
+  "id": 1017801,
+  "hp_max": 7040,
+  "atk_max": 8192,
+  "def_max": 4365,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-07-03 06:30:00",
+  "has_optimal_awakening_growths": false
+}

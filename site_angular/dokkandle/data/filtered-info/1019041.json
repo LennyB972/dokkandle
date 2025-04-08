@@ -1,0 +1,12 @@
+{
+  "name": "Bardock & Gine",
+  "id": 1019041,
+  "hp_max": 8141,
+  "atk_max": 9331,
+  "def_max": 5039,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-07-09 06:00:00",
+  "has_optimal_awakening_growths": false
+}

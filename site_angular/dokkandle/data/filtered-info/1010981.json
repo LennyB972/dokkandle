@@ -1,0 +1,12 @@
+{
+  "name": "Dabura",
+  "id": 1010981,
+  "hp_max": 10032,
+  "atk_max": 7544,
+  "def_max": 4715,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-10-31 00:00:00",
+  "has_optimal_awakening_growths": false
+}

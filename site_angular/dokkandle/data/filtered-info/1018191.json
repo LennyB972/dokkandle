@@ -1,0 +1,12 @@
+{
+  "name": "Cooler",
+  "id": 1018191,
+  "hp_max": 12785,
+  "atk_max": 12142,
+  "def_max": 5555,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2020-03-02 06:30:00",
+  "has_optimal_awakening_growths": false
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Pan (GT) (Honey)",
+  "id": 1012101,
+  "hp_max": 9477,
+  "atk_max": 7273,
+  "def_max": 4768,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-04-02 00:00:00",
+  "has_optimal_awakening_growths": false
+}

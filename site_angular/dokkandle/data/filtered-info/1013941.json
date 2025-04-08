@@ -1,0 +1,12 @@
+{
+  "name": "Jiren",
+  "id": 1013941,
+  "hp_max": 9590,
+  "atk_max": 10780,
+  "def_max": 6605,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2018-10-26 06:30:00",
+  "has_optimal_awakening_growths": false
+}

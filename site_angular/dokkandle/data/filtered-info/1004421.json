@@ -1,0 +1,12 @@
+{
+  "name": "Frieza (Final Form)",
+  "id": 1004421,
+  "hp_max": 7051,
+  "atk_max": 6870,
+  "def_max": 3882,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2016-06-13 06:10:00",
+  "has_optimal_awakening_growths": false
+}

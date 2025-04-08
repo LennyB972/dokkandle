@@ -1,0 +1,12 @@
+{
+  "name": "Goku (Angel)",
+  "id": 1010911,
+  "hp_max": 5924,
+  "atk_max": 7469,
+  "def_max": 3708,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-08-21 06:00:00",
+  "has_optimal_awakening_growths": false
+}

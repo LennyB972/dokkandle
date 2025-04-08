@@ -1,0 +1,12 @@
+{
+  "name": "Mecha Frieza & King Cold",
+  "id": 1017321,
+  "hp_max": 16464,
+  "atk_max": 11900,
+  "def_max": 6943,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-03-18 06:30:00",
+  "has_optimal_awakening_growths": false
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Gohan (Kid)",
+  "id": 1022221,
+  "hp_max": 14235,
+  "atk_max": 10924,
+  "def_max": 6353,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2021-10-06 00:00:00",
+  "has_optimal_awakening_growths": false
+}

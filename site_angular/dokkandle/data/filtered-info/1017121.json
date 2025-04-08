@@ -1,0 +1,12 @@
+{
+  "name": "Zamasu",
+  "id": 1017121,
+  "hp_max": 13650,
+  "atk_max": 11720,
+  "def_max": 6400,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2019-11-12 06:30:00",
+  "has_optimal_awakening_growths": false
+}

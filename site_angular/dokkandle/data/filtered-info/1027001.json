@@ -1,0 +1,12 @@
+{
+  "name": "Super Saiyan Trunks (Teen)",
+  "id": 1027001,
+  "hp_max": 9450,
+  "atk_max": 13998,
+  "def_max": 4903,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2024-01-03 06:30:00",
+  "has_optimal_awakening_growths": false
+}

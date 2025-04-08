@@ -1,0 +1,12 @@
+{
+  "name": "Goku (Youth)",
+  "id": 1027551,
+  "hp_max": 7260,
+  "atk_max": 8972,
+  "def_max": 4682,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2024-02-01 06:30:00",
+  "has_optimal_awakening_growths": false
+}

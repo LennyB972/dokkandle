@@ -1,0 +1,12 @@
+{
+  "name": "Paikuhan",
+  "id": 1010631,
+  "hp_max": 9104,
+  "atk_max": 7596,
+  "def_max": 4802,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-07-14 08:00:00",
+  "has_optimal_awakening_growths": false
+}

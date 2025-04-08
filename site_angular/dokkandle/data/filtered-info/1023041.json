@@ -1,0 +1,12 @@
+{
+  "name": "Vegeta/Goku",
+  "id": 1023041,
+  "hp_max": 16475,
+  "atk_max": 16210,
+  "def_max": 9125,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2021-09-16 06:00:00",
+  "has_optimal_awakening_growths": false
+}

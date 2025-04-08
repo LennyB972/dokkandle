@@ -1,0 +1,12 @@
+{
+  "name": "Guldo",
+  "id": 1013071,
+  "hp_max": 7325,
+  "atk_max": 6878,
+  "def_max": 2163,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-07-30 06:30:00",
+  "has_optimal_awakening_growths": false
+}

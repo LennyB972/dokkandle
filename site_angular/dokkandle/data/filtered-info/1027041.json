@@ -1,0 +1,12 @@
+{
+  "name": "Omega Shenron",
+  "id": 1027041,
+  "hp_max": 22000,
+  "atk_max": 11875,
+  "def_max": 11781,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": true,
+  "open_at": "2024-01-17 06:30:00",
+  "has_optimal_awakening_growths": false
+}

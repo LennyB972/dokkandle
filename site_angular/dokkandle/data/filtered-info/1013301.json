@@ -1,0 +1,12 @@
+{
+  "name": "Buu (Super)",
+  "id": 1013301,
+  "hp_max": 10200,
+  "atk_max": 7132,
+  "def_max": 5258,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-12-21 06:30:00",
+  "has_optimal_awakening_growths": false
+}

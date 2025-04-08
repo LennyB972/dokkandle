@@ -1,0 +1,12 @@
+{
+  "name": "Piccolo (Power Awakening)",
+  "id": 1025591,
+  "hp_max": 17325,
+  "atk_max": 13235,
+  "def_max": 12419,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2022-12-28 02:00:00",
+  "has_optimal_awakening_growths": false
+}

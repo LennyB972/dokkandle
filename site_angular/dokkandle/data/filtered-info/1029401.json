@@ -1,0 +1,12 @@
+{
+  "name": "Broly",
+  "id": 1029401,
+  "hp_max": 17750,
+  "atk_max": 15275,
+  "def_max": 9656,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": true,
+  "open_at": "2024-08-28 06:00:00",
+  "has_optimal_awakening_growths": false
+}

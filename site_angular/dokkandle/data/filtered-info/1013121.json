@@ -1,0 +1,12 @@
+{
+  "name": "Piccolo Jr. (Giant Form)",
+  "id": 1013121,
+  "hp_max": 10583,
+  "atk_max": 8058,
+  "def_max": 3796,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-11-09 06:30:00",
+  "has_optimal_awakening_growths": false
+}

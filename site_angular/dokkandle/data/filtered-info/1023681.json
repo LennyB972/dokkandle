@@ -1,0 +1,12 @@
+{
+  "name": "Chiaoman",
+  "id": 1023681,
+  "hp_max": 10507,
+  "atk_max": 7978,
+  "def_max": 5555,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2022-02-22 00:00:00",
+  "has_optimal_awakening_growths": false
+}

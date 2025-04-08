@@ -1,0 +1,12 @@
+{
+  "name": "Glorio",
+  "id": 1030641,
+  "hp_max": 13950,
+  "atk_max": 11360,
+  "def_max": 6700,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2024-12-27 02:00:00",
+  "has_optimal_awakening_growths": false
+}

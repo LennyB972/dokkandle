@@ -1,0 +1,12 @@
+{
+  "name": "Super Saiyan 3 Broly",
+  "id": 1011171,
+  "hp_max": 10250,
+  "atk_max": 11300,
+  "def_max": 4875,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2018-01-31 06:30:00",
+  "has_optimal_awakening_growths": false
+}

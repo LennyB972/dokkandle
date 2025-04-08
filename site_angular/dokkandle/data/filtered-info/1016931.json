@@ -1,0 +1,12 @@
+{
+  "name": "Champa",
+  "id": 1016931,
+  "hp_max": 7647,
+  "atk_max": 6681,
+  "def_max": 3757,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2019-12-09 06:30:00",
+  "has_optimal_awakening_growths": false
+}

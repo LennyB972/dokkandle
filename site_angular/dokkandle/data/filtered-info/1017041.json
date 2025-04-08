@@ -1,0 +1,12 @@
+{
+  "name": "Vados",
+  "id": 1017041,
+  "hp_max": 8460,
+  "atk_max": 7363,
+  "def_max": 3623,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2019-12-09 06:30:00",
+  "has_optimal_awakening_growths": false
+}

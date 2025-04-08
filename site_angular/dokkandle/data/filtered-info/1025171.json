@@ -1,0 +1,12 @@
+{
+  "name": "Metal Cooler [TEQ]",
+  "id": 1025171,
+  "hp_max": 6824,
+  "atk_max": 6989,
+  "def_max": 4908,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2022-09-09 06:00:00",
+  "has_optimal_awakening_growths": false
+}

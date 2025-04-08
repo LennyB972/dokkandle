@@ -1,0 +1,12 @@
+{
+  "name": "Dragon Ball Heroines",
+  "id": 1013781,
+  "hp_max": 2018,
+  "atk_max": 4,
+  "def_max": 1,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-04-02 08:00:00",
+  "has_optimal_awakening_growths": false
+}

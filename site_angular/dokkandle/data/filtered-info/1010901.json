@@ -1,0 +1,12 @@
+{
+  "name": "Hercule",
+  "id": 1010901,
+  "hp_max": 16140,
+  "atk_max": 11122,
+  "def_max": 8077,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-08-20 00:00:00",
+  "has_optimal_awakening_growths": false
+}

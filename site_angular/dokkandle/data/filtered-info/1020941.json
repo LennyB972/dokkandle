@@ -1,0 +1,12 @@
+{
+  "name": "Mira",
+  "id": 1020941,
+  "hp_max": 9995,
+  "atk_max": 8513,
+  "def_max": 5145,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2021-02-09 06:30:00",
+  "has_optimal_awakening_growths": false
+}

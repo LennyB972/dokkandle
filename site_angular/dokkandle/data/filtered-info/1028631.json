@@ -1,0 +1,12 @@
+{
+  "name": "Buyon",
+  "id": 1028631,
+  "hp_max": 7794,
+  "atk_max": 7644,
+  "def_max": 4354,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2024-05-14 06:30:00",
+  "has_optimal_awakening_growths": false
+}

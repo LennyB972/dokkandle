@@ -1,0 +1,12 @@
+{
+  "name": "Mecha Frieza",
+  "id": 1016981,
+  "hp_max": 8295,
+  "atk_max": 8566,
+  "def_max": 3993,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-07-03 06:30:00",
+  "has_optimal_awakening_growths": false
+}

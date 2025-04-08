@@ -1,0 +1,12 @@
+{
+  "name": "Super Saiyan 3 Vegeta",
+  "id": 1003071,
+  "hp_max": 8272,
+  "atk_max": 7578,
+  "def_max": 4302,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2016-09-20 06:30:00",
+  "has_optimal_awakening_growths": false
+}

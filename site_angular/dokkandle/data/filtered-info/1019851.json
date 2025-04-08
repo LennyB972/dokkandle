@@ -1,0 +1,12 @@
+{
+  "name": "Tarble",
+  "id": 1019851,
+  "hp_max": 8822,
+  "atk_max": 7279,
+  "def_max": 4747,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-10-05 06:30:00",
+  "has_optimal_awakening_growths": false
+}

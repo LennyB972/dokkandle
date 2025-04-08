@@ -1,0 +1,12 @@
+{
+  "name": "Master Roshi",
+  "id": 1029141,
+  "hp_max": 10610,
+  "atk_max": 11736,
+  "def_max": 7150,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2024-10-22 05:00:00",
+  "has_optimal_awakening_growths": false
+}

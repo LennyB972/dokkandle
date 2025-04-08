@@ -1,0 +1,12 @@
+{
+  "name": "Super Saiyan Broly",
+  "id": 1016871,
+  "hp_max": 20088,
+  "atk_max": 15445,
+  "def_max": 8275,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2019-05-23 06:30:00",
+  "has_optimal_awakening_growths": false
+}

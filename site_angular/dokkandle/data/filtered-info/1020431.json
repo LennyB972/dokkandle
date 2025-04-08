@@ -1,0 +1,12 @@
+{
+  "name": "Super Hatchiyack",
+  "id": 1020431,
+  "hp_max": 8209,
+  "atk_max": 7544,
+  "def_max": 4272,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2021-03-01 06:30:00",
+  "has_optimal_awakening_growths": false
+}

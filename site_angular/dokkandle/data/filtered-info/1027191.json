@@ -1,0 +1,12 @@
+{
+  "name": "Piccolo Jr.",
+  "id": 1027191,
+  "hp_max": 7550,
+  "atk_max": 7512,
+  "def_max": 4960,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2024-02-16 06:30:00",
+  "has_optimal_awakening_growths": false
+}

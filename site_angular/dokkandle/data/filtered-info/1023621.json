@@ -1,0 +1,12 @@
+{
+  "name": "Goku (Kaioken)",
+  "id": 1023621,
+  "hp_max": 14138,
+  "atk_max": 16295,
+  "def_max": 10188,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2022-07-26 05:00:00",
+  "has_optimal_awakening_growths": false
+}

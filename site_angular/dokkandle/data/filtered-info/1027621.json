@@ -1,0 +1,12 @@
+{
+  "name": "Super Saiyan 3 Goku",
+  "id": 1027621,
+  "hp_max": 12750,
+  "atk_max": 10700,
+  "def_max": 8125,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2024-04-01 06:30:00",
+  "has_optimal_awakening_growths": false
+}

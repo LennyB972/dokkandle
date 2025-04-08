@@ -1,0 +1,12 @@
+{
+  "name": "Oolong & Launch",
+  "id": 1027941,
+  "hp_max": 5723,
+  "atk_max": 7810,
+  "def_max": 5183,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2023-10-26 06:00:00",
+  "has_optimal_awakening_growths": false
+}

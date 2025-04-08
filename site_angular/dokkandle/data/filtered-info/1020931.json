@@ -1,0 +1,12 @@
+{
+  "name": "Towa",
+  "id": 1020931,
+  "hp_max": 11536,
+  "atk_max": 8061,
+  "def_max": 4939,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2021-02-09 06:30:00",
+  "has_optimal_awakening_growths": false
+}

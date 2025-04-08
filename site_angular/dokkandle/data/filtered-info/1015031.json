@@ -1,0 +1,12 @@
+{
+  "name": "Super Saiyan Vegeta",
+  "id": 1015031,
+  "hp_max": 14010,
+  "atk_max": 14642,
+  "def_max": 9693,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2019-03-05 06:30:00",
+  "has_optimal_awakening_growths": false
+}

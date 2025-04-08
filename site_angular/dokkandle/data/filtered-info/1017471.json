@@ -1,0 +1,12 @@
+{
+  "name": "Nail",
+  "id": 1017471,
+  "hp_max": 11118,
+  "atk_max": 7688,
+  "def_max": 5604,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-01-06 06:30:00",
+  "has_optimal_awakening_growths": false
+}

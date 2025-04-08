@@ -1,0 +1,12 @@
+{
+  "name": "Champa",
+  "id": 1029291,
+  "hp_max": 8872,
+  "atk_max": 7246,
+  "def_max": 4313,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2024-11-21 05:00:00",
+  "has_optimal_awakening_growths": false
+}

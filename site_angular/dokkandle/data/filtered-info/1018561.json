@@ -1,0 +1,12 @@
+{
+  "name": "Android #13",
+  "id": 1018561,
+  "hp_max": 8910,
+  "atk_max": 7648,
+  "def_max": 4110,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-04-02 06:30:00",
+  "has_optimal_awakening_growths": false
+}

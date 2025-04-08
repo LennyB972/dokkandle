@@ -1,0 +1,12 @@
+{
+  "name": "Super Saiyan Gotenks",
+  "id": 1007201,
+  "hp_max": 7933,
+  "atk_max": 6813,
+  "def_max": 3887,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2016-11-24 06:30:00",
+  "has_optimal_awakening_growths": false
+}

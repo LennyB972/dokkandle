@@ -1,0 +1,12 @@
+{
+  "name": "Videl",
+  "id": 1010091,
+  "hp_max": 6623,
+  "atk_max": 6659,
+  "def_max": 3865,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-07-07 19:00:00",
+  "has_optimal_awakening_growths": false
+}

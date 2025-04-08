@@ -1,0 +1,12 @@
+{
+  "name": "Ultimate Gohan",
+  "id": 1011801,
+  "hp_max": 10370,
+  "atk_max": 11716,
+  "def_max": 5045,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2017-12-28 02:00:00",
+  "has_optimal_awakening_growths": false
+}

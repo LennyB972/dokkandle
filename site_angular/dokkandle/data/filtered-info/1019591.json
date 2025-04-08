@@ -1,0 +1,12 @@
+{
+  "name": "Majin Buu (Good)/Majin Buu (Pure Evil)",
+  "id": 1019591,
+  "hp_max": 12000,
+  "atk_max": 11540,
+  "def_max": 7450,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2020-11-06 06:30:00",
+  "has_optimal_awakening_growths": false
+}

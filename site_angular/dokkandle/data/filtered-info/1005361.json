@@ -1,0 +1,12 @@
+{
+  "name": "Super Saiyan Goku",
+  "id": 1005361,
+  "hp_max": 7643,
+  "atk_max": 7460,
+  "def_max": 3228,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2016-11-18 06:30:00",
+  "has_optimal_awakening_growths": false
+}

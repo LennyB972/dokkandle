@@ -1,0 +1,12 @@
+{
+  "name": "Gotenks",
+  "id": 1011911,
+  "hp_max": 7423,
+  "atk_max": 7352,
+  "def_max": 3848,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-11-16 06:30:00",
+  "has_optimal_awakening_growths": false
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Frost (Full Power)",
+  "id": 1015791,
+  "hp_max": 7143,
+  "atk_max": 9244,
+  "def_max": 4146,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-12-24 06:30:00",
+  "has_optimal_awakening_growths": false
+}

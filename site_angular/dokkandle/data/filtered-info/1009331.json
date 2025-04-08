@@ -1,0 +1,12 @@
+{
+  "name": "Super Saiyan God SS Vegito",
+  "id": 1009331,
+  "hp_max": 10300,
+  "atk_max": 11500,
+  "def_max": 4551,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2017-04-14 19:00:00",
+  "has_optimal_awakening_growths": false
+}

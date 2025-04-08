@@ -1,0 +1,12 @@
+{
+  "name": "Golden Frieza",
+  "id": 1016151,
+  "hp_max": 7447,
+  "atk_max": 7176,
+  "def_max": 4363,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2019-02-13 05:30:00",
+  "has_optimal_awakening_growths": false
+}

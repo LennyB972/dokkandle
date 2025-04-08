@@ -1,0 +1,12 @@
+{
+  "name": "孫悟空(少年期)",
+  "id": 1010611,
+  "hp_max": 7763,
+  "atk_max": 6635,
+  "def_max": 3513,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2038-01-01 00:00:00",
+  "has_optimal_awakening_growths": false
+}

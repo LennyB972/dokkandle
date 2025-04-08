@@ -1,0 +1,12 @@
+{
+  "name": "Goku (Dokkan Butoden)",
+  "id": 1016711,
+  "hp_max": 5888,
+  "atk_max": 7888,
+  "def_max": 3888,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2019-04-02 08:00:00",
+  "has_optimal_awakening_growths": false
+}

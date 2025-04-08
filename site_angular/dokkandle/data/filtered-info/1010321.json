@@ -1,0 +1,12 @@
+{
+  "name": "Super Saiyan 2 Bardock",
+  "id": 1010321,
+  "hp_max": 9907,
+  "atk_max": 7956,
+  "def_max": 4637,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-10-12 06:30:00",
+  "has_optimal_awakening_growths": false
+}

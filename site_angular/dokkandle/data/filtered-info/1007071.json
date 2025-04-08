@@ -1,0 +1,12 @@
+{
+  "name": "Super Saiyan Cabba",
+  "id": 1007071,
+  "hp_max": 7726,
+  "atk_max": 6958,
+  "def_max": 4189,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-01-05 06:30:00",
+  "has_optimal_awakening_growths": false
+}

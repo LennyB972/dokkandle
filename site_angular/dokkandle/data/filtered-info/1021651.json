@@ -1,0 +1,12 @@
+{
+  "name": "Trunks (Teen)",
+  "id": 1021651,
+  "hp_max": 12738,
+  "atk_max": 13196,
+  "def_max": 7186,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2021-11-18 06:30:00",
+  "has_optimal_awakening_growths": false
+}

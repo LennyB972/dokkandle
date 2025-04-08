@@ -1,0 +1,12 @@
+{
+  "name": "Piccolo",
+  "id": 1005581,
+  "hp_max": 9083,
+  "atk_max": 6767,
+  "def_max": 5456,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2016-05-23 06:10:00",
+  "has_optimal_awakening_growths": false
+}

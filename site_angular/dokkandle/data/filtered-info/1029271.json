@@ -1,0 +1,12 @@
+{
+  "name": "Bio-Broly",
+  "id": 1029271,
+  "hp_max": 17325,
+  "atk_max": 14252,
+  "def_max": 8523,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2024-09-20 06:00:00",
+  "has_optimal_awakening_growths": false
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Dyspo",
+  "id": 1029021,
+  "hp_max": 10296,
+  "atk_max": 9043,
+  "def_max": 4320,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2024-08-05 06:30:00",
+  "has_optimal_awakening_growths": false
+}

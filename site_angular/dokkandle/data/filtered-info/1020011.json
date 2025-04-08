@@ -1,0 +1,12 @@
+{
+  "name": "Toppo (Pride Troopers)",
+  "id": 1020011,
+  "hp_max": 9065,
+  "atk_max": 8181,
+  "def_max": 6014,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2021-01-18 06:30:00",
+  "has_optimal_awakening_growths": false
+}

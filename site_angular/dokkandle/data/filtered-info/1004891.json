@@ -1,0 +1,12 @@
+{
+  "name": "Whis",
+  "id": 1004891,
+  "hp_max": 8742,
+  "atk_max": 6756,
+  "def_max": 3558,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2016-05-23 06:10:00",
+  "has_optimal_awakening_growths": false
+}

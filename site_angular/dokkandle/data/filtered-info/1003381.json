@@ -1,0 +1,12 @@
+{
+  "name": "Hatchiyack",
+  "id": 1003381,
+  "hp_max": 7349,
+  "atk_max": 7078,
+  "def_max": 3851,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2016-04-18 08:10:00",
+  "has_optimal_awakening_growths": false
+}

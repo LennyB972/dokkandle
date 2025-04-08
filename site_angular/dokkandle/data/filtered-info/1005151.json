@@ -1,0 +1,12 @@
+{
+  "name": "Turles (Giant Ape)",
+  "id": 1005151,
+  "hp_max": 9271,
+  "atk_max": 7459,
+  "def_max": 4326,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-02-09 06:30:00",
+  "has_optimal_awakening_growths": false
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Metal Cooler [INT]",
+  "id": 1015701,
+  "hp_max": 6239,
+  "atk_max": 6850,
+  "def_max": 4249,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2019-04-03 06:30:00",
+  "has_optimal_awakening_growths": false
+}

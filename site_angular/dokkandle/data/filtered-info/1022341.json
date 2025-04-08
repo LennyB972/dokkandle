@@ -1,0 +1,12 @@
+{
+  "name": "Mercenary Tao",
+  "id": 1022341,
+  "hp_max": 16369,
+  "atk_max": 11885,
+  "def_max": 10272,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2021-10-29 06:30:00",
+  "has_optimal_awakening_growths": false
+}

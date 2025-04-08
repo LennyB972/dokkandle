@@ -1,0 +1,12 @@
+{
+  "name": "Nappa (Teen)",
+  "id": 1023131,
+  "hp_max": 8385,
+  "atk_max": 7883,
+  "def_max": 4802,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2021-12-31 06:30:00",
+  "has_optimal_awakening_growths": false
+}

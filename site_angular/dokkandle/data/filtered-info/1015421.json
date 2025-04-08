@@ -1,0 +1,12 @@
+{
+  "name": "Super Ribrianne",
+  "id": 1015421,
+  "hp_max": 9340,
+  "atk_max": 8409,
+  "def_max": 4354,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2019-03-05 06:30:00",
+  "has_optimal_awakening_growths": false
+}

@@ -1,0 +1,12 @@
+{
+  "name": "West Supreme Kai",
+  "id": 1008151,
+  "hp_max": 5958,
+  "atk_max": 7244,
+  "def_max": 3897,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2019-01-16 06:30:00",
+  "has_optimal_awakening_growths": false
+}

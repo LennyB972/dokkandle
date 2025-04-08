@@ -1,0 +1,12 @@
+{
+  "name": "Cell (Perfect Form)",
+  "id": 1030941,
+  "hp_max": 11045,
+  "atk_max": 10692,
+  "def_max": 8238,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2025-04-01 00:00:00",
+  "has_optimal_awakening_growths": false
+}

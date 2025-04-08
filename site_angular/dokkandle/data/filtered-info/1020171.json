@@ -1,0 +1,12 @@
+{
+  "name": "Kahseral (Pride Troopers)",
+  "id": 1020171,
+  "hp_max": 7629,
+  "atk_max": 8042,
+  "def_max": 3940,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2021-01-18 06:30:00",
+  "has_optimal_awakening_growths": false
+}

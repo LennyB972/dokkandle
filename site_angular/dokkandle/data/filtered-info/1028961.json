@@ -1,0 +1,12 @@
+{
+  "name": "Cell Max",
+  "id": 1028961,
+  "hp_max": 19238,
+  "atk_max": 14935,
+  "def_max": 9338,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2024-08-21 06:30:00",
+  "has_optimal_awakening_growths": false
+}

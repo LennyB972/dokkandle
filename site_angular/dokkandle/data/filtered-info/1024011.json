@@ -1,0 +1,12 @@
+{
+  "name": "Vegeta (Kid)",
+  "id": 1024011,
+  "hp_max": 10267,
+  "atk_max": 8437,
+  "def_max": 3829,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2022-10-04 06:30:00",
+  "has_optimal_awakening_growths": false
+}

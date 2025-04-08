@@ -1,0 +1,12 @@
+{
+  "name": "Gogeta",
+  "id": 1017241,
+  "hp_max": 6902,
+  "atk_max": 8141,
+  "def_max": 3429,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2019-11-25 06:30:00",
+  "has_optimal_awakening_growths": false
+}

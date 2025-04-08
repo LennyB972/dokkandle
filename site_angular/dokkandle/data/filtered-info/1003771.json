@@ -1,0 +1,12 @@
+{
+  "name": "Buu (Kid)",
+  "id": 1003771,
+  "hp_max": 10779,
+  "atk_max": 7512,
+  "def_max": 3132,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2016-04-06 08:10:00",
+  "has_optimal_awakening_growths": false
+}

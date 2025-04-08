@@ -1,0 +1,12 @@
+{
+  "name": "Super Saiyan Vegeta (GT)",
+  "id": 1021941,
+  "hp_max": 14400,
+  "atk_max": 9800,
+  "def_max": 8425,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2021-04-28 00:00:00",
+  "has_optimal_awakening_growths": false
+}

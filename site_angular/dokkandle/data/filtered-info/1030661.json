@@ -1,0 +1,12 @@
+{
+  "name": "Super Saiyan Goku (Mini) (DAIMA)",
+  "id": 1030661,
+  "hp_max": 14100,
+  "atk_max": 11600,
+  "def_max": 6325,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2024-12-27 02:00:00",
+  "has_optimal_awakening_growths": false
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Jaco",
+  "id": 1009131,
+  "hp_max": 9993,
+  "atk_max": 7813,
+  "def_max": 6017,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2022-11-04 06:30:00",
+  "has_optimal_awakening_growths": false
+}

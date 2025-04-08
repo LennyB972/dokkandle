@@ -1,0 +1,12 @@
+{
+  "name": "Babidi",
+  "id": 1026391,
+  "hp_max": 17598,
+  "atk_max": 8984,
+  "def_max": 10021,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2023-07-18 00:00:00",
+  "has_optimal_awakening_growths": false
+}

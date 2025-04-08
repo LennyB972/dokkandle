@@ -1,0 +1,12 @@
+{
+  "name": "Vegito",
+  "id": 1018651,
+  "hp_max": 19875,
+  "atk_max": 16720,
+  "def_max": 6788,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2020-07-09 06:00:00",
+  "has_optimal_awakening_growths": false
+}

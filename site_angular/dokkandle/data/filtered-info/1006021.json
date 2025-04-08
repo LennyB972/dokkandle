@@ -1,0 +1,12 @@
+{
+  "name": "Super Baby 1",
+  "id": 1006021,
+  "hp_max": 8315,
+  "atk_max": 7614,
+  "def_max": 4450,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-07-12 06:30:00",
+  "has_optimal_awakening_growths": false
+}

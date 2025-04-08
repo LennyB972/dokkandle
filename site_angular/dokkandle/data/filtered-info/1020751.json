@@ -1,0 +1,12 @@
+{
+  "name": "Team Turles",
+  "id": 1020751,
+  "hp_max": 18175,
+  "atk_max": 15230,
+  "def_max": 9125,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2021-02-17 06:30:00",
+  "has_optimal_awakening_growths": false
+}
