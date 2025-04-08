@@ -1,0 +1,95 @@
+.card-detail-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .back-button {
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.2s;
+  }
+  
+  .back-button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .loading, .error-message {
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .error-message {
+    color: #f44336;
+    background-color: #ffebee;
+    border-radius: 4px;
+  }
+  
+  .card-detail {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .card-header h2 {
+    margin: 0;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .rarity {
+    color: #ff9800;
+    font-size: 18px;
+  }
+  
+  .card-id {
+    color: #757575;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .card-section {
+    margin-top: 25px;
+  }
+  
+  .card-section h3 {
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 8px;
+  }
+  
+  .passive-skill {
+    line-height: 1.6;
+    color: #424242;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 6px;
+    border-left: 4px solid #2196f3;
+  }
+  
+  /* Style pour les balises fortes générées par formatPassiveSkill */
+  .passive-skill strong {
+    color: #2196f3;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }

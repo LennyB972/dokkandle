@@ -1,0 +1,25 @@
+<div class="card-list-container">
+    <app-search (searchChanged)="onSearch($event)"></app-search>
+    
+    <div *ngIf="loading" class="loading">
+      Chargement des cartes...
+    </div>
+    
+    <div *ngIf="error" class="error-message">
+      {{ error }}
+    </div>
+    
+    <div *ngIf="!loading && !error" class="cards-grid">
+      <div *ngFor="let card of filteredCards" class="card-item" [routerLink]="['/cards', card.id]">
+        <div class="card-header">
+          <h3>{{ card.name }}</h3>
+          <span class="rarity">⭐ {{ card.rarity }}</span>
+        </div>
+        <div class="card-id">ID: {{ card.id }}</div>
+      </div>
+      
+      <div *ngIf="filteredCards.length === 0 && !loading" class="no-results">
+        Aucune carte trouvée pour "{{ searchTerm }}"
+      </div>
+    </div>
+  </div>
