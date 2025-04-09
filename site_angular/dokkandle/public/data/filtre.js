@@ -27,6 +27,30 @@ const processFiles = async () => {
 
             if (card && card.id) {
                 const id = card.id;
+
+                // Déterminer la "class" et le "type" à partir de card.element
+                let classType = null;
+                let unitType = null;
+
+                if (typeof card.element === 'number') {
+                    const elementStr = card.element.toString().padStart(2, '0'); // S'assurer qu'on a deux chiffres
+                    const firstDigit = elementStr[0];
+                    const secondDigit = elementStr[1];
+
+                    classType = firstDigit === '1' ? 'Super' :
+                                firstDigit === '2' ? 'Extreme' : null;
+
+                    const typeMap = {
+                        '0': 'AGL',
+                        '1': 'TEQ',
+                        '2': 'INT',
+                        '3': 'STR',
+                        '4': 'PHY'
+                    };
+
+                    unitType = typeMap[secondDigit] || null;
+                }
+
                 const filteredData = {
                     name: card.name,
                     id: card.id,
@@ -37,7 +61,9 @@ const processFiles = async () => {
                     is_dokkan_fes: card.is_dokkan_fes,
                     is_carnival_only: card.is_carnival_only,
                     open_at: card.open_at,
-                    has_optimal_awakening_growths: data.hasOwnProperty("optimal_awakening_growths")
+                    has_optimal_awakening_growths: data.hasOwnProperty("optimal_awakening_growths"),
+                    class: classType,
+                    type: unitType
                 };
 
                 // Sauvegarder le fichier filtré dans le dossier 'filtered-info'

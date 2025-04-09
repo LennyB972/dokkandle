@@ -8,5 +8,7 @@
   "is_dokkan_fes": false,
   "is_carnival_only": false,
   "open_at": "2019-10-31 06:30:00",
-  "has_optimal_awakening_growths": false
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "PHY"
 }

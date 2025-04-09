@@ -8,5 +8,7 @@
   "is_dokkan_fes": true,
   "is_carnival_only": false,
   "open_at": "2024-04-26 04:00:00",
-  "has_optimal_awakening_growths": false
+  "has_optimal_awakening_growths": false,
+  "class": "Extreme",
+  "type": "INT"
 }
