@@ -6,9 +6,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { CharacterService, DokkanCharacter } from '../character.service';
 
 interface GuessHint {
+  class: boolean;
   type: boolean;
-  color: boolean;
-  stats: 'equal' | 'higher' | 'lower'; // Modifié : au lieu de category, on utilise stats
+  hp: 'equal' | 'higher' | 'lower';
+  atk: 'equal' | 'higher' | 'lower';
+  def: 'equal' | 'higher' | 'lower';
   rarity: boolean;
   releaseYear: boolean;
 }
@@ -30,24 +32,84 @@ export class GuessCharacterComponent implements OnInit {
   @ViewChild('characterInput') characterInput!: ElementRef;
   
   characterGuess: string = '';
+  selectedCharacterId: number | null = null; // Stocke l'ID du personnage sélectionné
   attempts: number = 0;
   isGameOver: boolean = false;
   isLoading: boolean = true;
   errorMessage: string = '';
+  
+  // Variables pour le statut de chargement
+  dataLoadingStatus: string = 'Chargement des données...';
+  loadingProgress: number = 0;
   
   targetCharacter!: DokkanCharacter;
   suggestions: DokkanCharacter[] = [];
   showSuggestions: boolean = false;
   guesses: Guess[] = [];
   
+  // Intervalle pour animer la barre de progression
+  private loadingInterval: any;
+  
   constructor(private characterService: CharacterService, private elementRef: ElementRef) {}
   
   ngOnInit(): void {
-    this.startNewGame();
+    // Démarrer l'animation de chargement
+    this.startLoadingAnimation();
+    
+    // Vérifier si les données sont prêtes
+    this.characterService.isReadyToPlay().subscribe(isReady => {
+      if (isReady) {
+        this.clearLoadingInterval();
+        this.loadingProgress = 100;
+        this.dataLoadingStatus = 'Chargement terminé!';
+        
+        // Petit délai pour montrer que le chargement est terminé
+        setTimeout(() => {
+          this.startNewGame();
+        }, 500);
+      }
+    });
+  }
+  
+  // Démarrer l'animation de la barre de progression
+  startLoadingAnimation(): void {
+    this.loadingProgress = 0;
+    this.loadingInterval = setInterval(() => {
+      // Simuler une progression fluide jusqu'à 90% (les 10% restants seront complétés quand tout sera vraiment prêt)
+      if (this.loadingProgress < 90) {
+        // Progression plus rapide au début, plus lente vers la fin
+        const increment = this.loadingProgress < 30 ? 5 : (this.loadingProgress < 60 ? 2 : 1);
+        this.loadingProgress += increment;
+        
+        // Mettre à jour le message selon la progression
+        if (this.loadingProgress < 30) {
+          this.dataLoadingStatus = 'Initialisation du jeu...';
+        } else if (this.loadingProgress < 60) {
+          this.dataLoadingStatus = 'Chargement des personnages...';
+        } else {
+          this.dataLoadingStatus = 'Préparation des images...';
+        }
+      }
+    }, 100);
+  }
+  
+  // Nettoyer l'intervalle d'animation
+  clearLoadingInterval(): void {
+    if (this.loadingInterval) {
+      clearInterval(this.loadingInterval);
+      this.loadingInterval = null;
+    }
+  }
+  
+  // Au démontage du composant
+  ngOnDestroy(): void {
+    this.clearLoadingInterval();
   }
   
   startNewGame(): void {
     this.isLoading = true;
+    this.dataLoadingStatus = 'Choix du personnage à deviner...';
+    
     this.characterService.getRandomCharacter().subscribe({
       next: (character) => {
         this.targetCharacter = character;
@@ -65,6 +127,7 @@ export class GuessCharacterComponent implements OnInit {
   
   resetGameState(): void {
     this.characterGuess = '';
+    this.selectedCharacterId = null;
     this.attempts = 0;
     this.guesses = [];
     this.isGameOver = false;
@@ -72,9 +135,18 @@ export class GuessCharacterComponent implements OnInit {
   }
   
   onInput(): void {
+    // Réinitialiser l'ID sélectionné lorsque l'utilisateur modifie la saisie
+    this.selectedCharacterId = null;
+    
     if (this.characterGuess && this.characterGuess.length > 1) {
       this.characterService.searchCharactersByName(this.characterGuess).subscribe(characters => {
-        this.suggestions = characters;
+        // Filtrer les personnages déjà devinés
+        const alreadyGuessedIds = this.guesses.map(guess => guess.character.id);
+        const filteredCharacters = characters.filter(character => 
+          !alreadyGuessedIds.includes(character.id)
+        );
+        
+        this.suggestions = filteredCharacters;
         this.showSuggestions = this.suggestions.length > 0;
       });
     } else {
@@ -84,6 +156,7 @@ export class GuessCharacterComponent implements OnInit {
   
   selectSuggestion(character: DokkanCharacter): void {
     this.characterGuess = character.name;
+    this.selectedCharacterId = character.id; // Enregistrer l'ID du personnage sélectionné
     this.showSuggestions = false;
     // Focus sur l'input après sélection
     setTimeout(() => {
@@ -102,12 +175,44 @@ export class GuessCharacterComponent implements OnInit {
   submitGuess(): void {
     if (!this.characterGuess || this.isGameOver) return;
     
-    const selectedCharacter = this.suggestions.find(char => 
-      char.name.toLowerCase() === this.characterGuess.toLowerCase()
-    );
+    let selectedCharacter: DokkanCharacter | undefined;
+    
+    // Si un ID a été sélectionné, utiliser cet ID spécifique
+    if (this.selectedCharacterId !== null) {
+      selectedCharacter = this.suggestions.find(char => char.id === this.selectedCharacterId);
+      
+      // Si le personnage n'est pas trouvé (cas peu probable), rechercher par nom mais uniquement dans les suggestions
+      if (!selectedCharacter) {
+        console.warn('ID sélectionné introuvable, recherche par nom');
+        selectedCharacter = this.suggestions.find(char => 
+          char.name.toLowerCase() === this.characterGuess.toLowerCase()
+        );
+      }
+    } else {
+      // Si aucun ID n'a été sélectionné (l'utilisateur a tapé sans choisir une suggestion)
+      // Vérifier si le nom exact correspond à une suggestion
+      const matchingCharacters = this.suggestions.filter(char => 
+        char.name.toLowerCase() === this.characterGuess.toLowerCase()
+      );
+      
+      if (matchingCharacters.length === 1) {
+        // S'il y a une seule correspondance exacte, utiliser celle-ci
+        selectedCharacter = matchingCharacters[0];
+      } else if (matchingCharacters.length > 1) {
+        // S'il y a plusieurs correspondances exactes (personnages avec le même nom)
+        // Dans ce cas, nous ne pouvons pas deviner lequel - demander à l'utilisateur de sélectionner
+        console.log('Plusieurs personnages portent le même nom, sélection impossible');
+        return; // Ne pas continuer la devinette
+      } else {
+        // Pas de correspondance exacte, essayer de trouver la meilleure correspondance
+        if (this.suggestions.length > 0) {
+          selectedCharacter = this.suggestions[0];
+        }
+      }
+    }
     
     if (!selectedCharacter) {
-      // Si le personnage n'est pas dans les suggestions, on ignore
+      // Si le personnage n'est pas trouvé, ne rien faire
       return;
     }
     
@@ -115,11 +220,13 @@ export class GuessCharacterComponent implements OnInit {
     
     const isCorrect = selectedCharacter.id === this.targetCharacter.id;
     
-    // Générer les indices (vrai/faux)
+    // Générer les indices
     const hints: GuessHint = {
+      class: selectedCharacter.class === this.targetCharacter.class,
       type: selectedCharacter.type === this.targetCharacter.type,
-      color: selectedCharacter.color === this.targetCharacter.color,
-      stats: this.compareStats(selectedCharacter, this.targetCharacter),
+      hp: this.compareStatistic(selectedCharacter.hp_max, this.targetCharacter.hp_max),
+      atk: this.compareStatistic(selectedCharacter.atk_max, this.targetCharacter.atk_max),
+      def: this.compareStatistic(selectedCharacter.def_max, this.targetCharacter.def_max),
       rarity: this.isSameRarity(selectedCharacter, this.targetCharacter),
       releaseYear: this.isSameReleaseYear(selectedCharacter, this.targetCharacter)
     };
@@ -136,18 +243,17 @@ export class GuessCharacterComponent implements OnInit {
     }
     
     this.characterGuess = '';
+    this.selectedCharacterId = null; // Réinitialiser l'ID sélectionné
     this.showSuggestions = false;
   }
   
-  // Nouvelle méthode pour comparer les statistiques
-  compareStats(char1: DokkanCharacter, char2: DokkanCharacter): 'equal' | 'higher' | 'lower' {
-    // Calculer la moyenne des statistiques (HP, ATK, DEF)
-    const char1Stats = (char1.hp_max + char1.atk_max + char1.def_max) / 3;
-    const char2Stats = (char2.hp_max + char2.atk_max + char2.def_max) / 3;
+  // Méthode pour comparer une statistique individuelle
+  compareStatistic(stat1: number, stat2: number): 'equal' | 'higher' | 'lower' {
+    const threshold = 200; // Marge d'erreur pour considérer les stats comme égales
     
-    if (Math.abs(char1Stats - char2Stats) < 100) { // Marge d'erreur pour "égal"
+    if (Math.abs(stat1 - stat2) < threshold) {
       return 'equal';
-    } else if (char1Stats > char2Stats) {
+    } else if (stat1 > stat2) {
       return 'higher';
     } else {
       return 'lower';
@@ -207,9 +313,17 @@ export class GuessCharacterComponent implements OnInit {
     }
   }
   
-  // Méthode pour formater les statistiques
-  getFormattedStats(character: DokkanCharacter): string {
-    return `${character.hp_max}, ${character.atk_max}, ${character.def_max}`;
+  // Fonction pour générer l'URL de l'image du personnage
+  getCharacterImageUrl(character: DokkanCharacter): string {
+    // Les images sont dans /data/img/ et correspondent aux IDs des personnages -1
+    const imageId = character.id - 1;
+    return `/data/img/${imageId}.png`;
+  }
+  
+  // Gestion des erreurs d'images
+  handleImageError(event: Event): void {
+    const img = event.target as HTMLImageElement;
+    img.src = '/assets/default-character.png'; // Image par défaut en cas d'erreur
   }
   
   giveUp(): void {

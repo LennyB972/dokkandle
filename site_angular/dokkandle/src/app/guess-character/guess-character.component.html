@@ -3,10 +3,14 @@
     <h1>DEVINE LE PERSONNAGE DE DOKKAN BATTLE D'AUJOURD'HUI!</h1>
   </div>
   
-  <!-- Écran de chargement -->
+  <!-- Écran de chargement amélioré -->
   <div class="loading-screen" *ngIf="isLoading">
-    <div class="loader"></div>
-    <p>Chargement du jeu...</p>
+    <div class="loading-title">DOKKANDLE</div>
+    <div class="loading-dragon"></div>
+    <div class="progress-container">
+      <div class="progress-bar" [style.width.%]="loadingProgress"></div>
+    </div>
+    <p class="loading-text">{{ dataLoadingStatus }}</p>
   </div>
   
   <!-- Message d'erreur -->
@@ -37,7 +41,15 @@
             class="suggestion-item"
             (click)="selectSuggestion(character)"
           >
-            {{ character.name }}
+            <div class="suggestion-image">
+            <img [src]="getCharacterImageUrl(character)" 
+                 alt="{{ character.name }}" 
+                 (error)="handleImageError($event)" />
+            </div>
+            <div class="suggestion-info">
+              <span class="suggestion-name">{{ character.name }}</span>
+              <span class="suggestion-type">({{ character.class }} {{ character.type }})</span>
+            </div>
           </div>
         </div>
       </div>
@@ -61,11 +73,13 @@
 
     <!-- Légende des indices (restructurée pour alignement) -->
     <div class="hints-legend" *ngIf="guesses.length > 0">
-      <div class="name-spacer"></div>
+      <div class="name-spacer">PERSONNAGE</div>
       <div class="hints-legend-grid">
+        <div class="legend-item">CLASSE</div>
         <div class="legend-item">TYPE</div>
-        <div class="legend-item">COULEUR</div>
-        <div class="legend-item">HP,ATT,DEF</div>
+        <div class="legend-item">HP</div>
+        <div class="legend-item">ATK</div>
+        <div class="legend-item">DEF</div>
         <div class="legend-item">RARETÉ</div>
         <div class="legend-item">ANNÉE</div>
       </div>
@@ -77,33 +91,66 @@
         <p>Entrez le nom d'un personnage pour commencer à jouer!</p>
       </div>
       
-      <div class="guess-row" *ngFor="let guess of guesses">
-        <!-- Nom du personnage sur le côté -->
-        <div class="character-name" [ngClass]="{'correct': guess.isCorrect}">
-          {{ guess.character.name }}
+      <div class="guess-row" *ngFor="let guess of guesses.slice().reverse()">
+        <!-- Nom du personnage avec image -->
+        <div class="character-name-container" [ngClass]="{'correct': guess.isCorrect}">
+          <div class="character-image">
+            <img [src]="getCharacterImageUrl(guess.character)" 
+                 alt="{{ guess.character.name }}" 
+                 (error)="handleImageError($event)" />
+          </div>
+          <div class="character-name">
+            {{ guess.character.name }}
+          </div>
         </div>
         
         <div class="hints-grid">
-          <!-- Type (Super/Extreme) -->
+          <!-- Classe (Super/Extreme) -->
+          <div class="hint-box" [ngClass]="{'correct-hint': guess.hints.class, 'incorrect-hint': !guess.hints.class}">
+            {{ guess.character.class || '?' }}
+          </div>
+          
+          <!-- Type (AGL/TEQ/INT/STR/PHY) -->
           <div class="hint-box" [ngClass]="{'correct-hint': guess.hints.type, 'incorrect-hint': !guess.hints.type}">
             {{ guess.character.type || '?' }}
           </div>
           
-          <!-- Couleur (AGL/TEQ/INT/STR/PHY) -->
-          <div class="hint-box" [ngClass]="{'correct-hint': guess.hints.color, 'incorrect-hint': !guess.hints.color}">
-            {{ guess.character.color || '?' }}
-          </div>
-          
-          <!-- Statistiques (HP, ATT, DEF) avec flèche -->
+          <!-- HP -->
           <div class="hint-box" [ngClass]="{
-            'correct-hint': guess.hints.stats === 'equal',
-            'higher-hint': guess.hints.stats === 'higher',
-            'lower-hint': guess.hints.stats === 'lower'
+            'correct-hint': guess.hints.hp === 'equal',
+            'higher-hint': guess.hints.hp === 'higher',
+            'lower-hint': guess.hints.hp === 'lower'
           }">
             <div class="stats-container">
-              <span>{{ getFormattedStats(guess.character) }}</span>
-              <span class="direction-arrow" *ngIf="guess.hints.stats === 'higher'">↓</span>
-              <span class="direction-arrow" *ngIf="guess.hints.stats === 'lower'">↑</span>
+              <span>{{ guess.character.hp_max }}</span>
+              <span class="direction-arrow" *ngIf="guess.hints.hp === 'higher'">↓</span>
+              <span class="direction-arrow" *ngIf="guess.hints.hp === 'lower'">↑</span>
+            </div>
+          </div>
+          
+          <!-- ATK -->
+          <div class="hint-box" [ngClass]="{
+            'correct-hint': guess.hints.atk === 'equal',
+            'higher-hint': guess.hints.atk === 'higher',
+            'lower-hint': guess.hints.atk === 'lower'
+          }">
+            <div class="stats-container">
+              <span>{{ guess.character.atk_max }}</span>
+              <span class="direction-arrow" *ngIf="guess.hints.atk === 'higher'">↓</span>
+              <span class="direction-arrow" *ngIf="guess.hints.atk === 'lower'">↑</span>
+            </div>
+          </div>
+          
+          <!-- DEF -->
+          <div class="hint-box" [ngClass]="{
+            'correct-hint': guess.hints.def === 'equal',
+            'higher-hint': guess.hints.def === 'higher',
+            'lower-hint': guess.hints.def === 'lower'
+          }">
+            <div class="stats-container">
+              <span>{{ guess.character.def_max }}</span>
+              <span class="direction-arrow" *ngIf="guess.hints.def === 'higher'">↓</span>
+              <span class="direction-arrow" *ngIf="guess.hints.def === 'lower'">↑</span>
             </div>
           </div>
           
