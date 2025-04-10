@@ -1,0 +1,14 @@
+{
+  "name": "Goten (Teen)",
+  "id": 1024201,
+  "hp_max": 7038,
+  "atk_max": 8351,
+  "def_max": 4892,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2022-07-01 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "PHY"
+}

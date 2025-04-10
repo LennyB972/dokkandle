@@ -1,0 +1,14 @@
+{
+  "name": "Demon Goddess Putine",
+  "id": 1023331,
+  "hp_max": 7915,
+  "atk_max": 6927,
+  "def_max": 4441,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2021-11-25 08:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "PHY"
+}

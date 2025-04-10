@@ -1,0 +1,14 @@
+{
+  "name": "Cooler (Final Form)",
+  "id": 1024831,
+  "hp_max": 17325,
+  "atk_max": 16040,
+  "def_max": 8913,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2022-08-28 05:17:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Extreme",
+  "type": "STR"
+}

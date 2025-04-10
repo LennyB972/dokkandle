@@ -1,0 +1,14 @@
+{
+  "name": "Super Saiyan 2 Gohan (Youth)",
+  "id": 1021141,
+  "hp_max": 17113,
+  "atk_max": 16380,
+  "def_max": 8594,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-12-15 02:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "TEQ"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Cooler",
+  "id": 1018071,
+  "hp_max": 6987,
+  "atk_max": 7526,
+  "def_max": 3106,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-03-02 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Extreme",
+  "type": "TEQ"
+}

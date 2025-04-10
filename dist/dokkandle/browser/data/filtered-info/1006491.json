@@ -1,0 +1,14 @@
+{
+  "name": "Shugesh (Giant Ape)",
+  "id": 1006491,
+  "hp_max": 8074,
+  "atk_max": 7028,
+  "def_max": 4366,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2016-11-14 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "INT"
+}

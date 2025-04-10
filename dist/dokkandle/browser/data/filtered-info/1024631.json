@@ -1,0 +1,14 @@
+{
+  "name": "Goku Black",
+  "id": 1024631,
+  "hp_max": 9436,
+  "atk_max": 8955,
+  "def_max": 3474,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2022-11-18 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "STR"
+}

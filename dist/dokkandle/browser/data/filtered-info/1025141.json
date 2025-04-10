@@ -1,0 +1,14 @@
+{
+  "name": "Hyper Meta-Rilldo",
+  "id": 1025141,
+  "hp_max": 8481,
+  "atk_max": 7081,
+  "def_max": 4490,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2022-10-04 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "STR"
+}

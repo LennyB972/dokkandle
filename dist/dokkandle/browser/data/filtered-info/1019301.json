@@ -1,0 +1,14 @@
+{
+  "name": "Raditz",
+  "id": 1019301,
+  "hp_max": 8654,
+  "atk_max": 9043,
+  "def_max": 5142,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-03-18 06:18:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Extreme",
+  "type": "TEQ"
+}

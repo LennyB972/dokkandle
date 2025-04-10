@@ -1,0 +1,14 @@
+{
+  "name": "Androids #16 & #18",
+  "id": 1024251,
+  "hp_max": 9993,
+  "atk_max": 8964,
+  "def_max": 4579,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2022-04-27 11:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Extreme",
+  "type": "PHY"
+}

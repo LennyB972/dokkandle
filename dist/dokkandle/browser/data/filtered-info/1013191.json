@@ -1,0 +1,14 @@
+{
+  "name": "Goku (Kaioken)",
+  "id": 1013191,
+  "hp_max": 5633,
+  "atk_max": 8057,
+  "def_max": 4113,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-07-08 05:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "TEQ"
+}

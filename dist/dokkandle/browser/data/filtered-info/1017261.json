@@ -1,0 +1,14 @@
+{
+  "name": "Great Saiyaman 4",
+  "id": 1017261,
+  "hp_max": 6746,
+  "atk_max": 8110,
+  "def_max": 3545,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2019-08-13 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "STR"
+}

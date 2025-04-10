@@ -1,0 +1,14 @@
+{
+  "name": "Super Saiyan Goku & Super Saiyan Gohan (Youth)",
+  "id": 1024351,
+  "hp_max": 19025,
+  "atk_max": 15360,
+  "def_max": 8913,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2022-05-13 08:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "TEQ"
+}

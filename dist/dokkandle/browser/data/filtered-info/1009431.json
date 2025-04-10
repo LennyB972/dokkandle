@@ -1,0 +1,14 @@
+{
+  "name": "Super Saiyan 4 Goku",
+  "id": 1009431,
+  "hp_max": 11333,
+  "atk_max": 11456,
+  "def_max": 4514,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2017-07-07 19:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "STR"
+}

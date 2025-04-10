@@ -1,0 +1,14 @@
+{
+  "name": "Krillin (Youth)",
+  "id": 1027541,
+  "hp_max": 7463,
+  "atk_max": 6782,
+  "def_max": 5598,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2024-02-01 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "INT"
+}

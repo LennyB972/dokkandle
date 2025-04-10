@@ -1,0 +1,14 @@
+{
+  "name": "Android #18 (GT)",
+  "id": 1005811,
+  "hp_max": 7835,
+  "atk_max": 6751,
+  "def_max": 4205,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-11-21 05:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "STR"
+}

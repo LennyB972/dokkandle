@@ -1,0 +1,14 @@
+{
+  "name": "Super Saiyan 2 Goku (Angel)",
+  "id": 1017411,
+  "hp_max": 11850,
+  "atk_max": 12440,
+  "def_max": 6400,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2020-05-08 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "INT"
+}

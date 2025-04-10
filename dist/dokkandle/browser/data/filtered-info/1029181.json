@@ -1,0 +1,14 @@
+{
+  "name": "Cocotte",
+  "id": 1029181,
+  "hp_max": 8388,
+  "atk_max": 8456,
+  "def_max": 4584,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2024-10-22 05:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "INT"
+}

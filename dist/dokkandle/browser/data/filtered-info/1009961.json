@@ -1,0 +1,14 @@
+{
+  "name": "Gohan (Teen)",
+  "id": 1009961,
+  "hp_max": 8315,
+  "atk_max": 7682,
+  "def_max": 4365,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-05-03 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "STR"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Super Saiyan Gogeta",
+  "id": 1027981,
+  "hp_max": 17113,
+  "atk_max": 14340,
+  "def_max": 11144,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": true,
+  "open_at": "2024-07-09 05:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "PHY"
+}

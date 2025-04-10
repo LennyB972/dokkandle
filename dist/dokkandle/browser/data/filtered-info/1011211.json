@@ -1,0 +1,14 @@
+{
+  "name": "Jackie Chun",
+  "id": 1011211,
+  "hp_max": 7550,
+  "atk_max": 7308,
+  "def_max": 5215,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-06-22 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "INT"
+}

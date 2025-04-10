@@ -1,0 +1,14 @@
+{
+  "name": "Super Saiyan God SS Evolved Vegeta",
+  "id": 1030571,
+  "hp_max": 17325,
+  "atk_max": 15020,
+  "def_max": 10188,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": true,
+  "open_at": "2025-01-28 21:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "STR"
+}

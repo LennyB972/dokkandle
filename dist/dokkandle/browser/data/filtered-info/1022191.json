@@ -1,0 +1,14 @@
+{
+  "name": "Goku (Angel) & Vegeta (Angel)",
+  "id": 1022191,
+  "hp_max": 16688,
+  "atk_max": 16125,
+  "def_max": 9125,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2021-11-04 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "TEQ"
+}

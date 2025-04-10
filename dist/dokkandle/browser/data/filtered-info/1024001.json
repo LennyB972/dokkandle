@@ -1,0 +1,14 @@
+{
+  "name": "Piccolo",
+  "id": 1024001,
+  "hp_max": 9701,
+  "atk_max": 7910,
+  "def_max": 4771,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2024-01-03 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "TEQ"
+}

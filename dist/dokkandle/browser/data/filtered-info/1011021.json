@@ -1,0 +1,14 @@
+{
+  "name": "Pan (GT)",
+  "id": 1011021,
+  "hp_max": 9353,
+  "atk_max": 8125,
+  "def_max": 4418,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-11-28 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "AGL"
+}

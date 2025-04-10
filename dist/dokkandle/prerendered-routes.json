@@ -1,0 +1,10 @@
+{
+  "routes": {
+    "/dokkandle": {},
+    "/dokkandle/daily": {},
+    "/dokkandle/guess-character": {},
+    "/dokkandle/leader-skill": {},
+    "/dokkandle/passive": {},
+    "/dokkandle/silhouette": {}
+  }
+}

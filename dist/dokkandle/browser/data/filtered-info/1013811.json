@@ -1,0 +1,14 @@
+{
+  "name": "Android #17",
+  "id": 1013811,
+  "hp_max": 8947,
+  "atk_max": 7599,
+  "def_max": 5376,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-09-13 05:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "TEQ"
+}

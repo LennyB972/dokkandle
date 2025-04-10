@@ -1,0 +1,14 @@
+{
+  "name": "Golden Frieza (Angel)",
+  "id": 1012031,
+  "hp_max": 11020,
+  "atk_max": 10208,
+  "def_max": 6605,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2018-03-15 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "INT"
+}

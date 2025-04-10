@@ -1,0 +1,14 @@
+{
+  "name": "Super Saiyan 4 Broly",
+  "id": 1020671,
+  "hp_max": 13945,
+  "atk_max": 11446,
+  "def_max": 5845,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-11-19 08:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "TEQ"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Majin Buu (Gotenks)",
+  "id": 1012001,
+  "hp_max": 9320,
+  "atk_max": 8456,
+  "def_max": 4118,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-12-28 02:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "PHY"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Sourman",
+  "id": 1009031,
+  "hp_max": 9657,
+  "atk_max": 7272,
+  "def_max": 4555,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-05-11 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "PHY"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Fusion Android #13",
+  "id": 1004911,
+  "hp_max": 7350,
+  "atk_max": 6536,
+  "def_max": 5905,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2016-04-18 08:10:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Extreme",
+  "type": "INT"
+}

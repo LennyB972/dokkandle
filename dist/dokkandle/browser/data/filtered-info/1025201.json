@@ -1,0 +1,14 @@
+{
+  "name": "Metal Cooler [PHY]",
+  "id": 1025201,
+  "hp_max": 7759,
+  "atk_max": 7487,
+  "def_max": 3818,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2022-09-09 06:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "PHY"
+}

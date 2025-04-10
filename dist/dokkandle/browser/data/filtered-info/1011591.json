@@ -1,0 +1,14 @@
+{
+  "name": "Toppo",
+  "id": 1011591,
+  "hp_max": 7487,
+  "atk_max": 7596,
+  "def_max": 5610,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-02-17 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "STR"
+}

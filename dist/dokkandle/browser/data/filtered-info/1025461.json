@@ -1,0 +1,14 @@
+{
+  "name": "Lagss",
+  "id": 1025461,
+  "hp_max": 6980,
+  "atk_max": 6833,
+  "def_max": 5025,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2022-11-22 06:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "INT"
+}

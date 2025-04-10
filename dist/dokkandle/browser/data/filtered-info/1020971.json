@@ -1,0 +1,14 @@
+{
+  "name": "Nuova Shenron",
+  "id": 1020971,
+  "hp_max": 8962,
+  "atk_max": 8797,
+  "def_max": 5296,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2021-02-01 06:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "PHY"
+}

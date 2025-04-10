@@ -1,0 +1,14 @@
+{
+  "name": "Goku (Youth) (Giant Ape)",
+  "id": 1010811,
+  "hp_max": 9481,
+  "atk_max": 7838,
+  "def_max": 4623,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-11-10 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "PHY"
+}

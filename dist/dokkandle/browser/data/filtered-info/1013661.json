@@ -1,0 +1,14 @@
+{
+  "name": "Super Saiyan 2 Kale",
+  "id": 1013661,
+  "hp_max": 8345,
+  "atk_max": 6569,
+  "def_max": 4616,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-05-15 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "INT"
+}

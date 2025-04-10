@@ -1,0 +1,14 @@
+{
+  "name": "Super Mira",
+  "id": 1020851,
+  "hp_max": 7941,
+  "atk_max": 9746,
+  "def_max": 4631,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-11-19 08:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "STR"
+}

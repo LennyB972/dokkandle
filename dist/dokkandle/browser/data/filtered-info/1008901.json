@@ -1,0 +1,14 @@
+{
+  "name": "Tekka",
+  "id": 1008901,
+  "hp_max": 7026,
+  "atk_max": 6404,
+  "def_max": 3086,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-03-30 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "PHY"
+}

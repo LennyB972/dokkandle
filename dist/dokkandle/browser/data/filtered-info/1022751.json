@@ -1,0 +1,14 @@
+{
+  "name": "Frieza (Full Power)",
+  "id": 1022751,
+  "hp_max": 18175,
+  "atk_max": 15785,
+  "def_max": 8806,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2021-08-28 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "AGL"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Chilled",
+  "id": 1006641,
+  "hp_max": 6836,
+  "atk_max": 7049,
+  "def_max": 4145,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2016-11-22 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Extreme",
+  "type": "INT"
+}

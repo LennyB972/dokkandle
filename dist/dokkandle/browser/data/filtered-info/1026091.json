@@ -1,0 +1,14 @@
+{
+  "name": "Pan (Kid)",
+  "id": 1026091,
+  "hp_max": 7730,
+  "atk_max": 9331,
+  "def_max": 5244,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2022-12-28 02:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "INT"
+}

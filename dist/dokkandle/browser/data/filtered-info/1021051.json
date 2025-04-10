@@ -1,0 +1,14 @@
+{
+  "name": "Boujack",
+  "id": 1021051,
+  "hp_max": 12640,
+  "atk_max": 10402,
+  "def_max": 7803,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2021-03-01 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "STR"
+}

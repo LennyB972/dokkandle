@@ -1,6 +1,6 @@
 /* Plein écran avec image de fond */
 .background {
-  background-image: url('/assets/fond_dokkan.jpg');
+  background-image: url('https://lennyb972.github.io/dokkandle/assets/fond_dokkan.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

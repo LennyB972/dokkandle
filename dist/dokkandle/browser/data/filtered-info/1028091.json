@@ -1,0 +1,14 @@
+{
+  "name": "Kale",
+  "id": 1028091,
+  "hp_max": 7848,
+  "atk_max": 8581,
+  "def_max": 4735,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2024-07-19 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "TEQ"
+}

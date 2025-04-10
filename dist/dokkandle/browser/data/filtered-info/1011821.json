@@ -1,0 +1,14 @@
+{
+  "name": "Whirus",
+  "id": 1011821,
+  "hp_max": 8520,
+  "atk_max": 8421,
+  "def_max": 4464,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-11-06 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "PHY"
+}

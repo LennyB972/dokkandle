@@ -1,0 +1,14 @@
+{
+  "name": "Goku (Youth) & Arale Norimaki",
+  "id": 1016231,
+  "hp_max": 12900,
+  "atk_max": 12937,
+  "def_max": 7429,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2019-05-21 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "AGL"
+}

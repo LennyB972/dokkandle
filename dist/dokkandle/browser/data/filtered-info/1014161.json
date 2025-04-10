@@ -1,0 +1,14 @@
+{
+  "name": "Mai (Future)",
+  "id": 1014161,
+  "hp_max": 6840,
+  "atk_max": 7183,
+  "def_max": 3851,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2019-03-05 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "AGL"
+}

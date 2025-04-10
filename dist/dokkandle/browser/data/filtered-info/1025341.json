@@ -1,0 +1,14 @@
+{
+  "name": "Super Saiyan 4 Bardock",
+  "id": 1025341,
+  "hp_max": 12640,
+  "atk_max": 11794,
+  "def_max": 6063,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2022-11-22 06:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "STR"
+}

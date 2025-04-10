@@ -1,0 +1,14 @@
+{
+  "name": "General Blue",
+  "id": 1009061,
+  "hp_max": 8871,
+  "atk_max": 7517,
+  "def_max": 4642,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-05-11 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Extreme",
+  "type": "INT"
+}

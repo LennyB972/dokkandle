@@ -1,0 +1,14 @@
+{
+  "name": "Gohan (Youth)",
+  "id": 1019791,
+  "hp_max": 7942,
+  "atk_max": 8693,
+  "def_max": 4548,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2021-04-23 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "INT"
+}

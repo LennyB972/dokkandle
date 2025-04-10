@@ -1,0 +1,14 @@
+{
+  "name": "Jiren",
+  "id": 1029091,
+  "hp_max": 17963,
+  "atk_max": 15615,
+  "def_max": 9125,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": true,
+  "open_at": "2024-12-12 05:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "AGL"
+}

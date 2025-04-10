@@ -1,0 +1,14 @@
+{
+  "name": "Nuova Shenron",
+  "id": 1009911,
+  "hp_max": 8019,
+  "atk_max": 8742,
+  "def_max": 4786,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-12-21 00:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "TEQ"
+}

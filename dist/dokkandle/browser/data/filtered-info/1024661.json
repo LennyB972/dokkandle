@@ -1,0 +1,14 @@
+{
+  "name": "Fusion Zamasu",
+  "id": 1024661,
+  "hp_max": 17750,
+  "atk_max": 16210,
+  "def_max": 8488,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2022-12-12 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Extreme",
+  "type": "INT"
+}

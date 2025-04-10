@@ -1,0 +1,14 @@
+{
+  "name": "Super Saiyan 3 Gohanks (Xeno)",
+  "id": 1023291,
+  "hp_max": 7851,
+  "atk_max": 9390,
+  "def_max": 5376,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2021-11-25 08:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "INT"
+}

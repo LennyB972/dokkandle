@@ -1,0 +1,14 @@
+{
+  "name": "Coolieza",
+  "id": 1023711,
+  "hp_max": 9890,
+  "atk_max": 8512,
+  "def_max": 5195,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2022-02-22 00:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "STR"
+}

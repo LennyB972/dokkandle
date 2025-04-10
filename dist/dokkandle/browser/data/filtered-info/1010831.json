@@ -1,0 +1,14 @@
+{
+  "name": "Buu (Super)",
+  "id": 1010831,
+  "hp_max": 9057,
+  "atk_max": 8447,
+  "def_max": 4448,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-09-25 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "TEQ"
+}

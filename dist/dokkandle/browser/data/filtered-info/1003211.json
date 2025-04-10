@@ -1,0 +1,14 @@
+{
+  "name": "Super Saiyan 3 Goku",
+  "id": 1003211,
+  "hp_max": 9500,
+  "atk_max": 8672,
+  "def_max": 4623,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2016-05-05 07:10:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "AGL"
+}

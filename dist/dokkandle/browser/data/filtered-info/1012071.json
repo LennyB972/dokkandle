@@ -1,0 +1,14 @@
+{
+  "name": "Chi-Chi (Youth)",
+  "id": 1012071,
+  "hp_max": 5340,
+  "atk_max": 7226,
+  "def_max": 3798,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2019-03-05 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "PHY"
+}

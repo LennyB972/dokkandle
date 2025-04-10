@@ -1,0 +1,14 @@
+{
+  "name": "Hit",
+  "id": 1015211,
+  "hp_max": 10538,
+  "atk_max": 8990,
+  "def_max": 5744,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-05-15 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "STR"
+}
