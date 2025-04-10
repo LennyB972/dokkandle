@@ -33,6 +33,13 @@ set "rawId=%rawId:"=%"
 REM --- Remplacer le dernier chiffre 1 par 0 (ID -1 logique) ---
 set "imgId=%rawId:~0,-1%0"
 
+REM --- Vérifier si imgId > 1000000 ---
+set /a "compareId=%imgId%"
+if %compareId% LEQ 1000000 (
+    echo ⏭️ ID %imgId% ignoré (<= 1000000)
+    exit /b
+)
+
 REM --- Construire l'URL de téléchargement ---
 set "url=https://dokkan.wiki/assets/global/en/character/thumb/card_%imgId%_thumb.png"
 

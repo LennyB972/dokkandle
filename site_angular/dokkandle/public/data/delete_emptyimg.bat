@@ -21,4 +21,4 @@ for %%f in (img\*.png) do (
 )
 
 echo "🎉 Les fichiers png vides ont été supprimés !"
-pause
+

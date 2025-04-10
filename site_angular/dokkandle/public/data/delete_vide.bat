@@ -21,4 +21,4 @@ for %%f in (downloads\*.json) do (
 )
 
 echo "🎉 Les fichiers JSON vides ont été supprimés !"
-pause
+

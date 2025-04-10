@@ -21,4 +21,4 @@ for %%f in (downloads\4*.json) do (
 
 echo 🎉 Réparation terminée !
 endlocal
-pause
+
