@@ -1,0 +1,14 @@
+{
+  "name": "Buu (Super)",
+  "id": 1026431,
+  "hp_max": 14775,
+  "atk_max": 16380,
+  "def_max": 9763,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2023-06-20 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Extreme",
+  "type": "AGL"
+}

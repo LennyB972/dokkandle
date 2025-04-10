@@ -1,0 +1,14 @@
+{
+  "name": "Demon King Piccolo",
+  "id": 1016631,
+  "hp_max": 10664,
+  "atk_max": 7873,
+  "def_max": 4099,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2019-06-06 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Extreme",
+  "type": "STR"
+}

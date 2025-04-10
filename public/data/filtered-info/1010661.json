@@ -1,0 +1,14 @@
+{
+  "name": "Super Saiyan Goku (Angel) (Super Kaioken)",
+  "id": 1010661,
+  "hp_max": 8963,
+  "atk_max": 8371,
+  "def_max": 4590,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-07-14 08:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "PHY"
+}

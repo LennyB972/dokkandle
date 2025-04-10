@@ -1,0 +1,14 @@
+{
+  "name": "Dyspo",
+  "id": 1012611,
+  "hp_max": 8924,
+  "atk_max": 7991,
+  "def_max": 4398,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-09-14 01:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "AGL"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Cumber",
+  "id": 1018401,
+  "hp_max": 5812,
+  "atk_max": 8173,
+  "def_max": 3935,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-01-17 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "STR"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Android #18 (Linked State)",
+  "id": 1028421,
+  "hp_max": 6800,
+  "atk_max": 7577,
+  "def_max": 4935,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2023-11-30 00:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "PHY"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Vegeta",
+  "id": 1014991,
+  "hp_max": 10425,
+  "atk_max": 9350,
+  "def_max": 5350,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-02-17 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "INT"
+}

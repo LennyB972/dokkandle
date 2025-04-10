@@ -1,0 +1,14 @@
+{
+  "name": "Gotenks (Failure) B",
+  "id": 1006621,
+  "hp_max": 6190,
+  "atk_max": 6193,
+  "def_max": 4739,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2016-12-01 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "TEQ"
+}

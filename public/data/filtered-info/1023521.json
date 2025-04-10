@@ -1,0 +1,14 @@
+{
+  "name": "Vegeta (Giant Ape)",
+  "id": 1023521,
+  "hp_max": 17963,
+  "atk_max": 15445,
+  "def_max": 9338,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2022-07-26 05:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "TEQ"
+}

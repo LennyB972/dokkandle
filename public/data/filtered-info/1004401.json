@@ -1,0 +1,14 @@
+{
+  "name": "Cell (Perfect Form)",
+  "id": 1004401,
+  "hp_max": 7830,
+  "atk_max": 6332,
+  "def_max": 4165,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2016-03-11 08:10:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Extreme",
+  "type": "AGL"
+}

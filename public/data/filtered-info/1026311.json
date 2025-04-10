@@ -1,0 +1,14 @@
+{
+  "name": "Bulma (Youth)",
+  "id": 1026311,
+  "hp_max": 10819,
+  "atk_max": 7819,
+  "def_max": 3819,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2023-04-02 06:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "INT"
+}

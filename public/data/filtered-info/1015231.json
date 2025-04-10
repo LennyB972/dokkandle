@@ -1,0 +1,14 @@
+{
+  "name": "Pan (GT)",
+  "id": 1015231,
+  "hp_max": 11213,
+  "atk_max": 9125,
+  "def_max": 5238,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-04-29 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "AGL"
+}

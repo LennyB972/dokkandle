@@ -1,0 +1,205 @@
+<div class="game-container">
+  <div class="header">
+    <h1>DEVINE LE PERSONNAGE DE DOKKAN BATTLE D'AUJOURD'HUI!</h1>
+  </div>
+  
+  <!-- Écran de chargement amélioré -->
+  <div class="loading-screen" *ngIf="isLoading">
+    <div class="loading-title">DOKKANDLE</div>
+    <div class="loading-dragon"></div>
+    <div class="progress-container">
+      <div class="progress-bar" [style.width.%]="loadingProgress"></div>
+    </div>
+    <p class="loading-text">{{ dataLoadingStatus }}</p>
+  </div>
+  
+  <!-- Message d'erreur -->
+  <div class="error-message" *ngIf="errorMessage">
+    <p>{{ errorMessage }}</p>
+    <button (click)="startNewGame()" class="retry-button">Réessayer</button>
+  </div>
+  
+  <!-- Zone principale du jeu -->
+  <div class="game-content" *ngIf="!isLoading && !errorMessage">
+    <!-- Zone de saisie (déplacée avant les résultats) -->
+    <div class="input-area" [ngClass]="{'disabled': isGameOver}">
+      <div class="input-container">
+        <input 
+          #characterInput
+          type="text" 
+          [(ngModel)]="characterGuess" 
+          placeholder="Entrez le nom d'un personnage" 
+          (keyup.enter)="submitGuess()"
+          (input)="onInput()"
+          [disabled]="isGameOver"
+        >
+        
+        <!-- Suggestions d'auto-complétion -->
+        <div class="suggestions" *ngIf="showSuggestions">
+          <div 
+            *ngFor="let character of suggestions" 
+            class="suggestion-item"
+            (click)="selectSuggestion(character)"
+          >
+            <div class="suggestion-image">
+            <img [src]="getCharacterImageUrl(character)" 
+                 alt="{{ character.name }}" 
+                 (error)="handleImageError($event)" />
+            </div>
+            <div class="suggestion-info">
+              <span class="suggestion-name">{{ character.name }}</span>
+              <span class="suggestion-type">({{ character.class }} {{ character.type }})</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="buttons-container">
+        <button 
+          class="guess-btn" 
+          (click)="submitGuess()" 
+          [disabled]="isGameOver || !characterGuess">
+          Deviner
+        </button>
+        
+        <button 
+          class="abandon-btn" 
+          (click)="giveUp()" 
+          [disabled]="isGameOver">
+          Abandonner
+        </button>
+      </div>
+    </div>
+
+    <!-- Légende des indices (restructurée pour alignement) -->
+    <div class="hints-legend" *ngIf="guesses.length > 0">
+      <div class="name-spacer">PERSONNAGE</div>
+      <div class="hints-legend-grid">
+        <div class="legend-item">CLASSE</div>
+        <div class="legend-item">TYPE</div>
+        <div class="legend-item">HP</div>
+        <div class="legend-item">ATK</div>
+        <div class="legend-item">DEF</div>
+        <div class="legend-item">RARETÉ</div>
+        <div class="legend-item">ANNÉE</div>
+      </div>
+    </div>
+    
+    <!-- Résultats des tentatives précédentes -->
+    <div class="results-container">
+      <div *ngIf="guesses.length === 0" class="no-guesses">
+        <p>Entrez le nom d'un personnage pour commencer à jouer!</p>
+      </div>
+      
+      <div class="guess-row" *ngFor="let guess of guesses.slice().reverse()">
+        <!-- Nom du personnage avec image -->
+        <div class="character-name-container" [ngClass]="{'correct': guess.isCorrect}">
+          <div class="character-image">
+            <img [src]="getCharacterImageUrl(guess.character)" 
+                 alt="{{ guess.character.name }}" 
+                 (error)="handleImageError($event)" />
+          </div>
+          <div class="character-name">
+            {{ guess.character.name }}
+          </div>
+        </div>
+        
+        <div class="hints-grid">
+          <!-- Classe (Super/Extreme) -->
+          <div class="hint-box" [ngClass]="{'correct-hint': guess.hints.class, 'incorrect-hint': !guess.hints.class}">
+            {{ guess.character.class || '?' }}
+          </div>
+          
+          <!-- Type (AGL/TEQ/INT/STR/PHY) -->
+          <div class="hint-box" [ngClass]="{'correct-hint': guess.hints.type, 'incorrect-hint': !guess.hints.type}">
+            {{ guess.character.type || '?' }}
+          </div>
+          
+          <!-- HP -->
+          <div class="hint-box" [ngClass]="{
+            'correct-hint': guess.hints.hp === 'equal',
+            'higher-hint': guess.hints.hp === 'higher',
+            'lower-hint': guess.hints.hp === 'lower'
+          }">
+            <div class="stats-container">
+              <span>{{ guess.character.hp_max }}</span>
+              <span class="direction-arrow" *ngIf="guess.hints.hp === 'higher'">↓</span>
+              <span class="direction-arrow" *ngIf="guess.hints.hp === 'lower'">↑</span>
+            </div>
+          </div>
+          
+          <!-- ATK -->
+          <div class="hint-box" [ngClass]="{
+            'correct-hint': guess.hints.atk === 'equal',
+            'higher-hint': guess.hints.atk === 'higher',
+            'lower-hint': guess.hints.atk === 'lower'
+          }">
+            <div class="stats-container">
+              <span>{{ guess.character.atk_max }}</span>
+              <span class="direction-arrow" *ngIf="guess.hints.atk === 'higher'">↓</span>
+              <span class="direction-arrow" *ngIf="guess.hints.atk === 'lower'">↑</span>
+            </div>
+          </div>
+          
+          <!-- DEF -->
+          <div class="hint-box" [ngClass]="{
+            'correct-hint': guess.hints.def === 'equal',
+            'higher-hint': guess.hints.def === 'higher',
+            'lower-hint': guess.hints.def === 'lower'
+          }">
+            <div class="stats-container">
+              <span>{{ guess.character.def_max }}</span>
+              <span class="direction-arrow" *ngIf="guess.hints.def === 'higher'">↓</span>
+              <span class="direction-arrow" *ngIf="guess.hints.def === 'lower'">↑</span>
+            </div>
+          </div>
+          
+          <!-- Rareté -->
+          <div class="hint-box" [ngClass]="{'correct-hint': guess.hints.rarity, 'incorrect-hint': !guess.hints.rarity}">
+            {{ getCharacterRarity(guess.character) }}
+          </div>
+          
+          <!-- Année de sortie avec flèche directionnelle -->
+          <div class="hint-box" [ngClass]="{'correct-hint': guess.hints.releaseYear, 'incorrect-hint': !guess.hints.releaseYear}">
+            <div class="stats-container">
+              <span>{{ getCharacterReleaseYear(guess.character) }}</span>
+              <span class="direction-arrow" *ngIf="!guess.hints.releaseYear">
+                {{ getYearDirection(guess.character, targetCharacter) }}
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Message de fin de jeu -->
+    <div class="game-over-message" *ngIf="isGameOver">
+      <div *ngIf="guesses[guesses.length-1]?.isCorrect" class="success-message">
+        <h2>Bravo ! Vous avez trouvé le personnage en {{ attempts }} essai(s).</h2>
+      </div>
+      
+      <!-- Section améliorée pour l'abandon -->
+      <div *ngIf="!guesses[guesses.length-1]?.isCorrect" class="failure-message">
+        <h2>Dommage ! Le personnage était: {{ targetCharacter.name }}</h2>
+        
+        <!-- Ajout des informations sur le type et l'image du personnage à deviner -->
+        <div class="target-character-info">
+          <div class="target-character-image">
+            <img [src]="getCharacterImageUrl(targetCharacter)" 
+                 alt="{{ targetCharacter.name }}" 
+                 (error)="handleImageError($event)" />
+          </div>
+          <div class="target-character-details">
+            <p class="target-class-type">{{ getCharacterClass() }} {{ getCharacterType() }}</p>
+            <p class="target-rarity">{{ getCharacterRarity(targetCharacter) }}</p>
+            <p class="target-year">Sorti en {{ getCharacterReleaseYear(targetCharacter) }}</p>
+          </div>
+        </div>
+      </div>
+      
+      <button class="new-game-btn" (click)="resetGame()">Nouvelle partie</button>
+    </div>
+  </div>
+  
+  <a routerLink="/" class="back-link">Retour à l'accueil</a>
+</div>

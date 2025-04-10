@@ -1,0 +1,14 @@
+{
+  "name": "Fusion Zamasu",
+  "id": 1009791,
+  "hp_max": 9318,
+  "atk_max": 9694,
+  "def_max": 4083,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2017-05-25 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "TEQ"
+}

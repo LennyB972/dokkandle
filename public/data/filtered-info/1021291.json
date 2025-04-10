@@ -1,0 +1,14 @@
+{
+  "name": "Janemba",
+  "id": 1021291,
+  "hp_max": 13050,
+  "atk_max": 11840,
+  "def_max": 6550,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2021-04-02 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Extreme",
+  "type": "TEQ"
+}

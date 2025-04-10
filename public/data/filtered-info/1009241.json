@@ -1,0 +1,14 @@
+{
+  "name": "Karoly",
+  "id": 1009241,
+  "hp_max": 9756,
+  "atk_max": 8095,
+  "def_max": 4163,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-03-30 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "TEQ"
+}

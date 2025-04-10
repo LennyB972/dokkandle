@@ -1,0 +1,14 @@
+{
+  "name": "Demigra",
+  "id": 1004981,
+  "hp_max": 9024,
+  "atk_max": 7478,
+  "def_max": 4052,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2016-07-19 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Extreme",
+  "type": "INT"
+}

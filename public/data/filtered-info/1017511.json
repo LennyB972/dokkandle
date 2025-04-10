@@ -1,0 +1,14 @@
+{
+  "name": "Gohan (Kid)",
+  "id": 1017511,
+  "hp_max": 7493,
+  "atk_max": 6864,
+  "def_max": 3924,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-01-06 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "TEQ"
+}

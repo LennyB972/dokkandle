@@ -1,0 +1,14 @@
+{
+  "name": "Chiaoman",
+  "id": 1008681,
+  "hp_max": 8927,
+  "atk_max": 7253,
+  "def_max": 4757,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-03-30 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "PHY"
+}

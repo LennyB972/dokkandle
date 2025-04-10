@@ -1,0 +1,14 @@
+{
+  "name": "Whis",
+  "id": 1019661,
+  "hp_max": 9783,
+  "atk_max": 7180,
+  "def_max": 3940,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2021-03-01 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "AGL"
+}

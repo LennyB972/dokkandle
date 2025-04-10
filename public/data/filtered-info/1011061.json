@@ -1,0 +1,14 @@
+{
+  "name": "Super Saiyan 3 Gotenks",
+  "id": 1011061,
+  "hp_max": 10500,
+  "atk_max": 10900,
+  "def_max": 5250,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2017-12-11 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "PHY"
+}

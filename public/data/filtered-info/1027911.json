@@ -1,0 +1,14 @@
+{
+  "name": "Golden Metal Cooler",
+  "id": 1027911,
+  "hp_max": 10564,
+  "atk_max": 8636,
+  "def_max": 4958,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2023-11-22 06:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Extreme",
+  "type": "AGL"
+}

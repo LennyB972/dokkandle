@@ -1,0 +1,14 @@
+{
+  "name": "Trunks (GT)",
+  "id": 1022661,
+  "hp_max": 7289,
+  "atk_max": 6464,
+  "def_max": 4548,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2021-04-28 00:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "AGL"
+}

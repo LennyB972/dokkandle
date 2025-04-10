@@ -1,0 +1,14 @@
+{
+  "name": "Jeice",
+  "id": 1013031,
+  "hp_max": 7386,
+  "atk_max": 6130,
+  "def_max": 3068,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-07-30 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "STR"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Fasha (Giant Ape)",
+  "id": 1006481,
+  "hp_max": 7129,
+  "atk_max": 7501,
+  "def_max": 4248,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2016-11-14 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "STR"
+}

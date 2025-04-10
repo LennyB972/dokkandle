@@ -1,0 +1,14 @@
+{
+  "name": "Super Saiyan Vegeta (Xeno)",
+  "id": 1023311,
+  "hp_max": 9480,
+  "atk_max": 8840,
+  "def_max": 4990,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2021-11-25 08:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "INT"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Super Saiyan Vegeta (GT)",
+  "id": 1004041,
+  "hp_max": 7423,
+  "atk_max": 7130,
+  "def_max": 4438,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2016-07-29 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "TEQ"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Frieza (1st Form)",
+  "id": 1028571,
+  "hp_max": 12785,
+  "atk_max": 10866,
+  "def_max": 7150,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2024-05-31 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Extreme",
+  "type": "AGL"
+}

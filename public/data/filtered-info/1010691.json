@@ -1,0 +1,14 @@
+{
+  "name": "Frieza (Final Form) (Angel)",
+  "id": 1010691,
+  "hp_max": 8475,
+  "atk_max": 8422,
+  "def_max": 4083,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-07-14 08:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Extreme",
+  "type": "TEQ"
+}

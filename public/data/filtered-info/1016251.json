@@ -1,0 +1,14 @@
+{
+  "name": "Launch",
+  "id": 1016251,
+  "hp_max": 7364,
+  "atk_max": 8828,
+  "def_max": 4630,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-10-13 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "PHY"
+}

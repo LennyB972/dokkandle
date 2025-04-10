@@ -1,0 +1,14 @@
+{
+  "name": "Super Saiyan 3 Bardock",
+  "id": 1008191,
+  "hp_max": 8516,
+  "atk_max": 6664,
+  "def_max": 3475,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-06-04 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "AGL"
+}

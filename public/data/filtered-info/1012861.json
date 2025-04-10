@@ -1,0 +1,14 @@
+{
+  "name": "Tapion",
+  "id": 1012861,
+  "hp_max": 9014,
+  "atk_max": 8027,
+  "def_max": 4308,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-05-25 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "TEQ"
+}

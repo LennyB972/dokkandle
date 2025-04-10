@@ -1,0 +1,14 @@
+{
+  "name": "Frieza (Final Form)",
+  "id": 1020151,
+  "hp_max": 7752,
+  "atk_max": 7245,
+  "def_max": 4244,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-11-06 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "INT"
+}

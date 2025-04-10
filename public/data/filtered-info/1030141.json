@@ -1,0 +1,14 @@
+{
+  "name": "Warrior in Black (Super Saiyan) (Dark Dragon Ball Boost)",
+  "id": 1030141,
+  "hp_max": 9989,
+  "atk_max": 9043,
+  "def_max": 4474,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2024-11-12 05:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "PHY"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Super Saiyan Vegeta",
+  "id": 1017961,
+  "hp_max": 9156,
+  "atk_max": 8133,
+  "def_max": 4641,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-03-13 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "STR"
+}

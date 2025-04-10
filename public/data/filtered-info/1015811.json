@@ -1,0 +1,14 @@
+{
+  "name": "Bota Magetta",
+  "id": 1015811,
+  "hp_max": 11127,
+  "atk_max": 7836,
+  "def_max": 3914,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-12-24 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "INT"
+}

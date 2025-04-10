@@ -1,0 +1,14 @@
+{
+  "name": "Krillin/Vegeta",
+  "id": 1022881,
+  "hp_max": 6902,
+  "atk_max": 7923,
+  "def_max": 3701,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2021-09-09 06:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "INT"
+}

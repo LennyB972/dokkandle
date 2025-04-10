@@ -1,0 +1,14 @@
+{
+  "name": "Super Saiyan Vegeta",
+  "id": 1024321,
+  "hp_max": 9582,
+  "atk_max": 9046,
+  "def_max": 4682,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2022-04-27 11:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "AGL"
+}

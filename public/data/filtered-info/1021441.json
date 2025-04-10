@@ -1,0 +1,14 @@
+{
+  "name": "Bardock (Giant Ape)",
+  "id": 1021441,
+  "hp_max": 9701,
+  "atk_max": 7406,
+  "def_max": 3473,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2021-01-25 00:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "AGL"
+}

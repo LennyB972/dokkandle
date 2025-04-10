@@ -1,0 +1,14 @@
+{
+  "name": "Demon Goddess Towa",
+  "id": 1020551,
+  "hp_max": 11712,
+  "atk_max": 8135,
+  "def_max": 5010,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-11-19 08:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "INT"
+}

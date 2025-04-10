@@ -1,0 +1,14 @@
+{
+  "name": "Super Saiyan Vegeta",
+  "id": 1005551,
+  "hp_max": 8423,
+  "atk_max": 7031,
+  "def_max": 4750,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2016-05-23 06:10:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "TEQ"
+}

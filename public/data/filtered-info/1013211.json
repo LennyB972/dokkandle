@@ -1,0 +1,14 @@
+{
+  "name": "Goku",
+  "id": 1013211,
+  "hp_max": 9848,
+  "atk_max": 8132,
+  "def_max": 4071,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-07-07 00:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "PHY"
+}

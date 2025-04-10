@@ -1,0 +1,14 @@
+{
+  "name": "Android #13",
+  "id": 1018271,
+  "hp_max": 13075,
+  "atk_max": 10750,
+  "def_max": 7150,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2020-04-02 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "AGL"
+}

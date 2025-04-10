@@ -1,0 +1,14 @@
+{
+  "name": "Ultimate Gohan & Piccolo",
+  "id": 1021351,
+  "hp_max": 10194,
+  "atk_max": 8591,
+  "def_max": 4936,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2021-07-09 03:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "TEQ"
+}

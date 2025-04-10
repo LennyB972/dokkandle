@@ -1,0 +1,14 @@
+{
+  "name": "Cellza",
+  "id": 1023651,
+  "hp_max": 9582,
+  "atk_max": 9867,
+  "def_max": 3655,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2022-02-22 00:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "INT"
+}

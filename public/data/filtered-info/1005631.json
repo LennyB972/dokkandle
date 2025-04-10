@@ -1,0 +1,14 @@
+{
+  "name": "Beerus",
+  "id": 1005631,
+  "hp_max": 8239,
+  "atk_max": 8061,
+  "def_max": 3465,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2016-10-17 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "TEQ"
+}

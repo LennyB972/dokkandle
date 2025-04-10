@@ -1,0 +1,14 @@
+{
+  "name": "Super Saiyan Cabba",
+  "id": 1015221,
+  "hp_max": 11438,
+  "atk_max": 8855,
+  "def_max": 5463,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-05-15 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "STR"
+}

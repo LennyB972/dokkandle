@@ -1,0 +1,14 @@
+{
+  "name": "Chiaotzu",
+  "id": 1030121,
+  "hp_max": 8292,
+  "atk_max": 7743,
+  "def_max": 3981,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2024-10-21 04:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "PHY"
+}

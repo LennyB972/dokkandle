@@ -1,0 +1,14 @@
+{
+  "name": "Buu (Super)",
+  "id": 1015251,
+  "hp_max": 11888,
+  "atk_max": 8765,
+  "def_max": 5350,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-08-21 06:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "PHY"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Super Saiyan Goku (Angel) & \nSuper Saiyan Vegeta (Angel)",
+  "id": 1012931,
+  "hp_max": 16263,
+  "atk_max": 15700,
+  "def_max": 9869,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-07-08 05:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "PHY"
+}

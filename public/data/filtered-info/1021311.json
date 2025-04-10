@@ -1,0 +1,14 @@
+{
+  "name": "Tien",
+  "id": 1021311,
+  "hp_max": 11528,
+  "atk_max": 7688,
+  "def_max": 5398,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2023-04-28 02:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "PHY"
+}

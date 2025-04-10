@@ -1,0 +1,14 @@
+{
+  "name": "Trunks (GT) & Giru",
+  "id": 1024781,
+  "hp_max": 11534,
+  "atk_max": 6869,
+  "def_max": 6428,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2022-10-04 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "INT"
+}

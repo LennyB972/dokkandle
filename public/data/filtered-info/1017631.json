@@ -1,0 +1,14 @@
+{
+  "name": "Super Saiyan Gohan (Youth)",
+  "id": 1017631,
+  "hp_max": 18813,
+  "atk_max": 16890,
+  "def_max": 7106,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2019-08-29 20:35:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "AGL"
+}

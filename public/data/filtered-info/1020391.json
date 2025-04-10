@@ -1,0 +1,14 @@
+{
+  "name": "Super Saiyan 2 Caulifla",
+  "id": 1020391,
+  "hp_max": 8822,
+  "atk_max": 7244,
+  "def_max": 4790,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-08-17 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "STR"
+}

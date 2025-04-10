@@ -1,0 +1,14 @@
+{
+  "name": "Super Saiyan 2 Trunks (Future)",
+  "id": 1028981,
+  "hp_max": 9578,
+  "atk_max": 8879,
+  "def_max": 4885,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2024-05-31 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "AGL"
+}
