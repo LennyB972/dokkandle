@@ -10,5 +10,77 @@
   "open_at": "2025-03-04 05:00:00",
   "has_optimal_awakening_growths": false,
   "class": "Super",
-  "type": "PHY"
+  "type": "PHY",
+  "categories": [
+    {
+      "id": 17,
+      "name": "Pure Saiyans",
+      "priority": 80000
+    },
+    {
+      "id": 31,
+      "name": "Vegeta's Family",
+      "priority": 79300
+    },
+    {
+      "id": 12,
+      "name": "Super Saiyan 3",
+      "priority": 69800
+    },
+    {
+      "id": 84,
+      "name": "Power Beyond Super Saiyan",
+      "priority": 69750
+    },
+    {
+      "id": 23,
+      "name": "Transformation Boost",
+      "priority": 69400
+    },
+    {
+      "id": 20,
+      "name": "Full Power",
+      "priority": 59900
+    },
+    {
+      "id": 76,
+      "name": "Mastered Evolution",
+      "priority": 59200
+    },
+    {
+      "id": 37,
+      "name": "Worthy Rivals",
+      "priority": 50000
+    },
+    {
+      "id": 87,
+      "name": "Bond of Parent and Child",
+      "priority": 49750
+    },
+    {
+      "id": 68,
+      "name": "Gifted Warriors",
+      "priority": 29900
+    },
+    {
+      "id": 26,
+      "name": "Time Travelers",
+      "priority": 29500
+    },
+    {
+      "id": 25,
+      "name": "Dragon Ball Seekers",
+      "priority": 29400
+    },
+    {
+      "id": 96,
+      "name": "Successors",
+      "priority": 29350
+    },
+    {
+      "id": 80,
+      "name": "Accelerated Battle",
+      "priority": 19000
+    }
+  ]
 }

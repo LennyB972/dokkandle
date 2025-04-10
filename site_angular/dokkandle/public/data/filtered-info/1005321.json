@@ -10,5 +10,27 @@
   "open_at": "2017-08-23 06:30:00",
   "has_optimal_awakening_growths": true,
   "class": "Super",
-  "type": "TEQ"
+  "type": "TEQ",
+  "categories": [
+    {
+      "id": 8,
+      "name": "Realm of Gods",
+      "priority": 60000
+    },
+    {
+      "id": 35,
+      "name": "Siblings' Bond",
+      "priority": 49700
+    },
+    {
+      "id": 40,
+      "name": "Bond of Master and Disciple",
+      "priority": 49500
+    },
+    {
+      "id": 62,
+      "name": "Space-Traveling Warriors",
+      "priority": 29600
+    }
+  ]
 }

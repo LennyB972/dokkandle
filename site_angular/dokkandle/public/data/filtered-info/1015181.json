@@ -10,5 +10,42 @@
   "open_at": "2019-05-03 06:30:00",
   "has_optimal_awakening_growths": true,
   "class": "Super",
-  "type": "PHY"
+  "type": "PHY",
+  "categories": [
+    {
+      "id": 34,
+      "name": "DB Saga",
+      "priority": 90000
+    },
+    {
+      "id": 51,
+      "name": "Earthlings",
+      "priority": 79800
+    },
+    {
+      "id": 37,
+      "name": "Worthy Rivals",
+      "priority": 50000
+    },
+    {
+      "id": 28,
+      "name": "Joined Forces",
+      "priority": 49800
+    },
+    {
+      "id": 79,
+      "name": "Bond of Friendship",
+      "priority": 49600
+    },
+    {
+      "id": 89,
+      "name": "Earth-Bred Fighters",
+      "priority": 30000
+    },
+    {
+      "id": 25,
+      "name": "Dragon Ball Seekers",
+      "priority": 29400
+    }
+  ]
 }

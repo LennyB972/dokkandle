@@ -10,5 +10,47 @@
   "open_at": "2022-11-22 06:00:00",
   "has_optimal_awakening_growths": false,
   "class": "Extreme",
-  "type": "AGL"
+  "type": "AGL",
+  "categories": [
+    {
+      "id": 32,
+      "name": "Artificial Life Forms",
+      "priority": 79500
+    },
+    {
+      "id": 24,
+      "name": "Wicked Bloodline",
+      "priority": 79200
+    },
+    {
+      "id": 23,
+      "name": "Transformation Boost",
+      "priority": 69400
+    },
+    {
+      "id": 20,
+      "name": "Full Power",
+      "priority": 59900
+    },
+    {
+      "id": 64,
+      "name": "Corroded Body and Mind",
+      "priority": 59400
+    },
+    {
+      "id": 7,
+      "name": "Resurrected Warriors",
+      "priority": 29700
+    },
+    {
+      "id": 61,
+      "name": "Crossover",
+      "priority": 10000
+    },
+    {
+      "id": 42,
+      "name": "Dragon Ball Heroes",
+      "priority": 9900
+    }
+  ]
 }

@@ -10,5 +10,67 @@
   "open_at": "2017-05-02 06:30:00",
   "has_optimal_awakening_growths": true,
   "class": "Extreme",
-  "type": "STR"
+  "type": "STR",
+  "categories": [
+    {
+      "id": 17,
+      "name": "Pure Saiyans",
+      "priority": 80000
+    },
+    {
+      "id": 84,
+      "name": "Power Beyond Super Saiyan",
+      "priority": 69750
+    },
+    {
+      "id": 20,
+      "name": "Full Power",
+      "priority": 59900
+    },
+    {
+      "id": 94,
+      "name": "Uncontrollable Power",
+      "priority": 59650
+    },
+    {
+      "id": 16,
+      "name": "Movie Bosses",
+      "priority": 39200
+    },
+    {
+      "id": 7,
+      "name": "Resurrected Warriors",
+      "priority": 29700
+    },
+    {
+      "id": 77,
+      "name": "Legendary Existence",
+      "priority": 29200
+    },
+    {
+      "id": 48,
+      "name": "Revenge",
+      "priority": 20000
+    },
+    {
+      "id": 43,
+      "name": "Target: Goku",
+      "priority": 19900
+    },
+    {
+      "id": 50,
+      "name": "Inhuman Deeds",
+      "priority": 19700
+    },
+    {
+      "id": 69,
+      "name": "Planetary Destruction",
+      "priority": 19600
+    },
+    {
+      "id": 47,
+      "name": "Exploding Rage",
+      "priority": 19500
+    }
+  ]
 }

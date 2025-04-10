@@ -10,5 +10,47 @@
   "open_at": "2019-02-13 05:30:00",
   "has_optimal_awakening_growths": true,
   "class": "Extreme",
-  "type": "AGL"
+  "type": "AGL",
+  "categories": [
+    {
+      "id": 17,
+      "name": "Pure Saiyans",
+      "priority": 80000
+    },
+    {
+      "id": 60,
+      "name": "Giant Ape Power",
+      "priority": 59800
+    },
+    {
+      "id": 94,
+      "name": "Uncontrollable Power",
+      "priority": 59650
+    },
+    {
+      "id": 54,
+      "name": "Rapid Growth",
+      "priority": 59300
+    },
+    {
+      "id": 92,
+      "name": "Super Bosses",
+      "priority": 39330
+    },
+    {
+      "id": 16,
+      "name": "Movie Bosses",
+      "priority": 39200
+    },
+    {
+      "id": 68,
+      "name": "Gifted Warriors",
+      "priority": 29900
+    },
+    {
+      "id": 47,
+      "name": "Exploding Rage",
+      "priority": 19500
+    }
+  ]
 }

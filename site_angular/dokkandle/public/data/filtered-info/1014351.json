@@ -10,5 +10,52 @@
   "open_at": "2018-11-21 05:00:00",
   "has_optimal_awakening_growths": true,
   "class": "Extreme",
-  "type": "INT"
+  "type": "INT",
+  "categories": [
+    {
+      "id": 21,
+      "name": "Androids",
+      "priority": 79600
+    },
+    {
+      "id": 32,
+      "name": "Artificial Life Forms",
+      "priority": 79500
+    },
+    {
+      "id": 23,
+      "name": "Transformation Boost",
+      "priority": 69400
+    },
+    {
+      "id": 78,
+      "name": "Sworn Enemies",
+      "priority": 49900
+    },
+    {
+      "id": 73,
+      "name": "GT Bosses",
+      "priority": 39400
+    },
+    {
+      "id": 44,
+      "name": "Otherworld Warriors",
+      "priority": 29800
+    },
+    {
+      "id": 26,
+      "name": "Time Travelers",
+      "priority": 29500
+    },
+    {
+      "id": 48,
+      "name": "Revenge",
+      "priority": 20000
+    },
+    {
+      "id": 43,
+      "name": "Target: Goku",
+      "priority": 19900
+    }
+  ]
 }

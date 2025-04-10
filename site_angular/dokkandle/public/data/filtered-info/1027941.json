@@ -10,5 +10,27 @@
   "open_at": "2023-10-26 06:00:00",
   "has_optimal_awakening_growths": true,
   "class": "Super",
-  "type": "TEQ"
+  "type": "TEQ",
+  "categories": [
+    {
+      "id": 34,
+      "name": "DB Saga",
+      "priority": 90000
+    },
+    {
+      "id": 51,
+      "name": "Earthlings",
+      "priority": 79800
+    },
+    {
+      "id": 28,
+      "name": "Joined Forces",
+      "priority": 49800
+    },
+    {
+      "id": 89,
+      "name": "Earth-Bred Fighters",
+      "priority": 30000
+    }
+  ]
 }

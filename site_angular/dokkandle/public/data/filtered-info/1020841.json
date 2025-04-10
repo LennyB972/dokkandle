@@ -10,5 +10,42 @@
   "open_at": "2020-11-19 08:00:00",
   "has_optimal_awakening_growths": true,
   "class": "Extreme",
-  "type": "INT"
+  "type": "INT",
+  "categories": [
+    {
+      "id": 17,
+      "name": "Pure Saiyans",
+      "priority": 80000
+    },
+    {
+      "id": 31,
+      "name": "Vegeta's Family",
+      "priority": 79300
+    },
+    {
+      "id": 64,
+      "name": "Corroded Body and Mind",
+      "priority": 59400
+    },
+    {
+      "id": 26,
+      "name": "Time Travelers",
+      "priority": 29500
+    },
+    {
+      "id": 71,
+      "name": "Storied Figures",
+      "priority": 29300
+    },
+    {
+      "id": 61,
+      "name": "Crossover",
+      "priority": 10000
+    },
+    {
+      "id": 42,
+      "name": "Dragon Ball Heroes",
+      "priority": 9900
+    }
+  ]
 }

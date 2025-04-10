@@ -10,5 +10,6 @@
   "open_at": "2020-12-15 00:00:00",
   "has_optimal_awakening_growths": false,
   "class": "Super",
-  "type": "TEQ"
+  "type": "TEQ",
+  "categories": []
 }

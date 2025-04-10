@@ -10,5 +10,62 @@
   "open_at": "2018-10-04 06:30:00",
   "has_optimal_awakening_growths": true,
   "class": "Super",
-  "type": "PHY"
+  "type": "PHY",
+  "categories": [
+    {
+      "id": 6,
+      "name": "Universe Survival Saga",
+      "priority": 89500
+    },
+    {
+      "id": 21,
+      "name": "Androids",
+      "priority": 79600
+    },
+    {
+      "id": 46,
+      "name": "Final Trump Card",
+      "priority": 59000
+    },
+    {
+      "id": 37,
+      "name": "Worthy Rivals",
+      "priority": 50000
+    },
+    {
+      "id": 35,
+      "name": "Siblings' Bond",
+      "priority": 49700
+    },
+    {
+      "id": 22,
+      "name": "Representatives of Universe 7",
+      "priority": 39700
+    },
+    {
+      "id": 88,
+      "name": "Super Heroes",
+      "priority": 39350
+    },
+    {
+      "id": 91,
+      "name": "Tournament Participants",
+      "priority": 38900
+    },
+    {
+      "id": 70,
+      "name": "Defenders of Justice",
+      "priority": 29000
+    },
+    {
+      "id": 58,
+      "name": "Battle of Wits",
+      "priority": 19100
+    },
+    {
+      "id": 83,
+      "name": "Battle of Fate",
+      "priority": 18950
+    }
+  ]
 }

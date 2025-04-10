@@ -51,6 +51,12 @@ const processFiles = async () => {
                     unitType = typeMap[secondDigit] || null;
                 }
 
+                let categories = [];
+                if (Array.isArray(data.categories)) {
+                    categories = data.categories
+                        .sort((a, b) => b.priority - a.priority);
+                }
+
                 const filteredData = {
                     name: card.name,
                     id: card.id,
@@ -63,7 +69,8 @@ const processFiles = async () => {
                     open_at: card.open_at,
                     has_optimal_awakening_growths: data.hasOwnProperty("optimal_awakening_growths"),
                     class: classType,
-                    type: unitType
+                    type: unitType,
+                    categories: categories
                 };
 
                 // Sauvegarder le fichier filtré dans le dossier 'filtered-info'

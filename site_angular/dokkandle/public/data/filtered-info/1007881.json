@@ -10,5 +10,72 @@
   "open_at": "2017-10-21 06:30:00",
   "has_optimal_awakening_growths": false,
   "class": "Super",
-  "type": "INT"
+  "type": "INT",
+  "categories": [
+    {
+      "id": 9,
+      "name": "Majin Buu Saga",
+      "priority": 89700
+    },
+    {
+      "id": 5,
+      "name": "Hybrid Saiyans",
+      "priority": 79900
+    },
+    {
+      "id": 30,
+      "name": "Goku's Family",
+      "priority": 79400
+    },
+    {
+      "id": 33,
+      "name": "Youth",
+      "priority": 79100
+    },
+    {
+      "id": 36,
+      "name": "Super Saiyans",
+      "priority": 70000
+    },
+    {
+      "id": 39,
+      "name": "Kamehameha",
+      "priority": 69200
+    },
+    {
+      "id": 87,
+      "name": "Bond of Parent and Child",
+      "priority": 49750
+    },
+    {
+      "id": 35,
+      "name": "Siblings' Bond",
+      "priority": 49700
+    },
+    {
+      "id": 79,
+      "name": "Bond of Friendship",
+      "priority": 49600
+    },
+    {
+      "id": 29,
+      "name": "Movie Heroes",
+      "priority": 39300
+    },
+    {
+      "id": 89,
+      "name": "Earth-Bred Fighters",
+      "priority": 30000
+    },
+    {
+      "id": 68,
+      "name": "Gifted Warriors",
+      "priority": 29900
+    },
+    {
+      "id": 95,
+      "name": "Earth-Protecting Heroes",
+      "priority": 20100
+    }
+  ]
 }

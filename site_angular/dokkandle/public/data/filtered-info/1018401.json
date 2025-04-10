@@ -10,5 +10,27 @@
   "open_at": "2020-01-17 06:30:00",
   "has_optimal_awakening_growths": true,
   "class": "Extreme",
-  "type": "STR"
+  "type": "STR",
+  "categories": [
+    {
+      "id": 17,
+      "name": "Pure Saiyans",
+      "priority": 80000
+    },
+    {
+      "id": 26,
+      "name": "Time Travelers",
+      "priority": 29500
+    },
+    {
+      "id": 61,
+      "name": "Crossover",
+      "priority": 10000
+    },
+    {
+      "id": 42,
+      "name": "Dragon Ball Heroes",
+      "priority": 9900
+    }
+  ]
 }

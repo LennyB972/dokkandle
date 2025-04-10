@@ -10,5 +10,67 @@
   "open_at": "2021-11-25 08:00:00",
   "has_optimal_awakening_growths": true,
   "class": "Super",
-  "type": "AGL"
+  "type": "AGL",
+  "categories": [
+    {
+      "id": 5,
+      "name": "Hybrid Saiyans",
+      "priority": 79900
+    },
+    {
+      "id": 12,
+      "name": "Super Saiyan 3",
+      "priority": 69800
+    },
+    {
+      "id": 84,
+      "name": "Power Beyond Super Saiyan",
+      "priority": 69750
+    },
+    {
+      "id": 1,
+      "name": "Fusion",
+      "priority": 69700
+    },
+    {
+      "id": 85,
+      "name": "Fused Fighters",
+      "priority": 69550
+    },
+    {
+      "id": 39,
+      "name": "Kamehameha",
+      "priority": 69200
+    },
+    {
+      "id": 75,
+      "name": "Time Limit",
+      "priority": 59100
+    },
+    {
+      "id": 89,
+      "name": "Earth-Bred Fighters",
+      "priority": 30000
+    },
+    {
+      "id": 26,
+      "name": "Time Travelers",
+      "priority": 29500
+    },
+    {
+      "id": 70,
+      "name": "Defenders of Justice",
+      "priority": 29000
+    },
+    {
+      "id": 61,
+      "name": "Crossover",
+      "priority": 10000
+    },
+    {
+      "id": 42,
+      "name": "Dragon Ball Heroes",
+      "priority": 9900
+    }
+  ]
 }

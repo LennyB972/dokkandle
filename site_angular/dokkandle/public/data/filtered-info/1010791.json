@@ -10,5 +10,37 @@
   "open_at": "2017-12-21 00:00:00",
   "has_optimal_awakening_growths": true,
   "class": "Extreme",
-  "type": "INT"
+  "type": "INT",
+  "categories": [
+    {
+      "id": 21,
+      "name": "Androids",
+      "priority": 79600
+    },
+    {
+      "id": 32,
+      "name": "Artificial Life Forms",
+      "priority": 79500
+    },
+    {
+      "id": 85,
+      "name": "Fused Fighters",
+      "priority": 69550
+    },
+    {
+      "id": 59,
+      "name": "Power Absorption",
+      "priority": 69300
+    },
+    {
+      "id": 16,
+      "name": "Movie Bosses",
+      "priority": 39200
+    },
+    {
+      "id": 43,
+      "name": "Target: Goku",
+      "priority": 19900
+    }
+  ]
 }

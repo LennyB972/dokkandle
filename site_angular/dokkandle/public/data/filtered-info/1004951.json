@@ -10,5 +10,47 @@
   "open_at": "2016-07-29 06:30:00",
   "has_optimal_awakening_growths": false,
   "class": "Super",
-  "type": "PHY"
+  "type": "PHY",
+  "categories": [
+    {
+      "id": 34,
+      "name": "DB Saga",
+      "priority": 90000
+    },
+    {
+      "id": 18,
+      "name": "Namekians",
+      "priority": 79700
+    },
+    {
+      "id": 8,
+      "name": "Realm of Gods",
+      "priority": 60000
+    },
+    {
+      "id": 93,
+      "name": "Demonic Power",
+      "priority": 59525
+    },
+    {
+      "id": 89,
+      "name": "Earth-Bred Fighters",
+      "priority": 30000
+    },
+    {
+      "id": 68,
+      "name": "Gifted Warriors",
+      "priority": 29900
+    },
+    {
+      "id": 96,
+      "name": "Successors",
+      "priority": 29350
+    },
+    {
+      "id": 74,
+      "name": "Heavenly Events",
+      "priority": 18900
+    }
+  ]
 }

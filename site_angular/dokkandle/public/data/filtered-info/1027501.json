@@ -10,5 +10,42 @@
   "open_at": "2024-02-01 06:30:00",
   "has_optimal_awakening_growths": false,
   "class": "Super",
-  "type": "STR"
+  "type": "STR",
+  "categories": [
+    {
+      "id": 6,
+      "name": "Universe Survival Saga",
+      "priority": 89500
+    },
+    {
+      "id": 23,
+      "name": "Transformation Boost",
+      "priority": 69400
+    },
+    {
+      "id": 90,
+      "name": "Power of Wishes",
+      "priority": 59550
+    },
+    {
+      "id": 46,
+      "name": "Final Trump Card",
+      "priority": 59000
+    },
+    {
+      "id": 28,
+      "name": "Joined Forces",
+      "priority": 49800
+    },
+    {
+      "id": 91,
+      "name": "Tournament Participants",
+      "priority": 38900
+    },
+    {
+      "id": 52,
+      "name": "Special Pose",
+      "priority": 18800
+    }
+  ]
 }

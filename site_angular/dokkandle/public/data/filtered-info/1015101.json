@@ -10,5 +10,57 @@
   "open_at": "2019-01-16 06:30:00",
   "has_optimal_awakening_growths": true,
   "class": "Super",
-  "type": "INT"
+  "type": "INT",
+  "categories": [
+    {
+      "id": 9,
+      "name": "Majin Buu Saga",
+      "priority": 89700
+    },
+    {
+      "id": 51,
+      "name": "Earthlings",
+      "priority": 79800
+    },
+    {
+      "id": 46,
+      "name": "Final Trump Card",
+      "priority": 59000
+    },
+    {
+      "id": 87,
+      "name": "Bond of Parent and Child",
+      "priority": 49750
+    },
+    {
+      "id": 79,
+      "name": "Bond of Friendship",
+      "priority": 49600
+    },
+    {
+      "id": 3,
+      "name": "World Tournament",
+      "priority": 39000
+    },
+    {
+      "id": 91,
+      "name": "Tournament Participants",
+      "priority": 38900
+    },
+    {
+      "id": 89,
+      "name": "Earth-Bred Fighters",
+      "priority": 30000
+    },
+    {
+      "id": 57,
+      "name": "Saviors",
+      "priority": 29100
+    },
+    {
+      "id": 95,
+      "name": "Earth-Protecting Heroes",
+      "priority": 20100
+    }
+  ]
 }

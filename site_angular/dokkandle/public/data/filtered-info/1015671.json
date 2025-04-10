@@ -10,5 +10,52 @@
   "open_at": "2018-12-24 06:30:00",
   "has_optimal_awakening_growths": true,
   "class": "Extreme",
-  "type": "TEQ"
+  "type": "TEQ",
+  "categories": [
+    {
+      "id": 6,
+      "name": "Universe Survival Saga",
+      "priority": 89500
+    },
+    {
+      "id": 54,
+      "name": "Rapid Growth",
+      "priority": 59300
+    },
+    {
+      "id": 27,
+      "name": "Universe 6",
+      "priority": 39800
+    },
+    {
+      "id": 92,
+      "name": "Super Bosses",
+      "priority": 39330
+    },
+    {
+      "id": 91,
+      "name": "Tournament Participants",
+      "priority": 38900
+    },
+    {
+      "id": 62,
+      "name": "Space-Traveling Warriors",
+      "priority": 29600
+    },
+    {
+      "id": 77,
+      "name": "Legendary Existence",
+      "priority": 29200
+    },
+    {
+      "id": 43,
+      "name": "Target: Goku",
+      "priority": 19900
+    },
+    {
+      "id": 80,
+      "name": "Accelerated Battle",
+      "priority": 19000
+    }
+  ]
 }

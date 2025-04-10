@@ -10,5 +10,42 @@
   "open_at": "2022-01-10 06:30:00",
   "has_optimal_awakening_growths": true,
   "class": "Super",
-  "type": "STR"
+  "type": "STR",
+  "categories": [
+    {
+      "id": 86,
+      "name": "Saiyan Saga",
+      "priority": 89950
+    },
+    {
+      "id": 5,
+      "name": "Hybrid Saiyans",
+      "priority": 79900
+    },
+    {
+      "id": 30,
+      "name": "Goku's Family",
+      "priority": 79400
+    },
+    {
+      "id": 33,
+      "name": "Youth",
+      "priority": 79100
+    },
+    {
+      "id": 87,
+      "name": "Bond of Parent and Child",
+      "priority": 49750
+    },
+    {
+      "id": 89,
+      "name": "Earth-Bred Fighters",
+      "priority": 30000
+    },
+    {
+      "id": 47,
+      "name": "Exploding Rage",
+      "priority": 19500
+    }
+  ]
 }

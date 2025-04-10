@@ -10,5 +10,47 @@
   "open_at": "2018-12-24 06:30:00",
   "has_optimal_awakening_growths": true,
   "class": "Extreme",
-  "type": "PHY"
+  "type": "PHY",
+  "categories": [
+    {
+      "id": 8,
+      "name": "Realm of Gods",
+      "priority": 60000
+    },
+    {
+      "id": 35,
+      "name": "Siblings' Bond",
+      "priority": 49700
+    },
+    {
+      "id": 40,
+      "name": "Bond of Master and Disciple",
+      "priority": 49500
+    },
+    {
+      "id": 27,
+      "name": "Universe 6",
+      "priority": 39800
+    },
+    {
+      "id": 62,
+      "name": "Space-Traveling Warriors",
+      "priority": 29600
+    },
+    {
+      "id": 25,
+      "name": "Dragon Ball Seekers",
+      "priority": 29400
+    },
+    {
+      "id": 96,
+      "name": "Successors",
+      "priority": 29350
+    },
+    {
+      "id": 69,
+      "name": "Planetary Destruction",
+      "priority": 19600
+    }
+  ]
 }

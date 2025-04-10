@@ -10,5 +10,47 @@
   "open_at": "2021-11-25 08:00:00",
   "has_optimal_awakening_growths": true,
   "class": "Super",
-  "type": "STR"
+  "type": "STR",
+  "categories": [
+    {
+      "id": 36,
+      "name": "Super Saiyans",
+      "priority": 70000
+    },
+    {
+      "id": 10,
+      "name": "Potara",
+      "priority": 69600
+    },
+    {
+      "id": 85,
+      "name": "Fused Fighters",
+      "priority": 69550
+    },
+    {
+      "id": 75,
+      "name": "Time Limit",
+      "priority": 59100
+    },
+    {
+      "id": 26,
+      "name": "Time Travelers",
+      "priority": 29500
+    },
+    {
+      "id": 70,
+      "name": "Defenders of Justice",
+      "priority": 29000
+    },
+    {
+      "id": 61,
+      "name": "Crossover",
+      "priority": 10000
+    },
+    {
+      "id": 42,
+      "name": "Dragon Ball Heroes",
+      "priority": 9900
+    }
+  ]
 }

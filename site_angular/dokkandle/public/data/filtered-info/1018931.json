@@ -10,5 +10,27 @@
   "open_at": "2020-07-20 00:00:00",
   "has_optimal_awakening_growths": true,
   "class": "Extreme",
-  "type": "INT"
+  "type": "INT",
+  "categories": [
+    {
+      "id": 17,
+      "name": "Pure Saiyans",
+      "priority": 80000
+    },
+    {
+      "id": 33,
+      "name": "Youth",
+      "priority": 79100
+    },
+    {
+      "id": 79,
+      "name": "Bond of Friendship",
+      "priority": 49600
+    },
+    {
+      "id": 68,
+      "name": "Gifted Warriors",
+      "priority": 29900
+    }
+  ]
 }

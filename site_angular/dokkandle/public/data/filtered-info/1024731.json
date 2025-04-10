@@ -10,5 +10,37 @@
   "open_at": "2022-12-12 06:30:00",
   "has_optimal_awakening_growths": false,
   "class": "Super",
-  "type": "INT"
+  "type": "INT",
+  "categories": [
+    {
+      "id": 86,
+      "name": "Saiyan Saga",
+      "priority": 89950
+    },
+    {
+      "id": 51,
+      "name": "Earthlings",
+      "priority": 79800
+    },
+    {
+      "id": 46,
+      "name": "Final Trump Card",
+      "priority": 59000
+    },
+    {
+      "id": 37,
+      "name": "Worthy Rivals",
+      "priority": 50000
+    },
+    {
+      "id": 79,
+      "name": "Bond of Friendship",
+      "priority": 49600
+    },
+    {
+      "id": 89,
+      "name": "Earth-Bred Fighters",
+      "priority": 30000
+    }
+  ]
 }

@@ -10,5 +10,32 @@
   "open_at": "2024-12-27 02:00:00",
   "has_optimal_awakening_growths": false,
   "class": "Super",
-  "type": "PHY"
+  "type": "PHY",
+  "categories": [
+    {
+      "id": 93,
+      "name": "Demonic Power",
+      "priority": 59525
+    },
+    {
+      "id": 25,
+      "name": "Dragon Ball Seekers",
+      "priority": 29400
+    },
+    {
+      "id": 58,
+      "name": "Battle of Wits",
+      "priority": 19100
+    },
+    {
+      "id": 80,
+      "name": "Accelerated Battle",
+      "priority": 19000
+    },
+    {
+      "id": 74,
+      "name": "Heavenly Events",
+      "priority": 18900
+    }
+  ]
 }

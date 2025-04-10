@@ -10,5 +10,62 @@
   "open_at": "2016-11-03 06:30:00",
   "has_optimal_awakening_growths": false,
   "class": "Super",
-  "type": "STR"
+  "type": "STR",
+  "categories": [
+    {
+      "id": 38,
+      "name": "Androids/Cell Saga",
+      "priority": 89800
+    },
+    {
+      "id": 19,
+      "name": "Future Saga",
+      "priority": 89600
+    },
+    {
+      "id": 5,
+      "name": "Hybrid Saiyans",
+      "priority": 79900
+    },
+    {
+      "id": 31,
+      "name": "Vegeta's Family",
+      "priority": 79300
+    },
+    {
+      "id": 40,
+      "name": "Bond of Master and Disciple",
+      "priority": 49500
+    },
+    {
+      "id": 89,
+      "name": "Earth-Bred Fighters",
+      "priority": 30000
+    },
+    {
+      "id": 26,
+      "name": "Time Travelers",
+      "priority": 29500
+    },
+    {
+      "id": 57,
+      "name": "Saviors",
+      "priority": 29100
+    },
+    {
+      "id": 95,
+      "name": "Earth-Protecting Heroes",
+      "priority": 20100
+    },
+    {
+      "id": 81,
+      "name": "Entrusted Will",
+      "priority": 19300
+    },
+    {
+      "id": 58,
+      "name": "Battle of Wits",
+      "priority": 19100
+    }
+  ]
 }

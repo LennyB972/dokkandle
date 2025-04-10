@@ -10,5 +10,82 @@
   "open_at": "2017-07-07 19:00:00",
   "has_optimal_awakening_growths": false,
   "class": "Super",
-  "type": "STR"
+  "type": "STR",
+  "categories": [
+    {
+      "id": 17,
+      "name": "Pure Saiyans",
+      "priority": 80000
+    },
+    {
+      "id": 30,
+      "name": "Goku's Family",
+      "priority": 79400
+    },
+    {
+      "id": 12,
+      "name": "Super Saiyan 3",
+      "priority": 69800
+    },
+    {
+      "id": 84,
+      "name": "Power Beyond Super Saiyan",
+      "priority": 69750
+    },
+    {
+      "id": 13,
+      "name": "Giant Form",
+      "priority": 69500
+    },
+    {
+      "id": 39,
+      "name": "Kamehameha",
+      "priority": 69200
+    },
+    {
+      "id": 60,
+      "name": "Giant Ape Power",
+      "priority": 59800
+    },
+    {
+      "id": 94,
+      "name": "Uncontrollable Power",
+      "priority": 59650
+    },
+    {
+      "id": 87,
+      "name": "Bond of Parent and Child",
+      "priority": 49750
+    },
+    {
+      "id": 79,
+      "name": "Bond of Friendship",
+      "priority": 49600
+    },
+    {
+      "id": 72,
+      "name": "GT Heroes",
+      "priority": 39500
+    },
+    {
+      "id": 65,
+      "name": "Turtle School",
+      "priority": 39100
+    },
+    {
+      "id": 89,
+      "name": "Earth-Bred Fighters",
+      "priority": 30000
+    },
+    {
+      "id": 48,
+      "name": "Revenge",
+      "priority": 20000
+    },
+    {
+      "id": 80,
+      "name": "Accelerated Battle",
+      "priority": 19000
+    }
+  ]
 }

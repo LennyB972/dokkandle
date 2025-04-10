@@ -10,5 +10,77 @@
   "open_at": "2016-08-22 06:30:00",
   "has_optimal_awakening_growths": true,
   "class": "Extreme",
-  "type": "TEQ"
+  "type": "TEQ",
+  "categories": [
+    {
+      "id": 9,
+      "name": "Majin Buu Saga",
+      "priority": 89700
+    },
+    {
+      "id": 17,
+      "name": "Pure Saiyans",
+      "priority": 80000
+    },
+    {
+      "id": 31,
+      "name": "Vegeta's Family",
+      "priority": 79300
+    },
+    {
+      "id": 45,
+      "name": "Super Saiyan 2",
+      "priority": 69900
+    },
+    {
+      "id": 84,
+      "name": "Power Beyond Super Saiyan",
+      "priority": 69750
+    },
+    {
+      "id": 94,
+      "name": "Uncontrollable Power",
+      "priority": 59650
+    },
+    {
+      "id": 64,
+      "name": "Corroded Body and Mind",
+      "priority": 59400
+    },
+    {
+      "id": 46,
+      "name": "Final Trump Card",
+      "priority": 59000
+    },
+    {
+      "id": 37,
+      "name": "Worthy Rivals",
+      "priority": 50000
+    },
+    {
+      "id": 87,
+      "name": "Bond of Parent and Child",
+      "priority": 49750
+    },
+    {
+      "id": 68,
+      "name": "Gifted Warriors",
+      "priority": 29900
+    },
+    {
+      "id": 7,
+      "name": "Resurrected Warriors",
+      "priority": 29700
+    },
+    {
+      "id": 63,
+      "name": "Connected Hope",
+      "priority": 19400
+    },
+    {
+      "id": 55,
+      "name": "All-Out Struggle",
+      "priority": 19200
+    }
+  ]
 }

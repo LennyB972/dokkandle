@@ -10,5 +10,22 @@
   "open_at": "2019-01-16 06:30:00",
   "has_optimal_awakening_growths": false,
   "class": "Super",
-  "type": "TEQ"
+  "type": "TEQ",
+  "categories": [
+    {
+      "id": 9,
+      "name": "Majin Buu Saga",
+      "priority": 89700
+    },
+    {
+      "id": 10,
+      "name": "Potara",
+      "priority": 69600
+    },
+    {
+      "id": 8,
+      "name": "Realm of Gods",
+      "priority": 60000
+    }
+  ]
 }

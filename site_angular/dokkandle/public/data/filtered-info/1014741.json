@@ -10,5 +10,27 @@
   "open_at": "2018-10-04 06:30:00",
   "has_optimal_awakening_growths": true,
   "class": "Super",
-  "type": "TEQ"
+  "type": "TEQ",
+  "categories": [
+    {
+      "id": 21,
+      "name": "Androids",
+      "priority": 79600
+    },
+    {
+      "id": 32,
+      "name": "Artificial Life Forms",
+      "priority": 79500
+    },
+    {
+      "id": 7,
+      "name": "Resurrected Warriors",
+      "priority": 29700
+    },
+    {
+      "id": 61,
+      "name": "Crossover",
+      "priority": 10000
+    }
+  ]
 }

@@ -10,5 +10,67 @@
   "open_at": "2018-02-17 06:30:00",
   "has_optimal_awakening_growths": false,
   "class": "Super",
-  "type": "AGL"
+  "type": "AGL",
+  "categories": [
+    {
+      "id": 6,
+      "name": "Universe Survival Saga",
+      "priority": 89500
+    },
+    {
+      "id": 32,
+      "name": "Artificial Life Forms",
+      "priority": 79500
+    },
+    {
+      "id": 23,
+      "name": "Transformation Boost",
+      "priority": 69400
+    },
+    {
+      "id": 59,
+      "name": "Power Absorption",
+      "priority": 69300
+    },
+    {
+      "id": 53,
+      "name": "Majin Power",
+      "priority": 59700
+    },
+    {
+      "id": 93,
+      "name": "Demonic Power",
+      "priority": 59525
+    },
+    {
+      "id": 76,
+      "name": "Mastered Evolution",
+      "priority": 59200
+    },
+    {
+      "id": 37,
+      "name": "Worthy Rivals",
+      "priority": 50000
+    },
+    {
+      "id": 79,
+      "name": "Bond of Friendship",
+      "priority": 49600
+    },
+    {
+      "id": 22,
+      "name": "Representatives of Universe 7",
+      "priority": 39700
+    },
+    {
+      "id": 88,
+      "name": "Super Heroes",
+      "priority": 39350
+    },
+    {
+      "id": 7,
+      "name": "Resurrected Warriors",
+      "priority": 29700
+    }
+  ]
 }

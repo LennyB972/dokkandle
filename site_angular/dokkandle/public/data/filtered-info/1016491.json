@@ -10,5 +10,67 @@
   "open_at": "2019-07-09 06:00:00",
   "has_optimal_awakening_growths": true,
   "class": "Extreme",
-  "type": "PHY"
+  "type": "PHY",
+  "categories": [
+    {
+      "id": 86,
+      "name": "Saiyan Saga",
+      "priority": 89950
+    },
+    {
+      "id": 17,
+      "name": "Pure Saiyans",
+      "priority": 80000
+    },
+    {
+      "id": 31,
+      "name": "Vegeta's Family",
+      "priority": 79300
+    },
+    {
+      "id": 68,
+      "name": "Gifted Warriors",
+      "priority": 29900
+    },
+    {
+      "id": 62,
+      "name": "Space-Traveling Warriors",
+      "priority": 29600
+    },
+    {
+      "id": 25,
+      "name": "Dragon Ball Seekers",
+      "priority": 29400
+    },
+    {
+      "id": 96,
+      "name": "Successors",
+      "priority": 29350
+    },
+    {
+      "id": 41,
+      "name": "Terrifying Conquerors",
+      "priority": 19800
+    },
+    {
+      "id": 50,
+      "name": "Inhuman Deeds",
+      "priority": 19700
+    },
+    {
+      "id": 69,
+      "name": "Planetary Destruction",
+      "priority": 19600
+    },
+    {
+      "id": 80,
+      "name": "Accelerated Battle",
+      "priority": 19000
+    },
+    {
+      "id": 83,
+      "name": "Battle of Fate",
+      "priority": 18950
+    }
+  ]
 }

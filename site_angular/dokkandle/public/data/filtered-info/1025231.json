@@ -10,5 +10,32 @@
   "open_at": "2022-10-27 06:00:00",
   "has_optimal_awakening_growths": true,
   "class": "Super",
-  "type": "PHY"
+  "type": "PHY",
+  "categories": [
+    {
+      "id": 9,
+      "name": "Majin Buu Saga",
+      "priority": 89700
+    },
+    {
+      "id": 93,
+      "name": "Demonic Power",
+      "priority": 59525
+    },
+    {
+      "id": 35,
+      "name": "Siblings' Bond",
+      "priority": 49700
+    },
+    {
+      "id": 44,
+      "name": "Otherworld Warriors",
+      "priority": 29800
+    },
+    {
+      "id": 96,
+      "name": "Successors",
+      "priority": 29350
+    }
+  ]
 }

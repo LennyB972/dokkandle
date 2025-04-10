@@ -10,5 +10,22 @@
   "open_at": "2017-09-15 06:30:00",
   "has_optimal_awakening_growths": true,
   "class": "Extreme",
-  "type": "INT"
+  "type": "INT",
+  "categories": [
+    {
+      "id": 21,
+      "name": "Androids",
+      "priority": 79600
+    },
+    {
+      "id": 32,
+      "name": "Artificial Life Forms",
+      "priority": 79500
+    },
+    {
+      "id": 43,
+      "name": "Target: Goku",
+      "priority": 19900
+    }
+  ]
 }

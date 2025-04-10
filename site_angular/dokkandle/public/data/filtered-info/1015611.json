@@ -10,5 +10,37 @@
   "open_at": "2019-02-01 06:30:00",
   "has_optimal_awakening_growths": false,
   "class": "Super",
-  "type": "STR"
+  "type": "STR",
+  "categories": [
+    {
+      "id": 19,
+      "name": "Future Saga",
+      "priority": 89600
+    },
+    {
+      "id": 88,
+      "name": "Super Heroes",
+      "priority": 39350
+    },
+    {
+      "id": 89,
+      "name": "Earth-Bred Fighters",
+      "priority": 30000
+    },
+    {
+      "id": 26,
+      "name": "Time Travelers",
+      "priority": 29500
+    },
+    {
+      "id": 48,
+      "name": "Revenge",
+      "priority": 20000
+    },
+    {
+      "id": 58,
+      "name": "Battle of Wits",
+      "priority": 19100
+    }
+  ]
 }

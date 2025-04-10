@@ -10,5 +10,67 @@
   "open_at": "2023-08-27 06:45:00",
   "has_optimal_awakening_growths": false,
   "class": "Extreme",
-  "type": "TEQ"
+  "type": "TEQ",
+  "categories": [
+    {
+      "id": 19,
+      "name": "Future Saga",
+      "priority": 89600
+    },
+    {
+      "id": 10,
+      "name": "Potara",
+      "priority": 69600
+    },
+    {
+      "id": 85,
+      "name": "Fused Fighters",
+      "priority": 69550
+    },
+    {
+      "id": 8,
+      "name": "Realm of Gods",
+      "priority": 60000
+    },
+    {
+      "id": 90,
+      "name": "Power of Wishes",
+      "priority": 59550
+    },
+    {
+      "id": 46,
+      "name": "Final Trump Card",
+      "priority": 59000
+    },
+    {
+      "id": 92,
+      "name": "Super Bosses",
+      "priority": 39330
+    },
+    {
+      "id": 26,
+      "name": "Time Travelers",
+      "priority": 29500
+    },
+    {
+      "id": 96,
+      "name": "Successors",
+      "priority": 29350
+    },
+    {
+      "id": 47,
+      "name": "Exploding Rage",
+      "priority": 19500
+    },
+    {
+      "id": 83,
+      "name": "Battle of Fate",
+      "priority": 18950
+    },
+    {
+      "id": 82,
+      "name": "Worldwide Chaos",
+      "priority": 18700
+    }
+  ]
 }

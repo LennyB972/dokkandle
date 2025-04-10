@@ -10,5 +10,32 @@
   "open_at": "2019-12-09 06:30:00",
   "has_optimal_awakening_growths": false,
   "class": "Super",
-  "type": "AGL"
+  "type": "AGL",
+  "categories": [
+    {
+      "id": 8,
+      "name": "Realm of Gods",
+      "priority": 60000
+    },
+    {
+      "id": 35,
+      "name": "Siblings' Bond",
+      "priority": 49700
+    },
+    {
+      "id": 40,
+      "name": "Bond of Master and Disciple",
+      "priority": 49500
+    },
+    {
+      "id": 27,
+      "name": "Universe 6",
+      "priority": 39800
+    },
+    {
+      "id": 62,
+      "name": "Space-Traveling Warriors",
+      "priority": 29600
+    }
+  ]
 }

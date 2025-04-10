@@ -10,5 +10,72 @@
   "open_at": "2019-03-15 06:30:00",
   "has_optimal_awakening_growths": true,
   "class": "Super",
-  "type": "TEQ"
+  "type": "TEQ",
+  "categories": [
+    {
+      "id": 9,
+      "name": "Majin Buu Saga",
+      "priority": 89700
+    },
+    {
+      "id": 5,
+      "name": "Hybrid Saiyans",
+      "priority": 79900
+    },
+    {
+      "id": 30,
+      "name": "Goku's Family",
+      "priority": 79400
+    },
+    {
+      "id": 67,
+      "name": "Powerful Comeback",
+      "priority": 59600
+    },
+    {
+      "id": 90,
+      "name": "Power of Wishes",
+      "priority": 59550
+    },
+    {
+      "id": 93,
+      "name": "Demonic Power",
+      "priority": 59525
+    },
+    {
+      "id": 54,
+      "name": "Rapid Growth",
+      "priority": 59300
+    },
+    {
+      "id": 87,
+      "name": "Bond of Parent and Child",
+      "priority": 49750
+    },
+    {
+      "id": 35,
+      "name": "Siblings' Bond",
+      "priority": 49700
+    },
+    {
+      "id": 89,
+      "name": "Earth-Bred Fighters",
+      "priority": 30000
+    },
+    {
+      "id": 57,
+      "name": "Saviors",
+      "priority": 29100
+    },
+    {
+      "id": 48,
+      "name": "Revenge",
+      "priority": 20000
+    },
+    {
+      "id": 81,
+      "name": "Entrusted Will",
+      "priority": 19300
+    }
+  ]
 }

@@ -10,5 +10,32 @@
   "open_at": "2018-12-24 06:30:00",
   "has_optimal_awakening_growths": false,
   "class": "Super",
-  "type": "STR"
+  "type": "STR",
+  "categories": [
+    {
+      "id": 6,
+      "name": "Universe Survival Saga",
+      "priority": 89500
+    },
+    {
+      "id": 28,
+      "name": "Joined Forces",
+      "priority": 49800
+    },
+    {
+      "id": 27,
+      "name": "Universe 6",
+      "priority": 39800
+    },
+    {
+      "id": 91,
+      "name": "Tournament Participants",
+      "priority": 38900
+    },
+    {
+      "id": 48,
+      "name": "Revenge",
+      "priority": 20000
+    }
+  ]
 }

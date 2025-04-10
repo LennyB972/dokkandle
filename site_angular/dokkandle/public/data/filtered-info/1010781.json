@@ -10,5 +10,52 @@
   "open_at": "2017-09-07 06:30:00",
   "has_optimal_awakening_growths": true,
   "class": "Extreme",
-  "type": "STR"
+  "type": "STR",
+  "categories": [
+    {
+      "id": 86,
+      "name": "Saiyan Saga",
+      "priority": 89950
+    },
+    {
+      "id": 17,
+      "name": "Pure Saiyans",
+      "priority": 80000
+    },
+    {
+      "id": 30,
+      "name": "Goku's Family",
+      "priority": 79400
+    },
+    {
+      "id": 13,
+      "name": "Giant Form",
+      "priority": 69500
+    },
+    {
+      "id": 60,
+      "name": "Giant Ape Power",
+      "priority": 59800
+    },
+    {
+      "id": 94,
+      "name": "Uncontrollable Power",
+      "priority": 59650
+    },
+    {
+      "id": 11,
+      "name": "Low-Class Warrior",
+      "priority": 29950
+    },
+    {
+      "id": 62,
+      "name": "Space-Traveling Warriors",
+      "priority": 29600
+    },
+    {
+      "id": 41,
+      "name": "Terrifying Conquerors",
+      "priority": 19800
+    }
+  ]
 }

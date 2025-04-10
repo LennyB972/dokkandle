@@ -10,5 +10,47 @@
   "open_at": "2017-07-14 08:00:00",
   "has_optimal_awakening_growths": false,
   "class": "Extreme",
-  "type": "AGL"
+  "type": "AGL",
+  "categories": [
+    {
+      "id": 21,
+      "name": "Androids",
+      "priority": 79600
+    },
+    {
+      "id": 32,
+      "name": "Artificial Life Forms",
+      "priority": 79500
+    },
+    {
+      "id": 23,
+      "name": "Transformation Boost",
+      "priority": 69400
+    },
+    {
+      "id": 39,
+      "name": "Kamehameha",
+      "priority": 69200
+    },
+    {
+      "id": 66,
+      "name": "Miraculous Awakening",
+      "priority": 59500
+    },
+    {
+      "id": 78,
+      "name": "Sworn Enemies",
+      "priority": 49900
+    },
+    {
+      "id": 44,
+      "name": "Otherworld Warriors",
+      "priority": 29800
+    },
+    {
+      "id": 26,
+      "name": "Time Travelers",
+      "priority": 29500
+    }
+  ]
 }

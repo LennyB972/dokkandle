@@ -10,5 +10,57 @@
   "open_at": "2016-07-08 06:30:00",
   "has_optimal_awakening_growths": true,
   "class": "Super",
-  "type": "STR"
+  "type": "STR",
+  "categories": [
+    {
+      "id": 36,
+      "name": "Super Saiyans",
+      "priority": 70000
+    },
+    {
+      "id": 1,
+      "name": "Fusion",
+      "priority": 69700
+    },
+    {
+      "id": 85,
+      "name": "Fused Fighters",
+      "priority": 69550
+    },
+    {
+      "id": 67,
+      "name": "Powerful Comeback",
+      "priority": 59600
+    },
+    {
+      "id": 75,
+      "name": "Time Limit",
+      "priority": 59100
+    },
+    {
+      "id": 46,
+      "name": "Final Trump Card",
+      "priority": 59000
+    },
+    {
+      "id": 29,
+      "name": "Movie Heroes",
+      "priority": 39300
+    },
+    {
+      "id": 44,
+      "name": "Otherworld Warriors",
+      "priority": 29800
+    },
+    {
+      "id": 95,
+      "name": "Earth-Protecting Heroes",
+      "priority": 20100
+    },
+    {
+      "id": 63,
+      "name": "Connected Hope",
+      "priority": 19400
+    }
+  ]
 }

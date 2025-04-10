@@ -10,5 +10,32 @@
   "open_at": "2018-12-24 06:30:00",
   "has_optimal_awakening_growths": true,
   "class": "Extreme",
-  "type": "STR"
+  "type": "STR",
+  "categories": [
+    {
+      "id": 6,
+      "name": "Universe Survival Saga",
+      "priority": 89500
+    },
+    {
+      "id": 23,
+      "name": "Transformation Boost",
+      "priority": 69400
+    },
+    {
+      "id": 20,
+      "name": "Full Power",
+      "priority": 59900
+    },
+    {
+      "id": 27,
+      "name": "Universe 6",
+      "priority": 39800
+    },
+    {
+      "id": 91,
+      "name": "Tournament Participants",
+      "priority": 38900
+    }
+  ]
 }

@@ -10,5 +10,42 @@
   "open_at": "2022-08-26 06:00:00",
   "has_optimal_awakening_growths": true,
   "class": "Extreme",
-  "type": "TEQ"
+  "type": "TEQ",
+  "categories": [
+    {
+      "id": 24,
+      "name": "Wicked Bloodline",
+      "priority": 79200
+    },
+    {
+      "id": 23,
+      "name": "Transformation Boost",
+      "priority": 69400
+    },
+    {
+      "id": 16,
+      "name": "Movie Bosses",
+      "priority": 39200
+    },
+    {
+      "id": 62,
+      "name": "Space-Traveling Warriors",
+      "priority": 29600
+    },
+    {
+      "id": 43,
+      "name": "Target: Goku",
+      "priority": 19900
+    },
+    {
+      "id": 41,
+      "name": "Terrifying Conquerors",
+      "priority": 19800
+    },
+    {
+      "id": 69,
+      "name": "Planetary Destruction",
+      "priority": 19600
+    }
+  ]
 }

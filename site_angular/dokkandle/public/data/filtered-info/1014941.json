@@ -10,5 +10,47 @@
   "open_at": "2018-10-17 06:30:00",
   "has_optimal_awakening_growths": true,
   "class": "Extreme",
-  "type": "PHY"
+  "type": "PHY",
+  "categories": [
+    {
+      "id": 38,
+      "name": "Androids/Cell Saga",
+      "priority": 89800
+    },
+    {
+      "id": 21,
+      "name": "Androids",
+      "priority": 79600
+    },
+    {
+      "id": 32,
+      "name": "Artificial Life Forms",
+      "priority": 79500
+    },
+    {
+      "id": 23,
+      "name": "Transformation Boost",
+      "priority": 69400
+    },
+    {
+      "id": 28,
+      "name": "Joined Forces",
+      "priority": 49800
+    },
+    {
+      "id": 91,
+      "name": "Tournament Participants",
+      "priority": 38900
+    },
+    {
+      "id": 26,
+      "name": "Time Travelers",
+      "priority": 29500
+    },
+    {
+      "id": 82,
+      "name": "Worldwide Chaos",
+      "priority": 18700
+    }
+  ]
 }

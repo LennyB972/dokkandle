@@ -10,5 +10,67 @@
   "open_at": "2016-04-06 08:10:00",
   "has_optimal_awakening_growths": false,
   "class": "Extreme",
-  "type": "TEQ"
+  "type": "TEQ",
+  "categories": [
+    {
+      "id": 9,
+      "name": "Majin Buu Saga",
+      "priority": 89700
+    },
+    {
+      "id": 32,
+      "name": "Artificial Life Forms",
+      "priority": 79500
+    },
+    {
+      "id": 23,
+      "name": "Transformation Boost",
+      "priority": 69400
+    },
+    {
+      "id": 59,
+      "name": "Power Absorption",
+      "priority": 69300
+    },
+    {
+      "id": 53,
+      "name": "Majin Power",
+      "priority": 59700
+    },
+    {
+      "id": 94,
+      "name": "Uncontrollable Power",
+      "priority": 59650
+    },
+    {
+      "id": 93,
+      "name": "Demonic Power",
+      "priority": 59525
+    },
+    {
+      "id": 78,
+      "name": "Sworn Enemies",
+      "priority": 49900
+    },
+    {
+      "id": 7,
+      "name": "Resurrected Warriors",
+      "priority": 29700
+    },
+    {
+      "id": 26,
+      "name": "Time Travelers",
+      "priority": 29500
+    },
+    {
+      "id": 74,
+      "name": "Heavenly Events",
+      "priority": 18900
+    },
+    {
+      "id": 82,
+      "name": "Worldwide Chaos",
+      "priority": 18700
+    }
+  ]
 }

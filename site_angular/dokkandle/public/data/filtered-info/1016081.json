@@ -10,5 +10,17 @@
   "open_at": "2019-02-13 05:30:00",
   "has_optimal_awakening_growths": true,
   "class": "Extreme",
-  "type": "INT"
+  "type": "INT",
+  "categories": [
+    {
+      "id": 17,
+      "name": "Pure Saiyans",
+      "priority": 80000
+    },
+    {
+      "id": 28,
+      "name": "Joined Forces",
+      "priority": 49800
+    }
+  ]
 }

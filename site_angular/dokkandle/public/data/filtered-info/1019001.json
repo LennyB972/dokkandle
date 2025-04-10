@@ -10,5 +10,32 @@
   "open_at": "2020-07-27 05:00:00",
   "has_optimal_awakening_growths": true,
   "class": "Extreme",
-  "type": "PHY"
+  "type": "PHY",
+  "categories": [
+    {
+      "id": 90,
+      "name": "Power of Wishes",
+      "priority": 59550
+    },
+    {
+      "id": 28,
+      "name": "Joined Forces",
+      "priority": 49800
+    },
+    {
+      "id": 79,
+      "name": "Bond of Friendship",
+      "priority": 49600
+    },
+    {
+      "id": 92,
+      "name": "Super Bosses",
+      "priority": 39330
+    },
+    {
+      "id": 16,
+      "name": "Movie Bosses",
+      "priority": 39200
+    }
+  ]
 }

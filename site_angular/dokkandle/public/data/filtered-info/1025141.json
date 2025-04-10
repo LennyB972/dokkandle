@@ -10,5 +10,22 @@
   "open_at": "2022-10-04 06:30:00",
   "has_optimal_awakening_growths": true,
   "class": "Extreme",
-  "type": "STR"
+  "type": "STR",
+  "categories": [
+    {
+      "id": 32,
+      "name": "Artificial Life Forms",
+      "priority": 79500
+    },
+    {
+      "id": 73,
+      "name": "GT Bosses",
+      "priority": 39400
+    },
+    {
+      "id": 41,
+      "name": "Terrifying Conquerors",
+      "priority": 19800
+    }
+  ]
 }

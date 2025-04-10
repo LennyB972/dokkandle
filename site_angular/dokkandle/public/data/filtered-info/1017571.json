@@ -10,5 +10,27 @@
   "open_at": "2019-08-29 20:35:00",
   "has_optimal_awakening_growths": true,
   "class": "Extreme",
-  "type": "AGL"
+  "type": "AGL",
+  "categories": [
+    {
+      "id": 38,
+      "name": "Androids/Cell Saga",
+      "priority": 89800
+    },
+    {
+      "id": 21,
+      "name": "Androids",
+      "priority": 79600
+    },
+    {
+      "id": 32,
+      "name": "Artificial Life Forms",
+      "priority": 79500
+    },
+    {
+      "id": 91,
+      "name": "Tournament Participants",
+      "priority": 38900
+    }
+  ]
 }

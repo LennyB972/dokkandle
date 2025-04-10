@@ -10,5 +10,27 @@
   "open_at": "2022-07-19 00:00:00",
   "has_optimal_awakening_growths": true,
   "class": "Super",
-  "type": "PHY"
+  "type": "PHY",
+  "categories": [
+    {
+      "id": 31,
+      "name": "Vegeta's Family",
+      "priority": 79300
+    },
+    {
+      "id": 28,
+      "name": "Joined Forces",
+      "priority": 49800
+    },
+    {
+      "id": 87,
+      "name": "Bond of Parent and Child",
+      "priority": 49750
+    },
+    {
+      "id": 88,
+      "name": "Super Heroes",
+      "priority": 39350
+    }
+  ]
 }

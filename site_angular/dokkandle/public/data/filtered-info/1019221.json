@@ -10,5 +10,32 @@
   "open_at": "2020-03-18 00:00:00",
   "has_optimal_awakening_growths": true,
   "class": "Super",
-  "type": "PHY"
+  "type": "PHY",
+  "categories": [
+    {
+      "id": 17,
+      "name": "Pure Saiyans",
+      "priority": 80000
+    },
+    {
+      "id": 49,
+      "name": "Team Bardock",
+      "priority": 39900
+    },
+    {
+      "id": 11,
+      "name": "Low-Class Warrior",
+      "priority": 29950
+    },
+    {
+      "id": 62,
+      "name": "Space-Traveling Warriors",
+      "priority": 29600
+    },
+    {
+      "id": 71,
+      "name": "Storied Figures",
+      "priority": 29300
+    }
+  ]
 }

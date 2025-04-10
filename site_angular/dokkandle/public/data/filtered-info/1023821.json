@@ -10,5 +10,6 @@
   "open_at": "2021-12-27 15:00:00",
   "has_optimal_awakening_growths": false,
   "class": "Super",
-  "type": "AGL"
+  "type": "AGL",
+  "categories": []
 }

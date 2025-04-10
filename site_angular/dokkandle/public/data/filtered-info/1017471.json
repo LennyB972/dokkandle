@@ -10,5 +10,27 @@
   "open_at": "2020-01-06 06:30:00",
   "has_optimal_awakening_growths": true,
   "class": "Super",
-  "type": "AGL"
+  "type": "AGL",
+  "categories": [
+    {
+      "id": 14,
+      "name": "Planet Namek Saga",
+      "priority": 89900
+    },
+    {
+      "id": 18,
+      "name": "Namekians",
+      "priority": 79700
+    },
+    {
+      "id": 93,
+      "name": "Demonic Power",
+      "priority": 59525
+    },
+    {
+      "id": 63,
+      "name": "Connected Hope",
+      "priority": 19400
+    }
+  ]
 }

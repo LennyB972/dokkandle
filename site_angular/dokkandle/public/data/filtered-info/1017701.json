@@ -10,5 +10,22 @@
   "open_at": "2020-10-13 06:30:00",
   "has_optimal_awakening_growths": true,
   "class": "Extreme",
-  "type": "INT"
+  "type": "INT",
+  "categories": [
+    {
+      "id": 2,
+      "name": "Shadow Dragon Saga",
+      "priority": 89400
+    },
+    {
+      "id": 4,
+      "name": "Peppy Gals",
+      "priority": 79000
+    },
+    {
+      "id": 73,
+      "name": "GT Bosses",
+      "priority": 39400
+    }
+  ]
 }
