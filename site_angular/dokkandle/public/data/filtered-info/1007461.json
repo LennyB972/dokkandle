@@ -1,0 +1,66 @@
+{
+  "name": "Legendary Super Saiyan Broly",
+  "id": 1007461,
+  "hp_max": 10350,
+  "atk_max": 9500,
+  "def_max": 3325,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2016-11-02 01:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "PHY",
+  "categories": [
+    {
+      "id": 17,
+      "name": "Pure Saiyans",
+      "priority": 80000
+    },
+    {
+      "id": 84,
+      "name": "Power Beyond Super Saiyan",
+      "priority": 69750
+    },
+    {
+      "id": 20,
+      "name": "Full Power",
+      "priority": 59900
+    },
+    {
+      "id": 94,
+      "name": "Uncontrollable Power",
+      "priority": 59650
+    },
+    {
+      "id": 16,
+      "name": "Movie Bosses",
+      "priority": 39200
+    },
+    {
+      "id": 77,
+      "name": "Legendary Existence",
+      "priority": 29200
+    },
+    {
+      "id": 43,
+      "name": "Target: Goku",
+      "priority": 19900
+    },
+    {
+      "id": 50,
+      "name": "Inhuman Deeds",
+      "priority": 19700
+    },
+    {
+      "id": 69,
+      "name": "Planetary Destruction",
+      "priority": 19600
+    },
+    {
+      "id": 47,
+      "name": "Exploding Rage",
+      "priority": 19500
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "name": "Mecha Frieza",
+  "id": 1024271,
+  "hp_max": 8476,
+  "atk_max": 8362,
+  "def_max": 4818,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2022-10-20 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "PHY",
+  "categories": [
+    {
+      "id": 38,
+      "name": "Androids/Cell Saga",
+      "priority": 89800
+    },
+    {
+      "id": 24,
+      "name": "Wicked Bloodline",
+      "priority": 79200
+    },
+    {
+      "id": 23,
+      "name": "Transformation Boost",
+      "priority": 69400
+    },
+    {
+      "id": 78,
+      "name": "Sworn Enemies",
+      "priority": 49900
+    },
+    {
+      "id": 68,
+      "name": "Gifted Warriors",
+      "priority": 29900
+    },
+    {
+      "id": 7,
+      "name": "Resurrected Warriors",
+      "priority": 29700
+    },
+    {
+      "id": 96,
+      "name": "Successors",
+      "priority": 29350
+    },
+    {
+      "id": 48,
+      "name": "Revenge",
+      "priority": 20000
+    },
+    {
+      "id": 43,
+      "name": "Target: Goku",
+      "priority": 19900
+    },
+    {
+      "id": 41,
+      "name": "Terrifying Conquerors",
+      "priority": 19800
+    },
+    {
+      "id": 50,
+      "name": "Inhuman Deeds",
+      "priority": 19700
+    }
+  ]
+}

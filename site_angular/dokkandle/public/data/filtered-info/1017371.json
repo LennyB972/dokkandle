@@ -1,0 +1,51 @@
+{
+  "name": "Ahms (3rd Form)",
+  "id": 1017371,
+  "hp_max": 7292,
+  "atk_max": 8266,
+  "def_max": 3078,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2019-08-13 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "AGL",
+  "categories": [
+    {
+      "id": 32,
+      "name": "Artificial Life Forms",
+      "priority": 79500
+    },
+    {
+      "id": 23,
+      "name": "Transformation Boost",
+      "priority": 69400
+    },
+    {
+      "id": 59,
+      "name": "Power Absorption",
+      "priority": 69300
+    },
+    {
+      "id": 39,
+      "name": "Kamehameha",
+      "priority": 69200
+    },
+    {
+      "id": 26,
+      "name": "Time Travelers",
+      "priority": 29500
+    },
+    {
+      "id": 61,
+      "name": "Crossover",
+      "priority": 10000
+    },
+    {
+      "id": 42,
+      "name": "Dragon Ball Heroes",
+      "priority": 9900
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "King Cold",
+  "id": 1024041,
+  "hp_max": 11586,
+  "atk_max": 8023,
+  "def_max": 3687,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2022-11-04 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "PHY",
+  "categories": [
+    {
+      "id": 38,
+      "name": "Androids/Cell Saga",
+      "priority": 89800
+    },
+    {
+      "id": 24,
+      "name": "Wicked Bloodline",
+      "priority": 79200
+    },
+    {
+      "id": 96,
+      "name": "Successors",
+      "priority": 29350
+    },
+    {
+      "id": 43,
+      "name": "Target: Goku",
+      "priority": 19900
+    },
+    {
+      "id": 41,
+      "name": "Terrifying Conquerors",
+      "priority": 19800
+    }
+  ]
+}

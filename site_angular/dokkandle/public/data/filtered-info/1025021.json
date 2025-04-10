@@ -1,0 +1,76 @@
+{
+  "name": "Goku",
+  "id": 1025021,
+  "hp_max": 5888,
+  "atk_max": 6888,
+  "def_max": 4888,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2023-07-07 00:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "INT",
+  "categories": [
+    {
+      "id": 9,
+      "name": "Majin Buu Saga",
+      "priority": 89700
+    },
+    {
+      "id": 17,
+      "name": "Pure Saiyans",
+      "priority": 80000
+    },
+    {
+      "id": 30,
+      "name": "Goku's Family",
+      "priority": 79400
+    },
+    {
+      "id": 90,
+      "name": "Power of Wishes",
+      "priority": 59550
+    },
+    {
+      "id": 46,
+      "name": "Final Trump Card",
+      "priority": 59000
+    },
+    {
+      "id": 87,
+      "name": "Bond of Parent and Child",
+      "priority": 49750
+    },
+    {
+      "id": 79,
+      "name": "Bond of Friendship",
+      "priority": 49600
+    },
+    {
+      "id": 65,
+      "name": "Turtle School",
+      "priority": 39100
+    },
+    {
+      "id": 89,
+      "name": "Earth-Bred Fighters",
+      "priority": 30000
+    },
+    {
+      "id": 63,
+      "name": "Connected Hope",
+      "priority": 19400
+    },
+    {
+      "id": 80,
+      "name": "Accelerated Battle",
+      "priority": 19000
+    },
+    {
+      "id": 83,
+      "name": "Battle of Fate",
+      "priority": 18950
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Frieza (Final Form) & Army of the Dead",
+  "id": 1021901,
+  "hp_max": 5069,
+  "atk_max": 9268,
+  "def_max": 4504,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2021-11-04 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Extreme",
+  "type": "STR",
+  "categories": [
+    {
+      "id": 28,
+      "name": "Joined Forces",
+      "priority": 49800
+    },
+    {
+      "id": 44,
+      "name": "Otherworld Warriors",
+      "priority": 29800
+    },
+    {
+      "id": 7,
+      "name": "Resurrected Warriors",
+      "priority": 29700
+    },
+    {
+      "id": 48,
+      "name": "Revenge",
+      "priority": 20000
+    },
+    {
+      "id": 41,
+      "name": "Terrifying Conquerors",
+      "priority": 19800
+    }
+  ]
+}

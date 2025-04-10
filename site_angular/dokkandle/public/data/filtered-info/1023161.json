@@ -1,0 +1,26 @@
+{
+  "name": "Hacchan & Android #17",
+  "id": 1023161,
+  "hp_max": 9701,
+  "atk_max": 7379,
+  "def_max": 3733,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2021-10-26 05:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "PHY",
+  "categories": [
+    {
+      "id": 21,
+      "name": "Androids",
+      "priority": 79600
+    },
+    {
+      "id": 28,
+      "name": "Joined Forces",
+      "priority": 49800
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Androids #14 & #15",
+  "id": 1018521,
+  "hp_max": 7525,
+  "atk_max": 7768,
+  "def_max": 3584,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-04-02 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "PHY",
+  "categories": [
+    {
+      "id": 21,
+      "name": "Androids",
+      "priority": 79600
+    },
+    {
+      "id": 32,
+      "name": "Artificial Life Forms",
+      "priority": 79500
+    },
+    {
+      "id": 28,
+      "name": "Joined Forces",
+      "priority": 49800
+    },
+    {
+      "id": 43,
+      "name": "Target: Goku",
+      "priority": 19900
+    }
+  ]
+}

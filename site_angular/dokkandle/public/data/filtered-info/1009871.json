@@ -1,0 +1,71 @@
+{
+  "name": "Goku (Youth)",
+  "id": 1009871,
+  "hp_max": 6658,
+  "atk_max": 6836,
+  "def_max": 3926,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-07-07 00:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "PHY",
+  "categories": [
+    {
+      "id": 34,
+      "name": "DB Saga",
+      "priority": 90000
+    },
+    {
+      "id": 17,
+      "name": "Pure Saiyans",
+      "priority": 80000
+    },
+    {
+      "id": 30,
+      "name": "Goku's Family",
+      "priority": 79400
+    },
+    {
+      "id": 33,
+      "name": "Youth",
+      "priority": 79100
+    },
+    {
+      "id": 87,
+      "name": "Bond of Parent and Child",
+      "priority": 49750
+    },
+    {
+      "id": 79,
+      "name": "Bond of Friendship",
+      "priority": 49600
+    },
+    {
+      "id": 40,
+      "name": "Bond of Master and Disciple",
+      "priority": 49500
+    },
+    {
+      "id": 65,
+      "name": "Turtle School",
+      "priority": 39100
+    },
+    {
+      "id": 89,
+      "name": "Earth-Bred Fighters",
+      "priority": 30000
+    },
+    {
+      "id": 11,
+      "name": "Low-Class Warrior",
+      "priority": 29950
+    },
+    {
+      "id": 25,
+      "name": "Dragon Ball Seekers",
+      "priority": 29400
+    }
+  ]
+}

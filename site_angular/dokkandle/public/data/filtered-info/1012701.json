@@ -1,0 +1,46 @@
+{
+  "name": "Raditz",
+  "id": 1012701,
+  "hp_max": 5850,
+  "atk_max": 8838,
+  "def_max": 4153,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-04-05 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "INT",
+  "categories": [
+    {
+      "id": 86,
+      "name": "Saiyan Saga",
+      "priority": 89950
+    },
+    {
+      "id": 17,
+      "name": "Pure Saiyans",
+      "priority": 80000
+    },
+    {
+      "id": 30,
+      "name": "Goku's Family",
+      "priority": 79400
+    },
+    {
+      "id": 11,
+      "name": "Low-Class Warrior",
+      "priority": 29950
+    },
+    {
+      "id": 62,
+      "name": "Space-Traveling Warriors",
+      "priority": 29600
+    },
+    {
+      "id": 41,
+      "name": "Terrifying Conquerors",
+      "priority": 19800
+    }
+  ]
+}

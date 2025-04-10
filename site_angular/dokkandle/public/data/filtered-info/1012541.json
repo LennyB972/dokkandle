@@ -1,0 +1,41 @@
+{
+  "name": "Android #18",
+  "id": 1012541,
+  "hp_max": 7395,
+  "atk_max": 5764,
+  "def_max": 3701,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-01-01 05:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "PHY",
+  "categories": [
+    {
+      "id": 21,
+      "name": "Androids",
+      "priority": 79600
+    },
+    {
+      "id": 4,
+      "name": "Peppy Gals",
+      "priority": 79000
+    },
+    {
+      "id": 37,
+      "name": "Worthy Rivals",
+      "priority": 50000
+    },
+    {
+      "id": 35,
+      "name": "Siblings' Bond",
+      "priority": 49700
+    },
+    {
+      "id": 58,
+      "name": "Battle of Wits",
+      "priority": 19100
+    }
+  ]
+}

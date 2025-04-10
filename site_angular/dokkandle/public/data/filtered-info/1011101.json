@@ -1,0 +1,56 @@
+{
+  "name": "Kami",
+  "id": 1011101,
+  "hp_max": 10355,
+  "atk_max": 7546,
+  "def_max": 3515,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-06-22 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "PHY",
+  "categories": [
+    {
+      "id": 34,
+      "name": "DB Saga",
+      "priority": 90000
+    },
+    {
+      "id": 18,
+      "name": "Namekians",
+      "priority": 79700
+    },
+    {
+      "id": 8,
+      "name": "Realm of Gods",
+      "priority": 60000
+    },
+    {
+      "id": 93,
+      "name": "Demonic Power",
+      "priority": 59525
+    },
+    {
+      "id": 89,
+      "name": "Earth-Bred Fighters",
+      "priority": 30000
+    },
+    {
+      "id": 68,
+      "name": "Gifted Warriors",
+      "priority": 29900
+    },
+    {
+      "id": 96,
+      "name": "Successors",
+      "priority": 29350
+    },
+    {
+      "id": 74,
+      "name": "Heavenly Events",
+      "priority": 18900
+    }
+  ]
+}

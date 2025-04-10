@@ -1,0 +1,46 @@
+{
+  "name": "Beerus (Monaka Costume)",
+  "id": 1015411,
+  "hp_max": 6201,
+  "atk_max": 7830,
+  "def_max": 4168,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-11-15 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "PHY",
+  "categories": [
+    {
+      "id": 8,
+      "name": "Realm of Gods",
+      "priority": 60000
+    },
+    {
+      "id": 37,
+      "name": "Worthy Rivals",
+      "priority": 50000
+    },
+    {
+      "id": 22,
+      "name": "Representatives of Universe 7",
+      "priority": 39700
+    },
+    {
+      "id": 92,
+      "name": "Super Bosses",
+      "priority": 39330
+    },
+    {
+      "id": 62,
+      "name": "Space-Traveling Warriors",
+      "priority": 29600
+    },
+    {
+      "id": 96,
+      "name": "Successors",
+      "priority": 29350
+    }
+  ]
+}

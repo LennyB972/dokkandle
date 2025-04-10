@@ -1,0 +1,46 @@
+{
+  "name": "Chilled",
+  "id": 1028771,
+  "hp_max": 8571,
+  "atk_max": 8060,
+  "def_max": 5148,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2024-06-07 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "INT",
+  "categories": [
+    {
+      "id": 24,
+      "name": "Wicked Bloodline",
+      "priority": 79200
+    },
+    {
+      "id": 62,
+      "name": "Space-Traveling Warriors",
+      "priority": 29600
+    },
+    {
+      "id": 71,
+      "name": "Storied Figures",
+      "priority": 29300
+    },
+    {
+      "id": 41,
+      "name": "Terrifying Conquerors",
+      "priority": 19800
+    },
+    {
+      "id": 50,
+      "name": "Inhuman Deeds",
+      "priority": 19700
+    },
+    {
+      "id": 61,
+      "name": "Crossover",
+      "priority": 10000
+    }
+  ]
+}

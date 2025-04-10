@@ -1,0 +1,51 @@
+{
+  "name": "Super Vegito",
+  "id": 1012381,
+  "hp_max": 10760,
+  "atk_max": 10728,
+  "def_max": 6085,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2018-02-12 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "PHY",
+  "categories": [
+    {
+      "id": 9,
+      "name": "Majin Buu Saga",
+      "priority": 89700
+    },
+    {
+      "id": 36,
+      "name": "Super Saiyans",
+      "priority": 70000
+    },
+    {
+      "id": 10,
+      "name": "Potara",
+      "priority": 69600
+    },
+    {
+      "id": 85,
+      "name": "Fused Fighters",
+      "priority": 69550
+    },
+    {
+      "id": 46,
+      "name": "Final Trump Card",
+      "priority": 59000
+    },
+    {
+      "id": 58,
+      "name": "Battle of Wits",
+      "priority": 19100
+    },
+    {
+      "id": 80,
+      "name": "Accelerated Battle",
+      "priority": 19000
+    }
+  ]
+}

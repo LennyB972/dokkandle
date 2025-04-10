@@ -1,0 +1,56 @@
+{
+  "name": "Frieza (1st Form)",
+  "id": 1022981,
+  "hp_max": 6902,
+  "atk_max": 6312,
+  "def_max": 3450,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2021-09-09 06:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Extreme",
+  "type": "INT",
+  "categories": [
+    {
+      "id": 24,
+      "name": "Wicked Bloodline",
+      "priority": 79200
+    },
+    {
+      "id": 23,
+      "name": "Transformation Boost",
+      "priority": 69400
+    },
+    {
+      "id": 68,
+      "name": "Gifted Warriors",
+      "priority": 29900
+    },
+    {
+      "id": 62,
+      "name": "Space-Traveling Warriors",
+      "priority": 29600
+    },
+    {
+      "id": 96,
+      "name": "Successors",
+      "priority": 29350
+    },
+    {
+      "id": 41,
+      "name": "Terrifying Conquerors",
+      "priority": 19800
+    },
+    {
+      "id": 50,
+      "name": "Inhuman Deeds",
+      "priority": 19700
+    },
+    {
+      "id": 69,
+      "name": "Planetary Destruction",
+      "priority": 19600
+    }
+  ]
+}

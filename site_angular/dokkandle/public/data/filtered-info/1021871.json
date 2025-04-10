@@ -1,0 +1,66 @@
+{
+  "name": "Krillin",
+  "id": 1021871,
+  "hp_max": 8658,
+  "atk_max": 9374,
+  "def_max": 4733,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2021-06-01 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "TEQ",
+  "categories": [
+    {
+      "id": 9,
+      "name": "Majin Buu Saga",
+      "priority": 89700
+    },
+    {
+      "id": 51,
+      "name": "Earthlings",
+      "priority": 79800
+    },
+    {
+      "id": 39,
+      "name": "Kamehameha",
+      "priority": 69200
+    },
+    {
+      "id": 79,
+      "name": "Bond of Friendship",
+      "priority": 49600
+    },
+    {
+      "id": 29,
+      "name": "Movie Heroes",
+      "priority": 39300
+    },
+    {
+      "id": 65,
+      "name": "Turtle School",
+      "priority": 39100
+    },
+    {
+      "id": 89,
+      "name": "Earth-Bred Fighters",
+      "priority": 30000
+    },
+    {
+      "id": 57,
+      "name": "Saviors",
+      "priority": 29100
+    },
+    {
+      "id": 95,
+      "name": "Earth-Protecting Heroes",
+      "priority": 20100
+    },
+    {
+      "id": 58,
+      "name": "Battle of Wits",
+      "priority": 19100
+    }
+  ]
+}

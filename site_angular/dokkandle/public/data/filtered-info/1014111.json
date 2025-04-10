@@ -1,0 +1,56 @@
+{
+  "name": "Trunks (Kid) & Goten (Kid) & Marron",
+  "id": 1014111,
+  "hp_max": 5455,
+  "atk_max": 6926,
+  "def_max": 3038,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-09-13 05:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "PHY",
+  "categories": [
+    {
+      "id": 6,
+      "name": "Universe Survival Saga",
+      "priority": 89500
+    },
+    {
+      "id": 33,
+      "name": "Youth",
+      "priority": 79100
+    },
+    {
+      "id": 28,
+      "name": "Joined Forces",
+      "priority": 49800
+    },
+    {
+      "id": 87,
+      "name": "Bond of Parent and Child",
+      "priority": 49750
+    },
+    {
+      "id": 79,
+      "name": "Bond of Friendship",
+      "priority": 49600
+    },
+    {
+      "id": 88,
+      "name": "Super Heroes",
+      "priority": 39350
+    },
+    {
+      "id": 89,
+      "name": "Earth-Bred Fighters",
+      "priority": 30000
+    },
+    {
+      "id": 70,
+      "name": "Defenders of Justice",
+      "priority": 29000
+    }
+  ]
+}

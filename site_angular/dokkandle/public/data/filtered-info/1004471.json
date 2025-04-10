@@ -1,0 +1,36 @@
+{
+  "name": "Grand Supreme Kai",
+  "id": 1004471,
+  "hp_max": 9182,
+  "atk_max": 6228,
+  "def_max": 3998,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2016-12-01 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "INT",
+  "categories": [
+    {
+      "id": 9,
+      "name": "Majin Buu Saga",
+      "priority": 89700
+    },
+    {
+      "id": 10,
+      "name": "Potara",
+      "priority": 69600
+    },
+    {
+      "id": 8,
+      "name": "Realm of Gods",
+      "priority": 60000
+    },
+    {
+      "id": 71,
+      "name": "Storied Figures",
+      "priority": 29300
+    }
+  ]
+}

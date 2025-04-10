@@ -1,0 +1,46 @@
+{
+  "name": "Yamhan",
+  "id": 1023641,
+  "hp_max": 8484,
+  "atk_max": 7018,
+  "def_max": 3734,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2022-02-08 00:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "PHY",
+  "categories": [
+    {
+      "id": 51,
+      "name": "Earthlings",
+      "priority": 79800
+    },
+    {
+      "id": 1,
+      "name": "Fusion",
+      "priority": 69700
+    },
+    {
+      "id": 85,
+      "name": "Fused Fighters",
+      "priority": 69550
+    },
+    {
+      "id": 75,
+      "name": "Time Limit",
+      "priority": 59100
+    },
+    {
+      "id": 89,
+      "name": "Earth-Bred Fighters",
+      "priority": 30000
+    },
+    {
+      "id": 61,
+      "name": "Crossover",
+      "priority": 10000
+    }
+  ]
+}

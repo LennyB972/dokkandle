@@ -1,0 +1,31 @@
+{
+  "name": "Mamba",
+  "id": 1027181,
+  "hp_max": 10810,
+  "atk_max": 6667,
+  "def_max": 5609,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2023-10-23 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Extreme",
+  "type": "AGL",
+  "categories": [
+    {
+      "id": 51,
+      "name": "Earthlings",
+      "priority": 79800
+    },
+    {
+      "id": 4,
+      "name": "Peppy Gals",
+      "priority": 79000
+    },
+    {
+      "id": 58,
+      "name": "Battle of Wits",
+      "priority": 19100
+    }
+  ]
+}

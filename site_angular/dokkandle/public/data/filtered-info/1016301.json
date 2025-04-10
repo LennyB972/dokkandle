@@ -1,0 +1,41 @@
+{
+  "name": "Giru",
+  "id": 1016301,
+  "hp_max": 5636,
+  "atk_max": 6637,
+  "def_max": 3309,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2019-07-07 00:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "INT",
+  "categories": [
+    {
+      "id": 32,
+      "name": "Artificial Life Forms",
+      "priority": 79500
+    },
+    {
+      "id": 79,
+      "name": "Bond of Friendship",
+      "priority": 49600
+    },
+    {
+      "id": 72,
+      "name": "GT Heroes",
+      "priority": 39500
+    },
+    {
+      "id": 62,
+      "name": "Space-Traveling Warriors",
+      "priority": 29600
+    },
+    {
+      "id": 25,
+      "name": "Dragon Ball Seekers",
+      "priority": 29400
+    }
+  ]
+}

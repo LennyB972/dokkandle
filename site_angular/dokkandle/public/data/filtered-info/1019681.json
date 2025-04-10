@@ -1,0 +1,36 @@
+{
+  "name": "Hacchan",
+  "id": 1019681,
+  "hp_max": 7635,
+  "atk_max": 8294,
+  "def_max": 3940,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2021-01-01 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "STR",
+  "categories": [
+    {
+      "id": 34,
+      "name": "DB Saga",
+      "priority": 90000
+    },
+    {
+      "id": 21,
+      "name": "Androids",
+      "priority": 79600
+    },
+    {
+      "id": 79,
+      "name": "Bond of Friendship",
+      "priority": 49600
+    },
+    {
+      "id": 47,
+      "name": "Exploding Rage",
+      "priority": 19500
+    }
+  ]
+}

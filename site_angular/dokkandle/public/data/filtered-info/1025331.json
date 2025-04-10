@@ -1,0 +1,86 @@
+{
+  "name": "Super Full Power Saiyan 4 Limit Breaker Vegeta (Xeno)",
+  "id": 1025331,
+  "hp_max": 10810,
+  "atk_max": 8509,
+  "def_max": 4731,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2022-11-22 06:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "PHY",
+  "categories": [
+    {
+      "id": 17,
+      "name": "Pure Saiyans",
+      "priority": 80000
+    },
+    {
+      "id": 31,
+      "name": "Vegeta's Family",
+      "priority": 79300
+    },
+    {
+      "id": 84,
+      "name": "Power Beyond Super Saiyan",
+      "priority": 69750
+    },
+    {
+      "id": 20,
+      "name": "Full Power",
+      "priority": 59900
+    },
+    {
+      "id": 60,
+      "name": "Giant Ape Power",
+      "priority": 59800
+    },
+    {
+      "id": 90,
+      "name": "Power of Wishes",
+      "priority": 59550
+    },
+    {
+      "id": 37,
+      "name": "Worthy Rivals",
+      "priority": 50000
+    },
+    {
+      "id": 87,
+      "name": "Bond of Parent and Child",
+      "priority": 49750
+    },
+    {
+      "id": 68,
+      "name": "Gifted Warriors",
+      "priority": 29900
+    },
+    {
+      "id": 26,
+      "name": "Time Travelers",
+      "priority": 29500
+    },
+    {
+      "id": 96,
+      "name": "Successors",
+      "priority": 29350
+    },
+    {
+      "id": 70,
+      "name": "Defenders of Justice",
+      "priority": 29000
+    },
+    {
+      "id": 61,
+      "name": "Crossover",
+      "priority": 10000
+    },
+    {
+      "id": 42,
+      "name": "Dragon Ball Heroes",
+      "priority": 9900
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Vegito",
+  "id": 1019691,
+  "hp_max": 8222,
+  "atk_max": 7834,
+  "def_max": 5435,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2021-01-01 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "AGL",
+  "categories": [
+    {
+      "id": 9,
+      "name": "Majin Buu Saga",
+      "priority": 89700
+    },
+    {
+      "id": 10,
+      "name": "Potara",
+      "priority": 69600
+    },
+    {
+      "id": 85,
+      "name": "Fused Fighters",
+      "priority": 69550
+    },
+    {
+      "id": 46,
+      "name": "Final Trump Card",
+      "priority": 59000
+    },
+    {
+      "id": 58,
+      "name": "Battle of Wits",
+      "priority": 19100
+    }
+  ]
+}

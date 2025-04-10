@@ -1,0 +1,51 @@
+{
+  "name": "Black Masked Saiyan",
+  "id": 1015551,
+  "hp_max": 7379,
+  "atk_max": 8660,
+  "def_max": 4298,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2019-08-13 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Extreme",
+  "type": "AGL",
+  "categories": [
+    {
+      "id": 17,
+      "name": "Pure Saiyans",
+      "priority": 80000
+    },
+    {
+      "id": 31,
+      "name": "Vegeta's Family",
+      "priority": 79300
+    },
+    {
+      "id": 64,
+      "name": "Corroded Body and Mind",
+      "priority": 59400
+    },
+    {
+      "id": 68,
+      "name": "Gifted Warriors",
+      "priority": 29900
+    },
+    {
+      "id": 26,
+      "name": "Time Travelers",
+      "priority": 29500
+    },
+    {
+      "id": 61,
+      "name": "Crossover",
+      "priority": 10000
+    },
+    {
+      "id": 42,
+      "name": "Dragon Ball Heroes",
+      "priority": 9900
+    }
+  ]
+}

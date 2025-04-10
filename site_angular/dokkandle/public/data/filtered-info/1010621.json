@@ -1,0 +1,31 @@
+{
+  "name": "則巻アラレ",
+  "id": 1010621,
+  "hp_max": 7281,
+  "atk_max": 6525,
+  "def_max": 3891,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2038-01-01 00:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "TEQ",
+  "categories": [
+    {
+      "id": 32,
+      "name": "Artificial Life Forms",
+      "priority": 79500
+    },
+    {
+      "id": 33,
+      "name": "Youth",
+      "priority": 79100
+    },
+    {
+      "id": 61,
+      "name": "Crossover",
+      "priority": 10000
+    }
+  ]
+}

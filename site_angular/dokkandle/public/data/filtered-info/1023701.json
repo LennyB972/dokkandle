@@ -1,0 +1,36 @@
+{
+  "name": "Pinich",
+  "id": 1023701,
+  "hp_max": 7860,
+  "atk_max": 7165,
+  "def_max": 3484,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2022-02-08 00:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "AGL",
+  "categories": [
+    {
+      "id": 33,
+      "name": "Youth",
+      "priority": 79100
+    },
+    {
+      "id": 91,
+      "name": "Tournament Participants",
+      "priority": 38900
+    },
+    {
+      "id": 25,
+      "name": "Dragon Ball Seekers",
+      "priority": 29400
+    },
+    {
+      "id": 61,
+      "name": "Crossover",
+      "priority": 10000
+    }
+  ]
+}

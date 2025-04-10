@@ -1,0 +1,51 @@
+{
+  "name": "Dark King Fu",
+  "id": 1027901,
+  "hp_max": 11015,
+  "atk_max": 7729,
+  "def_max": 5604,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2023-11-22 06:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Extreme",
+  "type": "STR",
+  "categories": [
+    {
+      "id": 8,
+      "name": "Realm of Gods",
+      "priority": 60000
+    },
+    {
+      "id": 93,
+      "name": "Demonic Power",
+      "priority": 59525
+    },
+    {
+      "id": 26,
+      "name": "Time Travelers",
+      "priority": 29500
+    },
+    {
+      "id": 58,
+      "name": "Battle of Wits",
+      "priority": 19100
+    },
+    {
+      "id": 80,
+      "name": "Accelerated Battle",
+      "priority": 19000
+    },
+    {
+      "id": 61,
+      "name": "Crossover",
+      "priority": 10000
+    },
+    {
+      "id": 42,
+      "name": "Dragon Ball Heroes",
+      "priority": 9900
+    }
+  ]
+}

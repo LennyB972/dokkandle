@@ -1,0 +1,46 @@
+{
+  "name": "Rozie",
+  "id": 1020191,
+  "hp_max": 6386,
+  "atk_max": 8108,
+  "def_max": 4313,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-12-04 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "INT",
+  "categories": [
+    {
+      "id": 6,
+      "name": "Universe Survival Saga",
+      "priority": 89500
+    },
+    {
+      "id": 4,
+      "name": "Peppy Gals",
+      "priority": 79000
+    },
+    {
+      "id": 23,
+      "name": "Transformation Boost",
+      "priority": 69400
+    },
+    {
+      "id": 91,
+      "name": "Tournament Participants",
+      "priority": 38900
+    },
+    {
+      "id": 62,
+      "name": "Space-Traveling Warriors",
+      "priority": 29600
+    },
+    {
+      "id": 52,
+      "name": "Special Pose",
+      "priority": 18800
+    }
+  ]
+}

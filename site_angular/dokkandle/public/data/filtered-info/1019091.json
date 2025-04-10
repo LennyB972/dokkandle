@@ -1,0 +1,46 @@
+{
+  "name": "Fasha",
+  "id": 1019091,
+  "hp_max": 4973,
+  "atk_max": 6709,
+  "def_max": 3551,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-03-18 00:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "INT",
+  "categories": [
+    {
+      "id": 17,
+      "name": "Pure Saiyans",
+      "priority": 80000
+    },
+    {
+      "id": 4,
+      "name": "Peppy Gals",
+      "priority": 79000
+    },
+    {
+      "id": 49,
+      "name": "Team Bardock",
+      "priority": 39900
+    },
+    {
+      "id": 11,
+      "name": "Low-Class Warrior",
+      "priority": 29950
+    },
+    {
+      "id": 62,
+      "name": "Space-Traveling Warriors",
+      "priority": 29600
+    },
+    {
+      "id": 71,
+      "name": "Storied Figures",
+      "priority": 29300
+    }
+  ]
+}

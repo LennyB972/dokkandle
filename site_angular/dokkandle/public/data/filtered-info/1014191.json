@@ -1,0 +1,41 @@
+{
+  "name": "Chi-Chi (Youth)",
+  "id": 1014191,
+  "hp_max": 7220,
+  "atk_max": 8752,
+  "def_max": 5097,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-01-24 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "PHY",
+  "categories": [
+    {
+      "id": 34,
+      "name": "DB Saga",
+      "priority": 90000
+    },
+    {
+      "id": 51,
+      "name": "Earthlings",
+      "priority": 79800
+    },
+    {
+      "id": 33,
+      "name": "Youth",
+      "priority": 79100
+    },
+    {
+      "id": 87,
+      "name": "Bond of Parent and Child",
+      "priority": 49750
+    },
+    {
+      "id": 89,
+      "name": "Earth-Bred Fighters",
+      "priority": 30000
+    }
+  ]
+}

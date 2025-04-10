@@ -1,0 +1,46 @@
+{
+  "name": "Captain Ginyu",
+  "id": 1013091,
+  "hp_max": 7203,
+  "atk_max": 7137,
+  "def_max": 3851,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-07-30 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "INT",
+  "categories": [
+    {
+      "id": 14,
+      "name": "Planet Namek Saga",
+      "priority": 89900
+    },
+    {
+      "id": 15,
+      "name": "Ginyu Force",
+      "priority": 40000
+    },
+    {
+      "id": 62,
+      "name": "Space-Traveling Warriors",
+      "priority": 29600
+    },
+    {
+      "id": 25,
+      "name": "Dragon Ball Seekers",
+      "priority": 29400
+    },
+    {
+      "id": 41,
+      "name": "Terrifying Conquerors",
+      "priority": 19800
+    },
+    {
+      "id": 52,
+      "name": "Special Pose",
+      "priority": 18800
+    }
+  ]
+}

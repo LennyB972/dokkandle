@@ -1,0 +1,36 @@
+{
+  "name": "Thouser",
+  "id": 1010191,
+  "hp_max": 7875,
+  "atk_max": 7108,
+  "def_max": 3922,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-08-29 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Extreme",
+  "type": "AGL",
+  "categories": [
+    {
+      "id": 62,
+      "name": "Space-Traveling Warriors",
+      "priority": 29600
+    },
+    {
+      "id": 43,
+      "name": "Target: Goku",
+      "priority": 19900
+    },
+    {
+      "id": 41,
+      "name": "Terrifying Conquerors",
+      "priority": 19800
+    },
+    {
+      "id": 52,
+      "name": "Special Pose",
+      "priority": 18800
+    }
+  ]
+}

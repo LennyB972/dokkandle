@@ -1,0 +1,56 @@
+{
+  "name": "Super Saiyan Vegeta Jr.",
+  "id": 1011341,
+  "hp_max": 6699,
+  "atk_max": 6517,
+  "def_max": 3078,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2019-07-23 00:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "PHY",
+  "categories": [
+    {
+      "id": 5,
+      "name": "Hybrid Saiyans",
+      "priority": 79900
+    },
+    {
+      "id": 31,
+      "name": "Vegeta's Family",
+      "priority": 79300
+    },
+    {
+      "id": 33,
+      "name": "Youth",
+      "priority": 79100
+    },
+    {
+      "id": 36,
+      "name": "Super Saiyans",
+      "priority": 70000
+    },
+    {
+      "id": 72,
+      "name": "GT Heroes",
+      "priority": 39500
+    },
+    {
+      "id": 3,
+      "name": "World Tournament",
+      "priority": 39000
+    },
+    {
+      "id": 91,
+      "name": "Tournament Participants",
+      "priority": 38900
+    },
+    {
+      "id": 89,
+      "name": "Earth-Bred Fighters",
+      "priority": 30000
+    }
+  ]
+}

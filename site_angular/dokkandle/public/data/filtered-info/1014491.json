@@ -1,0 +1,81 @@
+{
+  "name": "Goku (GT)",
+  "id": 1014491,
+  "hp_max": 8811,
+  "atk_max": 8281,
+  "def_max": 4516,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-11-21 05:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "STR",
+  "categories": [
+    {
+      "id": 17,
+      "name": "Pure Saiyans",
+      "priority": 80000
+    },
+    {
+      "id": 30,
+      "name": "Goku's Family",
+      "priority": 79400
+    },
+    {
+      "id": 20,
+      "name": "Full Power",
+      "priority": 59900
+    },
+    {
+      "id": 46,
+      "name": "Final Trump Card",
+      "priority": 59000
+    },
+    {
+      "id": 87,
+      "name": "Bond of Parent and Child",
+      "priority": 49750
+    },
+    {
+      "id": 79,
+      "name": "Bond of Friendship",
+      "priority": 49600
+    },
+    {
+      "id": 72,
+      "name": "GT Heroes",
+      "priority": 39500
+    },
+    {
+      "id": 65,
+      "name": "Turtle School",
+      "priority": 39100
+    },
+    {
+      "id": 89,
+      "name": "Earth-Bred Fighters",
+      "priority": 30000
+    },
+    {
+      "id": 95,
+      "name": "Earth-Protecting Heroes",
+      "priority": 20100
+    },
+    {
+      "id": 58,
+      "name": "Battle of Wits",
+      "priority": 19100
+    },
+    {
+      "id": 80,
+      "name": "Accelerated Battle",
+      "priority": 19000
+    },
+    {
+      "id": 83,
+      "name": "Battle of Fate",
+      "priority": 18950
+    }
+  ]
+}

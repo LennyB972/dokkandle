@@ -1,0 +1,71 @@
+{
+  "name": "Super Saiyan Goku (Angel)",
+  "id": 1010651,
+  "hp_max": 7640,
+  "atk_max": 6415,
+  "def_max": 3474,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-07-14 08:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "INT",
+  "categories": [
+    {
+      "id": 17,
+      "name": "Pure Saiyans",
+      "priority": 80000
+    },
+    {
+      "id": 30,
+      "name": "Goku's Family",
+      "priority": 79400
+    },
+    {
+      "id": 36,
+      "name": "Super Saiyans",
+      "priority": 70000
+    },
+    {
+      "id": 39,
+      "name": "Kamehameha",
+      "priority": 69200
+    },
+    {
+      "id": 87,
+      "name": "Bond of Parent and Child",
+      "priority": 49750
+    },
+    {
+      "id": 79,
+      "name": "Bond of Friendship",
+      "priority": 49600
+    },
+    {
+      "id": 65,
+      "name": "Turtle School",
+      "priority": 39100
+    },
+    {
+      "id": 91,
+      "name": "Tournament Participants",
+      "priority": 38900
+    },
+    {
+      "id": 89,
+      "name": "Earth-Bred Fighters",
+      "priority": 30000
+    },
+    {
+      "id": 44,
+      "name": "Otherworld Warriors",
+      "priority": 29800
+    },
+    {
+      "id": 80,
+      "name": "Accelerated Battle",
+      "priority": 19000
+    }
+  ]
+}

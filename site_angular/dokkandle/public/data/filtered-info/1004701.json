@@ -1,0 +1,56 @@
+{
+  "name": "Piccolo",
+  "id": 1004701,
+  "hp_max": 7530,
+  "atk_max": 5581,
+  "def_max": 3764,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2016-05-05 07:10:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "TEQ",
+  "categories": [
+    {
+      "id": 18,
+      "name": "Namekians",
+      "priority": 79700
+    },
+    {
+      "id": 93,
+      "name": "Demonic Power",
+      "priority": 59525
+    },
+    {
+      "id": 37,
+      "name": "Worthy Rivals",
+      "priority": 50000
+    },
+    {
+      "id": 40,
+      "name": "Bond of Master and Disciple",
+      "priority": 49500
+    },
+    {
+      "id": 89,
+      "name": "Earth-Bred Fighters",
+      "priority": 30000
+    },
+    {
+      "id": 68,
+      "name": "Gifted Warriors",
+      "priority": 29900
+    },
+    {
+      "id": 96,
+      "name": "Successors",
+      "priority": 29350
+    },
+    {
+      "id": 58,
+      "name": "Battle of Wits",
+      "priority": 19100
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Gotenks",
+  "id": 1019901,
+  "hp_max": 8135,
+  "atk_max": 7862,
+  "def_max": 4361,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-10-05 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "INT",
+  "categories": [
+    {
+      "id": 5,
+      "name": "Hybrid Saiyans",
+      "priority": 79900
+    },
+    {
+      "id": 33,
+      "name": "Youth",
+      "priority": 79100
+    },
+    {
+      "id": 1,
+      "name": "Fusion",
+      "priority": 69700
+    },
+    {
+      "id": 85,
+      "name": "Fused Fighters",
+      "priority": 69550
+    },
+    {
+      "id": 75,
+      "name": "Time Limit",
+      "priority": 59100
+    },
+    {
+      "id": 89,
+      "name": "Earth-Bred Fighters",
+      "priority": 30000
+    },
+    {
+      "id": 68,
+      "name": "Gifted Warriors",
+      "priority": 29900
+    },
+    {
+      "id": 52,
+      "name": "Special Pose",
+      "priority": 18800
+    }
+  ]
+}

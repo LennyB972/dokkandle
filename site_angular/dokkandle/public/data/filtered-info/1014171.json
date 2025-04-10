@@ -1,0 +1,51 @@
+{
+  "name": "Android #18",
+  "id": 1014171,
+  "hp_max": 7058,
+  "atk_max": 7299,
+  "def_max": 3598,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2019-03-05 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "TEQ",
+  "categories": [
+    {
+      "id": 38,
+      "name": "Androids/Cell Saga",
+      "priority": 89800
+    },
+    {
+      "id": 21,
+      "name": "Androids",
+      "priority": 79600
+    },
+    {
+      "id": 4,
+      "name": "Peppy Gals",
+      "priority": 79000
+    },
+    {
+      "id": 94,
+      "name": "Uncontrollable Power",
+      "priority": 59650
+    },
+    {
+      "id": 35,
+      "name": "Siblings' Bond",
+      "priority": 49700
+    },
+    {
+      "id": 43,
+      "name": "Target: Goku",
+      "priority": 19900
+    },
+    {
+      "id": 58,
+      "name": "Battle of Wits",
+      "priority": 19100
+    }
+  ]
+}

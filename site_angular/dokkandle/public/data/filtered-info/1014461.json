@@ -1,0 +1,56 @@
+{
+  "name": "Bulla",
+  "id": 1014461,
+  "hp_max": 6869,
+  "atk_max": 7651,
+  "def_max": 3994,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2019-04-17 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "TEQ",
+  "categories": [
+    {
+      "id": 5,
+      "name": "Hybrid Saiyans",
+      "priority": 79900
+    },
+    {
+      "id": 31,
+      "name": "Vegeta's Family",
+      "priority": 79300
+    },
+    {
+      "id": 33,
+      "name": "Youth",
+      "priority": 79100
+    },
+    {
+      "id": 4,
+      "name": "Peppy Gals",
+      "priority": 79000
+    },
+    {
+      "id": 87,
+      "name": "Bond of Parent and Child",
+      "priority": 49750
+    },
+    {
+      "id": 35,
+      "name": "Siblings' Bond",
+      "priority": 49700
+    },
+    {
+      "id": 72,
+      "name": "GT Heroes",
+      "priority": 39500
+    },
+    {
+      "id": 89,
+      "name": "Earth-Bred Fighters",
+      "priority": 30000
+    }
+  ]
+}

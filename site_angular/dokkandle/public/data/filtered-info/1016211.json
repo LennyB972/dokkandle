@@ -1,0 +1,81 @@
+{
+  "name": "Super Saiyan 3 Gotenks",
+  "id": 1016211,
+  "hp_max": 6169,
+  "atk_max": 7328,
+  "def_max": 3686,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2019-11-12 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "STR",
+  "categories": [
+    {
+      "id": 5,
+      "name": "Hybrid Saiyans",
+      "priority": 79900
+    },
+    {
+      "id": 33,
+      "name": "Youth",
+      "priority": 79100
+    },
+    {
+      "id": 12,
+      "name": "Super Saiyan 3",
+      "priority": 69800
+    },
+    {
+      "id": 84,
+      "name": "Power Beyond Super Saiyan",
+      "priority": 69750
+    },
+    {
+      "id": 1,
+      "name": "Fusion",
+      "priority": 69700
+    },
+    {
+      "id": 85,
+      "name": "Fused Fighters",
+      "priority": 69550
+    },
+    {
+      "id": 76,
+      "name": "Mastered Evolution",
+      "priority": 59200
+    },
+    {
+      "id": 75,
+      "name": "Time Limit",
+      "priority": 59100
+    },
+    {
+      "id": 46,
+      "name": "Final Trump Card",
+      "priority": 59000
+    },
+    {
+      "id": 88,
+      "name": "Super Heroes",
+      "priority": 39350
+    },
+    {
+      "id": 89,
+      "name": "Earth-Bred Fighters",
+      "priority": 30000
+    },
+    {
+      "id": 68,
+      "name": "Gifted Warriors",
+      "priority": 29900
+    },
+    {
+      "id": 52,
+      "name": "Special Pose",
+      "priority": 18800
+    }
+  ]
+}

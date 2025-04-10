@@ -1,0 +1,46 @@
+{
+  "name": "SS Goten Possessed (GT)",
+  "id": 1006311,
+  "hp_max": 8560,
+  "atk_max": 6867,
+  "def_max": 4416,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2016-10-11 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Extreme",
+  "type": "PHY",
+  "categories": [
+    {
+      "id": 5,
+      "name": "Hybrid Saiyans",
+      "priority": 79900
+    },
+    {
+      "id": 36,
+      "name": "Super Saiyans",
+      "priority": 70000
+    },
+    {
+      "id": 39,
+      "name": "Kamehameha",
+      "priority": 69200
+    },
+    {
+      "id": 64,
+      "name": "Corroded Body and Mind",
+      "priority": 59400
+    },
+    {
+      "id": 89,
+      "name": "Earth-Bred Fighters",
+      "priority": 30000
+    },
+    {
+      "id": 41,
+      "name": "Terrifying Conquerors",
+      "priority": 19800
+    }
+  ]
+}
