@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>DokkanDLE</title>
+  <script>
+    // Cette redirection est nécessaire pour les applications SPA sur GitHub Pages
+    // Elle redirige toutes les URL vers index.html pour que l'application Angular puisse gérer le routage
+    
+    // Store the segment after the GitHub Pages domain/username
+    var segmentCount = 1;
+    
+    // Get the repository name from the URL
+    var repo = window.location.pathname.split('/')[1];
+    
+    var l = window.location;
+    l.replace(
+      l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+      '/' + repo + '/' +
+      l.pathname.slice(1).split('/').slice(segmentCount).join('/').replace(/&/g, '~and~') +
+      (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+      l.hash
+    );
+  </script>
+</head>
+<body>
+  <p>Redirection vers DokkanDLE...</p>
+</body>
+</html>

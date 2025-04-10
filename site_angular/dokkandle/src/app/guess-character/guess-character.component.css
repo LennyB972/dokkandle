@@ -427,6 +427,60 @@ button[disabled] {
   color: #F44336;
 }
 
+/* Informations sur le personnage cible (pour l'abandon) */
+.target-character-info {
+  display: flex;
+  align-items: center;
+  margin: 15px 0;
+  background-color: #222222;
+  border-radius: 8px;
+  padding: 12px;
+  border: 1px solid #ffcc00;
+  max-width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.target-character-image {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid #ffcc00;
+  overflow: hidden;
+  margin-right: 15px;
+  flex-shrink: 0;
+  box-shadow: 0 0 10px rgba(255, 204, 0, 0.5);
+}
+
+.target-character-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.target-character-details {
+  text-align: left;
+  flex: 1;
+}
+
+.target-class-type {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffcc00;
+  margin-bottom: 5px;
+}
+
+.target-rarity {
+  font-size: 14px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.target-year {
+  font-size: 13px;
+  color: #bbb;
+}
+
 .new-game-btn {
   background-color: #2E7D32; /* Vert plus foncé et solide */
   color: white;
@@ -514,5 +568,20 @@ button[disabled] {
   
   h1 {
     font-size: 18px;
+  }
+  
+  .target-character-info {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .target-character-image {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  
+  .target-character-details {
+    text-align: center;
   }
 }

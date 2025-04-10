@@ -178,8 +178,23 @@
         <h2>Bravo ! Vous avez trouvé le personnage en {{ attempts }} essai(s).</h2>
       </div>
       
+      <!-- Section améliorée pour l'abandon -->
       <div *ngIf="!guesses[guesses.length-1]?.isCorrect" class="failure-message">
         <h2>Dommage ! Le personnage était: {{ targetCharacter.name }}</h2>
+        
+        <!-- Ajout des informations sur le type et l'image du personnage à deviner -->
+        <div class="target-character-info">
+          <div class="target-character-image">
+            <img [src]="getCharacterImageUrl(targetCharacter)" 
+                 alt="{{ targetCharacter.name }}" 
+                 (error)="handleImageError($event)" />
+          </div>
+          <div class="target-character-details">
+            <p class="target-class-type">{{ getCharacterClass() }} {{ getCharacterType() }}</p>
+            <p class="target-rarity">{{ getCharacterRarity(targetCharacter) }}</p>
+            <p class="target-year">Sorti en {{ getCharacterReleaseYear(targetCharacter) }}</p>
+          </div>
+        </div>
       </div>
       
       <button class="new-game-btn" (click)="resetGame()">Nouvelle partie</button>
