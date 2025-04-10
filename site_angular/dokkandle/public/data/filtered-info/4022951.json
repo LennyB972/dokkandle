@@ -1,0 +1,46 @@
+{
+  "name": "Krillin & Gohan (Kid)",
+  "id": 4022951,
+  "hp_max": 20088,
+  "atk_max": 14595,
+  "def_max": 9338,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2021-09-16 06:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "AGL",
+  "categories": [
+    {
+      "id": 14,
+      "name": "Planet Namek Saga",
+      "priority": 89900
+    },
+    {
+      "id": 39,
+      "name": "Kamehameha",
+      "priority": 69200
+    },
+    {
+      "id": 54,
+      "name": "Rapid Growth",
+      "priority": 59300
+    },
+    {
+      "id": 28,
+      "name": "Joined Forces",
+      "priority": 49800
+    },
+    {
+      "id": 89,
+      "name": "Earth-Bred Fighters",
+      "priority": 30000
+    },
+    {
+      "id": 25,
+      "name": "Dragon Ball Seekers",
+      "priority": 29400
+    }
+  ]
+}

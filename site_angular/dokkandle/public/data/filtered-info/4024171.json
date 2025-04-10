@@ -1,0 +1,31 @@
+{
+  "name": "Annin (Giant Form)",
+  "id": 4024171,
+  "hp_max": 8060,
+  "atk_max": 38000,
+  "def_max": 4153,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2022-07-01 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "INT",
+  "categories": [
+    {
+      "id": 4,
+      "name": "Peppy Gals",
+      "priority": 79000
+    },
+    {
+      "id": 13,
+      "name": "Giant Form",
+      "priority": 69500
+    },
+    {
+      "id": 8,
+      "name": "Realm of Gods",
+      "priority": 60000
+    }
+  ]
+}
