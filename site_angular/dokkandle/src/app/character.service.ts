@@ -1,6 +1,6 @@
 import { Injectable, PLATFORM_ID, Inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable, of, forkJoin, BehaviorSubject, throwError } from 'rxjs';
+import { Observable, of, forkJoin, BehaviorSubject } from 'rxjs';
 import { map, catchError, tap, switchMap } from 'rxjs/operators';
 import { isPlatformBrowser } from '@angular/common';
 
@@ -25,15 +25,19 @@ export interface DokkanCharacter {
   providedIn: 'root'
 })
 export class CharacterService {
-  private charactersCache: DokkanCharacter[] = [];
+  private charactersCache: DokkanCharacter[] | null = null;
   private characterIds: number[] = [];
+  private retryCount: number = 0; // Compteur pour limiter les tentatives de récursion
   private basePath: string = ''; // Sera configuré selon l'environnement
   private isBrowser: boolean;
-  private fallbackCharacters: DokkanCharacter[] = [];
   
   // BehaviorSubject pour suivre l'état de chargement
   private loadingSubject = new BehaviorSubject<boolean>(true);
   public loading$ = this.loadingSubject.asObservable();
+  
+  // BehaviorSubject pour suivre l'état de préchargement des images
+  private imagesLoadedSubject = new BehaviorSubject<boolean>(false);
+  public imagesLoaded$ = this.imagesLoadedSubject.asObservable();
   
   // BehaviorSubject pour suivre le progrès de chargement
   private progressSubject = new BehaviorSubject<number>(0);
@@ -46,28 +50,25 @@ export class CharacterService {
     // Vérifier si nous sommes dans le navigateur
     this.isBrowser = isPlatformBrowser(this.platformId);
     
-    // Configurer le chemin de base - uniquement si dans le navigateur
+    // Configurer le chemin de base
     this.configureBasePath();
     
-    // Initialiser le fallback pour les données
-    this.initFallbackData();
-    
-    // Charger un sous-ensemble minimal de données pour commencer
+    // Préchargement des données uniquement dans le navigateur
     if (this.isBrowser) {
-      this.initMinimalData();
+      this.preloadAllCharacters();
     } else {
-      // En mode serveur, on utilise juste les données de secours
+      // En mode serveur, simplement marquer le chargement comme terminé
       this.loadingSubject.next(false);
-      this.progressSubject.next(100);
+      this.imagesLoadedSubject.next(true);
     }
   }
   
   // Configure le chemin de base selon l'environnement
   private configureBasePath(): void {
-    // Par défaut, le chemin est vide (pour le développement local ou SSR)
+    // Par défaut, chemin vide pour local
     this.basePath = '';
     
-    // Vérifier si nous sommes dans le navigateur
+    // Seulement exécuter la détection GitHub Pages dans le navigateur
     if (this.isBrowser) {
       try {
         // Vérifier si nous sommes sur GitHub Pages (URL contient "github.io")
@@ -91,261 +92,343 @@ export class CharacterService {
     }
   }
   
-  // Initialiser des données de secours minimales
-  private initFallbackData(): void {
-    this.fallbackCharacters = [
-      {
-        name: "Super Saiyan Goku",
-        id: 1000011,
-        hp_max: 8282,
-        atk_max: 7136,
-        def_max: 3857,
-        is_f2p: false,
-        is_dokkan_fes: false,
-        is_carnival_only: false,
-        open_at: "2015-10-30 00:00:00",
-        has_optimal_awakening_growths: false,
-        class: "Super",
-        type: "AGL"
-      },
-      {
-        name: "Super Saiyan Vegeta",
-        id: 1000021,
-        hp_max: 7920,
-        atk_max: 6700,
-        def_max: 4325,
-        is_f2p: false,
-        is_dokkan_fes: false,
-        is_carnival_only: false,
-        open_at: "2015-10-30 00:00:00",
-        has_optimal_awakening_growths: false,
-        class: "Extreme",
-        type: "TEQ"
-      },
-      {
-        name: "Super Saiyan Goku",
-        id: 1000831,
-        hp_max: 7914,
-        atk_max: 7286,
-        def_max: 3767,
-        is_f2p: false,
-        is_dokkan_fes: false,
-        is_carnival_only: false,
-        open_at: "2015-10-30 00:00:00",
-        has_optimal_awakening_growths: false,
-        class: "Super",
-        type: "STR"
-      },
-      {
-        name: "Gogeta SSJ4",
-        id: 1000044,
-        hp_max: 8200,
-        atk_max: 8300,
-        def_max: 4100,
-        is_f2p: false,
-        is_dokkan_fes: true,
-        is_carnival_only: false,
-        open_at: "2018-02-10 00:00:00",
-        has_optimal_awakening_growths: true,
-        class: "Super",
-        type: "TEQ"
-      },
-      {
-        name: "Golden Frieza",
-        id: 1000055,
-        hp_max: 7400,
-        atk_max: 7600,
-        def_max: 4300,
-        is_f2p: false,
-        is_dokkan_fes: true,
-        is_carnival_only: false,
-        open_at: "2017-04-15 00:00:00",
-        has_optimal_awakening_growths: true,
-        class: "Extreme",
-        type: "TEQ"
-      },
-      {
-        name: "Beerus",
-        id: 1000066,
-        hp_max: 7900,
-        atk_max: 8100,
-        def_max: 3800,
-        is_f2p: false,
-        is_dokkan_fes: true,
-        is_carnival_only: false,
-        open_at: "2017-09-20 00:00:00",
-        has_optimal_awakening_growths: true,
-        class: "Super",
-        type: "PHY"
-      }
-    ];
-  }
-  
-  // Initialiser un ensemble minimal de données pour démarrer
-  private initMinimalData(): void {
-    if (!this.isBrowser) return;
-    
+  // Préchargement des personnages
+  private preloadAllCharacters(): void {
     this.loadingSubject.next(true);
     this.progressSubject.next(5);
     
-    // Essayer de charger la liste des IDs (fichier léger)
-    this.http.get<number[]>(`${this.basePath}/data/character-ids.json`)
-      .pipe(
-        catchError(error => {
-          console.warn('Erreur lors du chargement des IDs, utilisation du fallback', error);
-          // Si nous ne pouvons pas charger les IDs, utiliser le fallback
-          this.charactersCache = [...this.fallbackCharacters];
-          this.loadingSubject.next(false);
-          this.progressSubject.next(100);
-          return throwError(() => error);
-        })
-      )
-      .subscribe({
-        next: (ids) => {
-          this.characterIds = ids;
-          this.progressSubject.next(25);
-          console.log(`${ids.length} IDs chargés`);
-          
-          // Au lieu de tout charger, sélectionner un petit ensemble aléatoire
-          const sampleSize = 10; // Nombre de personnages à charger initialement
-          
-          // Sélectionner aléatoirement quelques IDs
-          const selectedIds = this.getRandomSample(ids, sampleSize);
-          
-          // Préparer les fallbacks dans le cache
-          this.charactersCache = [...this.fallbackCharacters];
-          
-          // Charger ces personnages
-          this.loadSelectedCharacters(selectedIds);
-        },
-        error: (error) => {
-          // Déjà géré dans le catchError
+    // Charger d'abord uniquement la liste des IDs (légère)
+    this.http.get<number[]>(`${this.basePath}/data/character-ids.json`).subscribe({
+      next: (ids) => {
+        this.characterIds = ids;
+        this.progressSubject.next(25);
+        console.log(`${ids.length} IDs chargés`);
+        
+        // Commencer à charger les personnages immédiatement, mais limiter le nombre
+        // Nous allons charger un sous-ensemble de personnages pour que le jeu puisse démarrer rapidement
+        const initialBatchSize = 50; // Nombre de personnages à charger initialement
+        const randomIds = [...ids]; // Copie de la liste d'IDs
+        
+        // Mélanger les IDs pour une sélection aléatoire
+        for (let i = randomIds.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [randomIds[i], randomIds[j]] = [randomIds[j], randomIds[i]];
         }
-      });
-  }
-  
-  // Sélectionner un échantillon aléatoire d'IDs
-  private getRandomSample(array: any[], size: number): any[] {
-    const shuffled = [...array].sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, size);
-  }
-  
-  // Charger un ensemble spécifique de personnages
-  private loadSelectedCharacters(ids: number[]): void {
-    if (!this.isBrowser || ids.length === 0) {
-      this.loadingSubject.next(false);
-      this.progressSubject.next(100);
-      return;
-    }
-    
-    // Charger les personnages un par un pour éviter les timeouts
-    let loaded = 0;
-    const totalToLoad = ids.length;
-    
-    const loadNext = (index: number) => {
-      if (index >= ids.length) {
-        this.loadingSubject.next(false);
-        this.progressSubject.next(100);
-        return;
-      }
-      
-      const id = ids[index];
-      this.http.get<DokkanCharacter>(`${this.basePath}/data/filtered-info/${id}.json`)
-        .pipe(
-          catchError(error => {
-            console.warn(`Échec du chargement du personnage ${id}, passage au suivant`, error);
-            return of(null);
-          })
-        )
-        .subscribe({
-          next: (character) => {
-            loaded++;
+        
+        // Sélectionner un sous-ensemble d'IDs pour le chargement initial
+        const initialBatchIds = randomIds.slice(0, initialBatchSize);
+        
+        // Charger ce sous-ensemble de personnages
+        this.loadBatchOfCharacters(initialBatchIds).subscribe({
+          next: (characters) => {
+            this.charactersCache = characters;
+            this.progressSubject.next(75);
+            console.log(`Chargement initial de ${characters.length} personnages terminé`);
             
-            // Calculer la progression (25% pour les IDs + 75% pour les personnages)
-            const characterProgress = 75 * (loaded / totalToLoad);
-            this.progressSubject.next(25 + characterProgress);
+            // Précharger les images des personnages
+            this.preloadCharacterImages(characters);
             
-            if (character) {
-              // Vérifier si ce personnage n'existe pas déjà dans le cache
-              if (!this.charactersCache.some(c => c.id === character.id)) {
-                this.charactersCache.push(character);
-              }
-            }
+            // Une fois les personnages chargés, indiquer que le chargement initial est terminé
+            this.loadingSubject.next(false);
             
-            // Charger le prochain avec un délai pour éviter l'engorgement
-            setTimeout(() => loadNext(index + 1), 100);
+            // Continuer à charger le reste des personnages en arrière-plan
+            setTimeout(() => {
+              this.loadRemainingCharacters(ids, initialBatchIds);
+            }, 3000);
           },
           error: (error) => {
-            // En cas d'erreur, passer au suivant
-            loaded++;
-            setTimeout(() => loadNext(index + 1), 100);
+            console.error('Erreur lors du chargement initial des personnages:', error);
+            this.loadingSubject.next(false); // Terminer le chargement même en cas d'erreur
+            this.progressSubject.next(100);
           }
         });
-    };
-    
-    // Démarrer le chargement séquentiel
-    loadNext(0);
-  }
-  
-  // Charger plus de personnages en arrière-plan (appelé après le chargement initial)
-  loadMoreCharactersInBackground(count: number = 10): void {
-    if (!this.isBrowser || this.characterIds.length === 0 || this.loadingSubject.value) {
-      return; // Ne pas charger si nous sommes déjà en train de charger ou sans IDs
-    }
-    
-    // Filtrer les IDs qui ne sont pas déjà dans le cache
-    const cachedIds = this.charactersCache.map(char => char.id);
-    const availableIds = this.characterIds.filter(id => !cachedIds.includes(id));
-    
-    if (availableIds.length === 0) {
-      return; // Tous les personnages sont déjà chargés
-    }
-    
-    // Sélectionner un échantillon aléatoire
-    const idsToLoad = this.getRandomSample(availableIds, Math.min(count, availableIds.length));
-    
-    // Charger ces personnages en arrière-plan sans bloquer l'UI
-    idsToLoad.forEach(id => {
-      setTimeout(() => {
-        this.http.get<DokkanCharacter>(`${this.basePath}/data/filtered-info/${id}.json`)
-          .pipe(
-            catchError(error => {
-              console.warn(`Échec du chargement en arrière-plan du personnage ${id}`, error);
-              return of(null);
-            })
-          )
-          .subscribe(character => {
-            if (character && !this.charactersCache.some(c => c.id === character.id)) {
-              this.charactersCache.push(character);
-            }
-          });
-      }, Math.random() * 3000); // Répartir les requêtes sur 3 secondes
+      },
+      error: (error) => {
+        console.error('Erreur lors du chargement des IDs des personnages:', error);
+        this.loadingSubject.next(false); // Terminer le chargement en cas d'erreur
+        this.progressSubject.next(100);
+      }
     });
   }
   
-  // Retourne un personnage aléatoire du cache
-  getRandomCharacter(): Observable<DokkanCharacter> {
-    if (this.charactersCache.length === 0) {
-      // Si le cache est vide, utiliser le fallback
-      return of(this.fallbackCharacters[Math.floor(Math.random() * this.fallbackCharacters.length)]);
+  // Précharger les images des personnages
+  private preloadCharacterImages(characters: DokkanCharacter[]): void {
+    if (!this.isBrowser) {
+      this.imagesLoadedSubject.next(true);
+      return;
     }
     
-    // Sélectionner un personnage aléatoire du cache
-    const randomIndex = Math.floor(Math.random() * this.charactersCache.length);
-    const character = this.charactersCache[randomIndex];
+    const imagesToLoad = characters.length;
+    let loadedImages = 0;
     
-    // Charger plus de personnages en arrière-plan pendant que l'utilisateur joue
-    if (this.isBrowser) {
-      setTimeout(() => this.loadMoreCharactersInBackground(5), 1000);
-    }
+    characters.forEach(character => {
+      const imageId = character.id - 1;
+      const img = new Image();
+      
+      img.onload = () => {
+        loadedImages++;
+        
+        // Mettre à jour la progression
+        const progress = 75 + (25 * (loadedImages / imagesToLoad));
+        this.progressSubject.next(Math.min(progress, 100));
+        
+        if (loadedImages >= imagesToLoad) {
+          console.log('Toutes les images sont préchargées');
+          this.progressSubject.next(100);
+          this.imagesLoadedSubject.next(true);
+        }
+      };
+      
+      img.onerror = () => {
+        loadedImages++;
+        
+        // Mettre à jour la progression même en cas d'erreur
+        const progress = 75 + (25 * (loadedImages / imagesToLoad));
+        this.progressSubject.next(Math.min(progress, 100));
+        
+        if (loadedImages >= imagesToLoad) {
+          console.log('Préchargement des images terminé (avec erreurs)');
+          this.progressSubject.next(100);
+          this.imagesLoadedSubject.next(true);
+        }
+      };
+      
+      img.src = `${this.basePath}/data/img/${imageId}.png`;
+    });
     
-    return of(character);
+    // Définir un délai maximum pour le chargement des images (5 secondes)
+    setTimeout(() => {
+      if (!this.imagesLoadedSubject.value) {
+        console.log('Délai de chargement des images dépassé, continuation du jeu');
+        this.progressSubject.next(100);
+        this.imagesLoadedSubject.next(true);
+      }
+    }, 5000);
   }
   
-  // Vérifier si le service est prêt à être utilisé
+  // Charger un lot spécifique de personnages
+  private loadBatchOfCharacters(ids: number[]): Observable<DokkanCharacter[]> {
+    const characterObservables = ids.map(id => 
+      this.http.get<DokkanCharacter>(`${this.basePath}/data/filtered-info/${id}.json`).pipe(
+        catchError(error => {
+          console.warn(`Erreur lors du chargement du personnage ID ${id}:`, error);
+          return of({} as DokkanCharacter);
+        })
+      )
+    );
+    
+    return forkJoin(characterObservables).pipe(
+      map(results => results.filter(char => char.id)) // Filtrer les résultats vides
+    );
+  }
+  
+  // Charger le reste des personnages en arrière-plan
+  private loadRemainingCharacters(allIds: number[], alreadyLoadedIds: number[]): void {
+    if (!this.isBrowser) return;
+    
+    const remainingIds = allIds.filter(id => !alreadyLoadedIds.includes(id));
+    
+    if (remainingIds.length === 0) {
+      console.log('Tous les personnages sont déjà chargés');
+      return;
+    }
+    
+    console.log(`Chargement des ${remainingIds.length} personnages restants en arrière-plan...`);
+    
+    // Créer des lots de personnages à charger
+    const batchSize = 20;
+    const totalBatches = Math.ceil(remainingIds.length / batchSize);
+    
+    // Charger séquentiellement chaque lot
+    let currentBatch = 0;
+    
+    const loadNextBatch = () => {
+      if (currentBatch >= totalBatches) {
+        console.log('Chargement de tous les personnages terminé');
+        return;
+      }
+      
+      const startIdx = currentBatch * batchSize;
+      const endIdx = Math.min(startIdx + batchSize, remainingIds.length);
+      const batchIds = remainingIds.slice(startIdx, endIdx);
+      
+      this.loadBatchOfCharacters(batchIds).subscribe({
+        next: (characters) => {
+          if (this.charactersCache) {
+            this.charactersCache = [...this.charactersCache, ...characters];
+          } else {
+            this.charactersCache = characters;
+          }
+          
+          console.log(`Lot ${currentBatch + 1}/${totalBatches} chargé, ${this.charactersCache.length} personnages au total`);
+          
+          currentBatch++;
+          setTimeout(loadNextBatch, 500); // Attendre 500ms entre chaque lot
+        },
+        error: (error) => {
+          console.error(`Erreur lors du chargement du lot ${currentBatch + 1}:`, error);
+          currentBatch++;
+          setTimeout(loadNextBatch, 500); // Continuer malgré l'erreur
+        }
+      });
+    };
+    
+    loadNextBatch();
+  }
+  
+  // Chargement de tous les personnages depuis les fichiers JSON
+  loadAllCharacters(): Observable<DokkanCharacter[]> {
+    if (this.charactersCache) {
+      return of(this.charactersCache);
+    }
+
+    // Essayer d'abord de charger la liste des IDs
+    return this.http.get<number[]>(`${this.basePath}/data/character-ids.json`).pipe(
+      tap(ids => this.characterIds = ids),
+      switchMap(ids => {
+        // Limiter le nombre de requêtes simultanées pour éviter ERR_INSUFFICIENT_RESOURCES
+        const batchSize = 10; // Nombre de requêtes à effectuer en même temps
+        const totalBatches = Math.ceil(ids.length / batchSize);
+        const batches: Observable<DokkanCharacter[]>[] = [];
+        
+        // Créer des groupes de requêtes
+        for (let i = 0; i < totalBatches; i++) {
+          const startIdx = i * batchSize;
+          const endIdx = Math.min(startIdx + batchSize, ids.length);
+          const batchIds = ids.slice(startIdx, endIdx);
+          
+          // Créer un observable pour ce groupe
+          const batchObservable = forkJoin(
+            batchIds.map(id => 
+              this.http.get<DokkanCharacter>(`${this.basePath}/data/filtered-info/${id}.json`).pipe(
+                catchError(error => {
+                  console.warn(`Erreur lors du chargement du personnage ID ${id}:`, error);
+                  // Retourner un objet vide en cas d'erreur pour ne pas bloquer le reste
+                  return of({} as DokkanCharacter);
+                })
+              )
+            )
+          );
+          
+          batches.push(batchObservable);
+        }
+        
+        // Traiter les groupes séquentiellement
+        return batches.reduce(
+          (acc, batch) => acc.pipe(
+            switchMap(accResult => 
+              batch.pipe(
+                map(batchResult => [...accResult, ...batchResult.filter(char => char.id)])
+              )
+            )
+          ),
+          of([] as DokkanCharacter[])
+        );
+      }),
+      catchError(error => {
+        console.warn('Impossible de charger les IDs ou les personnages, utilisation des données de secours', error);
+        
+        // Fallback pour le développement: créer des données simulées
+        return of([
+          {
+            name: "Super Saiyan Goku",
+            id: 1000011,
+            hp_max: 8282,
+            atk_max: 7136,
+            def_max: 3857,
+            is_f2p: false,
+            is_dokkan_fes: false,
+            is_carnival_only: false,
+            open_at: "2015-10-30 00:00:00",
+            has_optimal_awakening_growths: false,
+            class: "Super",
+            type: "AGL"
+          },
+          {
+            name: "Super Saiyan Vegeta",
+            id: 1000021,
+            hp_max: 7920,
+            atk_max: 6700,
+            def_max: 4325,
+            is_f2p: false,
+            is_dokkan_fes: false,
+            is_carnival_only: false,
+            open_at: "2015-10-30 00:00:00",
+            has_optimal_awakening_growths: false,
+            class: "Extreme",
+            type: "TEQ"
+          },
+          // Autres personnages de secours...
+        ]);
+      }),
+      tap(characters => {
+        this.charactersCache = characters;
+      })
+    );
+  }
+  
+  // Obtenir un personnage aléatoire de façon optimisée
+  getRandomCharacter(): Observable<DokkanCharacter> {
+    // Si nous avons déjà des personnages en cache, utiliser le cache
+    if (this.charactersCache && this.charactersCache.length > 0) {
+      const randomIndex = Math.floor(Math.random() * this.charactersCache.length);
+      return of(this.charactersCache[randomIndex]);
+    }
+    
+    // Sinon, charger juste la liste des IDs et choisir un ID aléatoire
+    return this.http.get<number[]>(`${this.basePath}/data/character-ids.json`).pipe(
+      tap(ids => {
+        if (!this.characterIds.length) {
+          this.characterIds = ids;
+        }
+      }),
+      switchMap(ids => {
+        // Sélectionner un ID aléatoire
+        const randomIndex = Math.floor(Math.random() * ids.length);
+        const randomId = ids[randomIndex];
+        
+        // Charger uniquement ce personnage
+        return this.http.get<DokkanCharacter>(`${this.basePath}/data/filtered-info/${randomId}.json`).pipe(
+          catchError(error => {
+            console.error(`Erreur lors du chargement du personnage ID ${randomId}:`, error);
+            
+            // En cas d'erreur, essayer un autre personnage aléatoire (récursion limitée à 3 tentatives)
+            if (this.retryCount < 3) {
+              this.retryCount++;
+              return this.getRandomCharacter();
+            }
+            
+            // Si plus de 3 tentatives, utiliser une donnée de secours
+            this.retryCount = 0;
+            return of({
+              name: "Super Saiyan Goku",
+              id: 1000011,
+              hp_max: 8282,
+              atk_max: 7136,
+              def_max: 3857,
+              is_f2p: false,
+              is_dokkan_fes: false,
+              is_carnival_only: false,
+              open_at: "2015-10-30 00:00:00",
+              has_optimal_awakening_growths: false,
+              class: "Super",
+              type: "AGL"
+            });
+          })
+        );
+      })
+    );
+  }
+  
+  // Vérifier si tout est chargé et prêt pour jouer
   isReadyToPlay(): Observable<boolean> {
     return this.loading$.pipe(
-      map(isLoading => !isLoading && this.charactersCache.length > 0)
+      switchMap(isLoading => {
+        if (isLoading) {
+          return of(false);
+        }
+        return this.imagesLoaded$;
+      })
     );
   }
   
@@ -354,24 +437,36 @@ export class CharacterService {
     return this.progress$;
   }
   
-  // Rechercher des personnages par nom pour l'autocomplétion
+  // Obtenir un personnage par son nom
+  getCharacterByName(name: string): Observable<DokkanCharacter | undefined> {
+    return this.loadAllCharacters().pipe(
+      map(characters => characters.find(char => 
+        char.name.toLowerCase() === name.toLowerCase()
+      ))
+    );
+  }
+  
+  // Rechercher des personnages par nom (pour l'auto-complétion)
   searchCharactersByName(query: string): Observable<DokkanCharacter[]> {
     if (!query || query.trim() === '') {
       return of([]);
     }
     
-    const lowerCaseQuery = query.toLowerCase();
-    const matchingCharacters = this.charactersCache.filter(character => 
-      character.name.toLowerCase().includes(lowerCaseQuery)
+    return this.loadAllCharacters().pipe(
+      map(characters => {
+        const lowerCaseQuery = query.toLowerCase();
+        return characters.filter(character => 
+          character.name.toLowerCase().includes(lowerCaseQuery)
+        );
+      })
     );
-    
-    // Si nous n'avons pas assez de résultats et que nous avons des IDs, essayer de charger plus
-    if (this.isBrowser && matchingCharacters.length < 5 && this.characterIds.length > 0) {
-      // Charger plus de personnages en arrière-plan
-      this.loadMoreCharactersInBackground(10);
-    }
-    
-    return of(matchingCharacters);
+  }
+  
+  // Obtenir tous les noms de personnages pour l'auto-complétion
+  getAllCharacterNames(): Observable<string[]> {
+    return this.loadAllCharacters().pipe(
+      map(characters => characters.map(char => char.name))
+    );
   }
   
   // Obtenir l'URL de l'image avec le chemin de base correct
@@ -379,6 +474,71 @@ export class CharacterService {
     const imageId = characterId - 1;
     return `${this.basePath}/data/img/${imageId}.png`;
   }
+
+  // Méthode à ajouter dans la classe CharacterService
+
+// Charger plus de personnages en arrière-plan (appelé après le chargement initial)
+loadMoreCharactersInBackground(count: number = 10): void {
+  if (!this.isBrowser || this.loadingSubject.value) {
+    return; // Ne pas charger si nous sommes déjà en train de charger ou en mode serveur
+  }
+  
+  // Si nous n'avons pas encore d'IDs, essayer de les charger
+  if (this.characterIds.length === 0) {
+    this.http.get<number[]>(`${this.basePath}/data/character-ids.json`).subscribe({
+      next: (ids) => {
+        this.characterIds = ids;
+        // Appeler à nouveau cette méthode une fois les IDs chargés
+        setTimeout(() => this.loadMoreCharactersInBackground(count), 100);
+      },
+      error: (error) => {
+        console.warn('Impossible de charger les IDs pour le chargement en arrière-plan', error);
+      }
+    });
+    return;
+  }
+  
+  // Si nous avons déjà tous les personnages, ne rien faire
+  if (this.charactersCache && this.charactersCache.length >= this.characterIds.length) {
+    return;
+  }
+  
+  // Sélectionner un nombre d'IDs aléatoires
+  let availableIds = [...this.characterIds];
+  
+  // Si nous avons déjà des personnages en cache, ne pas recharger ceux que nous avons déjà
+  if (this.charactersCache && this.charactersCache.length > 0) {
+    const cachedIds = this.charactersCache.map(char => char.id);
+    availableIds = availableIds.filter(id => !cachedIds.includes(id));
+  }
+  
+  // Si tous les personnages sont déjà chargés
+  if (availableIds.length === 0) {
+    return;
+  }
+  
+  // Prendre un échantillon aléatoire
+  const sampleSize = Math.min(count, availableIds.length);
+  const shuffled = [...availableIds].sort(() => 0.5 - Math.random());
+  const selectedIds = shuffled.slice(0, sampleSize);
+  
+  // Charger ces personnages
+  this.loadBatchOfCharacters(selectedIds).subscribe({
+    next: (characters) => {
+      // Ajouter ces personnages au cache
+      if (this.charactersCache) {
+        this.charactersCache = [...this.charactersCache, ...characters];
+      } else {
+        this.charactersCache = characters;
+      }
+      
+      console.log(`${characters.length} personnages supplémentaires chargés en arrière-plan`);
+    },
+    error: (error) => {
+      console.warn('Erreur lors du chargement de personnages en arrière-plan', error);
+    }
+  });
+}
   
   // Utilitaire: Traiter correctement les URL des assets
   getAssetUrl(path: string): string {
