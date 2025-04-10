@@ -1,0 +1,14 @@
+{
+  "name": "Master Roshi",
+  "id": 1016651,
+  "hp_max": 8625,
+  "atk_max": 6650,
+  "def_max": 6647,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2019-06-06 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "TEQ"
+}

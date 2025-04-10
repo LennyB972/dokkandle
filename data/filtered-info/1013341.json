@@ -1,0 +1,14 @@
+{
+  "name": "Cooler (Final Form)",
+  "id": 1013341,
+  "hp_max": 9201,
+  "atk_max": 8082,
+  "def_max": 4710,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2019-01-25 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "AGL"
+}

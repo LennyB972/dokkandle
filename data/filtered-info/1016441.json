@@ -1,0 +1,14 @@
+{
+  "name": "Super Saiyan Trunks (GT)",
+  "id": 1016441,
+  "hp_max": 9435,
+  "atk_max": 7918,
+  "def_max": 4920,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2019-07-09 06:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "AGL"
+}

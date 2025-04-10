@@ -1,0 +1,14 @@
+{
+  "name": "Super Saiyan God SS Vegeta & \nSuper Saiyan Trunks (Future)",
+  "id": 1024551,
+  "hp_max": 17750,
+  "atk_max": 15910,
+  "def_max": 8488,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2022-11-28 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "INT"
+}

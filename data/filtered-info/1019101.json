@@ -1,0 +1,14 @@
+{
+  "name": "Team Bardock",
+  "id": 1019101,
+  "hp_max": 12090,
+  "atk_max": 12807,
+  "def_max": 7996,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-03-18 00:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "INT"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Super Saiyan Gohan (Teen) & \nSuper Saiyan Goten (Kid)",
+  "id": 1016811,
+  "hp_max": 16900,
+  "atk_max": 16125,
+  "def_max": 9019,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2019-05-08 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "TEQ"
+}

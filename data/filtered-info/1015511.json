@@ -1,0 +1,14 @@
+{
+  "name": "Supreme Kai of Time (Power of Time Unleashed)",
+  "id": 1015511,
+  "hp_max": 9349,
+  "atk_max": 7728,
+  "def_max": 4477,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2019-08-13 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "TEQ"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Super Saiyan 4 Goku & Super Saiyan 4 Vegeta",
+  "id": 1022421,
+  "hp_max": 16688,
+  "atk_max": 17185,
+  "def_max": 7425,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2022-07-08 05:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "PHY"
+}

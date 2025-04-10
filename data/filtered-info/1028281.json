@@ -1,0 +1,14 @@
+{
+  "name": "Goku Black (Super Saiyan Rosé)",
+  "id": 1028281,
+  "hp_max": 10320,
+  "atk_max": 10576,
+  "def_max": 8745,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2024-02-21 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Extreme",
+  "type": "PHY"
+}

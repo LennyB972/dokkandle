@@ -1,0 +1,14 @@
+{
+  "name": "Yurin",
+  "id": 1011921,
+  "hp_max": 9326,
+  "atk_max": 6334,
+  "def_max": 3981,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-02-17 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "TEQ"
+}

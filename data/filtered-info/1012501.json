@@ -1,0 +1,14 @@
+{
+  "name": "Great Saiyaman 2",
+  "id": 1012501,
+  "hp_max": 8580,
+  "atk_max": 6781,
+  "def_max": 3794,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-05-25 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "PHY"
+}

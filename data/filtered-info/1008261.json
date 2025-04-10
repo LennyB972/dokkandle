@@ -1,0 +1,14 @@
+{
+  "name": "Trunks (Kid)",
+  "id": 1008261,
+  "hp_max": 6361,
+  "atk_max": 7868,
+  "def_max": 3734,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-05-25 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "TEQ"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Arale Norimaki",
+  "id": 1008981,
+  "hp_max": 8286,
+  "atk_max": 8573,
+  "def_max": 4301,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-05-11 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "STR"
+}

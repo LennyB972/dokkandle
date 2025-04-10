@@ -1,0 +1,14 @@
+{
+  "name": "Android #18",
+  "id": 1030921,
+  "hp_max": 7833,
+  "atk_max": 8797,
+  "def_max": 5860,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2025-04-01 00:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "PHY"
+}

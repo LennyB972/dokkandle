@@ -1,0 +1,14 @@
+{
+  "name": "Super Saiyan Goku",
+  "id": 1024861,
+  "hp_max": 17963,
+  "atk_max": 15530,
+  "def_max": 9231,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": true,
+  "open_at": "2022-08-28 05:17:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "TEQ"
+}

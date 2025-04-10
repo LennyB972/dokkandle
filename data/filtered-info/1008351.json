@@ -1,0 +1,14 @@
+{
+  "name": "Yamhan",
+  "id": 1008351,
+  "hp_max": 7153,
+  "atk_max": 6413,
+  "def_max": 3199,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2022-02-08 00:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "PHY"
+}

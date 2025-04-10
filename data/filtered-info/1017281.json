@@ -1,0 +1,14 @@
+{
+  "name": "Great Saiyaman 3",
+  "id": 1017281,
+  "hp_max": 9886,
+  "atk_max": 8427,
+  "def_max": 5296,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2019-08-13 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "TEQ"
+}

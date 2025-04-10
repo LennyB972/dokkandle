@@ -1,0 +1,14 @@
+{
+  "name": "Majin Buu (Pure Evil)",
+  "id": 1028851,
+  "hp_max": 8038,
+  "atk_max": 9125,
+  "def_max": 5347,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2024-04-26 04:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Extreme",
+  "type": "TEQ"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Krillin",
+  "id": 1004531,
+  "hp_max": 8105,
+  "atk_max": 7311,
+  "def_max": 4720,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-01-25 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "TEQ"
+}

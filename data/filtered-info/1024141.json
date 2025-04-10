@@ -1,0 +1,14 @@
+{
+  "name": "Goku & Piccolo/Piccolo",
+  "id": 1024141,
+  "hp_max": 18175,
+  "atk_max": 15615,
+  "def_max": 9019,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2022-06-20 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "PHY"
+}

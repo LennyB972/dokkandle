@@ -1,0 +1,14 @@
+{
+  "name": "Super Vegeta",
+  "id": 1016611,
+  "hp_max": 7977,
+  "atk_max": 8651,
+  "def_max": 4470,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2019-03-18 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "INT"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Hercule/Majin Buu (Good)",
+  "id": 1020771,
+  "hp_max": 7603,
+  "atk_max": 7550,
+  "def_max": 3818,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2020-09-15 05:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "AGL"
+}

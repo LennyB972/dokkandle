@@ -1,0 +1,14 @@
+{
+  "name": "Super Saiyan Goten (Kid)",
+  "id": 1021781,
+  "hp_max": 9989,
+  "atk_max": 8715,
+  "def_max": 4885,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2021-08-10 00:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "TEQ"
+}

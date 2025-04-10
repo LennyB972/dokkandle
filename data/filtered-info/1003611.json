@@ -1,0 +1,14 @@
+{
+  "name": "Cooler (Final Form)",
+  "id": 1003611,
+  "hp_max": 8712,
+  "atk_max": 7025,
+  "def_max": 3833,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2015-10-30 00:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Extreme",
+  "type": "TEQ"
+}

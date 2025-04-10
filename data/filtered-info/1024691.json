@@ -1,0 +1,14 @@
+{
+  "name": "Shen",
+  "id": 1024691,
+  "hp_max": 7465,
+  "atk_max": 8022,
+  "def_max": 4365,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2024-06-28 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "TEQ"
+}

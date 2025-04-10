@@ -1,0 +1,14 @@
+{
+  "name": "Mighty Mask",
+  "id": 1023911,
+  "hp_max": 10738,
+  "atk_max": 8021,
+  "def_max": 4488,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2022-04-21 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "TEQ"
+}

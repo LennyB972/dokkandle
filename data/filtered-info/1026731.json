@@ -1,0 +1,14 @@
+{
+  "name": "Dr. Wheelo",
+  "id": 1026731,
+  "hp_max": 12840,
+  "atk_max": 14564,
+  "def_max": 10375,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2023-10-05 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Extreme",
+  "type": "AGL"
+}

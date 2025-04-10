@@ -1,0 +1,14 @@
+{
+  "name": "Goku (Youth)",
+  "id": 1016571,
+  "hp_max": 10630,
+  "atk_max": 10884,
+  "def_max": 5955,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2019-06-06 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "INT"
+}

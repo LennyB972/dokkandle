@@ -1,0 +1,14 @@
+{
+  "name": "Super Saiyan Gotenks",
+  "id": 1011071,
+  "hp_max": 9246,
+  "atk_max": 8371,
+  "def_max": 4448,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-12-11 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "AGL"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Yamcha",
+  "id": 1028191,
+  "hp_max": 6312,
+  "atk_max": 7919,
+  "def_max": 3908,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2024-08-16 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "TEQ"
+}

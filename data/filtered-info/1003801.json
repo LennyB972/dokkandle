@@ -1,0 +1,14 @@
+{
+  "name": "Legendary Super Saiyan Broly ",
+  "id": 1003801,
+  "hp_max": 9843,
+  "atk_max": 9243,
+  "def_max": 4532,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2015-10-30 00:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "STR"
+}

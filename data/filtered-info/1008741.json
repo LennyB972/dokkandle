@@ -1,0 +1,14 @@
+{
+  "name": "Golden Frieza",
+  "id": 1008741,
+  "hp_max": 8837,
+  "atk_max": 8279,
+  "def_max": 4393,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-01-25 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "AGL"
+}

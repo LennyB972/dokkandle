@@ -1,0 +1,14 @@
+{
+  "name": "Super Hercule Statue (Diamond)",
+  "id": 1029211,
+  "hp_max": 1000,
+  "atk_max": 1000,
+  "def_max": 1000,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2024-04-02 06:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "TEQ"
+}

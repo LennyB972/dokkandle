@@ -1,0 +1,14 @@
+{
+  "name": "Goku (Xeno)",
+  "id": 1017391,
+  "hp_max": 6635,
+  "atk_max": 7510,
+  "def_max": 3567,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2019-08-13 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "PHY"
+}

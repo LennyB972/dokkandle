@@ -1,0 +1,14 @@
+{
+  "name": "Metal Cooler [STR]",
+  "id": 1025191,
+  "hp_max": 6824,
+  "atk_max": 7550,
+  "def_max": 4207,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2022-09-09 06:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "STR"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Cell (1st Form)",
+  "id": 1024381,
+  "hp_max": 12205,
+  "atk_max": 11910,
+  "def_max": 6135,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2022-04-27 11:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "AGL"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Hell Fighter #17",
+  "id": 1005801,
+  "hp_max": 8761,
+  "atk_max": 8381,
+  "def_max": 4491,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-09-15 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "INT"
+}

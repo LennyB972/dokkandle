@@ -1,0 +1,14 @@
+{
+  "name": "Catopesra",
+  "id": 1028761,
+  "hp_max": 9065,
+  "atk_max": 9125,
+  "def_max": 4834,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2024-08-13 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "TEQ"
+}

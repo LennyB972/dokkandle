@@ -1,0 +1,14 @@
+{
+  "name": "Dodoria",
+  "id": 1028591,
+  "hp_max": 9578,
+  "atk_max": 8509,
+  "def_max": 5347,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2024-05-31 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Extreme",
+  "type": "INT"
+}

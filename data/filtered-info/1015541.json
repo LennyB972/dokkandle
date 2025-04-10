@@ -1,0 +1,14 @@
+{
+  "name": "Dark Masked King",
+  "id": 1015541,
+  "hp_max": 8812,
+  "atk_max": 8337,
+  "def_max": 3984,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2019-08-13 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Extreme",
+  "type": "INT"
+}

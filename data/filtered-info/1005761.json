@@ -1,0 +1,14 @@
+{
+  "name": "Mr. Buu",
+  "id": 1005761,
+  "hp_max": 9912,
+  "atk_max": 7273,
+  "def_max": 4802,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-08-25 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "TEQ"
+}

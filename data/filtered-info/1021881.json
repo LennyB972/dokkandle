@@ -1,0 +1,14 @@
+{
+  "name": "Legion of Shadow Dragons",
+  "id": 1021881,
+  "hp_max": 13710,
+  "atk_max": 11576,
+  "def_max": 8725,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2022-01-03 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Extreme",
+  "type": "INT"
+}

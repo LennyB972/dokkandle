@@ -1,0 +1,14 @@
+{
+  "name": "Great Saiyaman (SS2)",
+  "id": 1009481,
+  "hp_max": 8745,
+  "atk_max": 8352,
+  "def_max": 4347,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-02-10 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "PHY"
+}

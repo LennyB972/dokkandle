@@ -1,0 +1,14 @@
+{
+  "name": "Goku",
+  "id": 1026531,
+  "hp_max": 12900,
+  "atk_max": 9980,
+  "def_max": 8950,
+  "is_f2p": false,
+  "is_dokkan_fes": true,
+  "is_carnival_only": false,
+  "open_at": "2023-04-28 02:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "TEQ"
+}

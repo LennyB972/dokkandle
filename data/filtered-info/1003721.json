@@ -1,0 +1,14 @@
+{
+  "name": "Paikuhan",
+  "id": 1003721,
+  "hp_max": 8588,
+  "atk_max": 7130,
+  "def_max": 4544,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2016-07-08 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "TEQ"
+}

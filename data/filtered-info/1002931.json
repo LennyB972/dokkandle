@@ -1,0 +1,14 @@
+{
+  "name": "Krillin",
+  "id": 1002931,
+  "hp_max": 7203,
+  "atk_max": 6873,
+  "def_max": 4181,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2016-08-17 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "STR"
+}

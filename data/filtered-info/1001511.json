@@ -1,0 +1,14 @@
+{
+  "name": "Bardock",
+  "id": 1001511,
+  "hp_max": 8338,
+  "atk_max": 6839,
+  "def_max": 4039,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-10-06 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "AGL"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "King Vegeta",
+  "id": 1024031,
+  "hp_max": 10173,
+  "atk_max": 7721,
+  "def_max": 4771,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2022-11-28 06:30:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Extreme",
+  "type": "INT"
+}

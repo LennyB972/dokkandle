@@ -1,0 +1,14 @@
+{
+  "name": "Saonel & Pirina",
+  "id": 1029281,
+  "hp_max": 8126,
+  "atk_max": 8207,
+  "def_max": 3526,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2024-11-21 05:00:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "TEQ"
+}

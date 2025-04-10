@@ -1,0 +1,14 @@
+{
+  "name": "Piccolo",
+  "id": 1014681,
+  "hp_max": 6179,
+  "atk_max": 6661,
+  "def_max": 3008,
+  "is_f2p": true,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2018-08-28 05:00:00",
+  "has_optimal_awakening_growths": true,
+  "class": "Super",
+  "type": "AGL"
+}

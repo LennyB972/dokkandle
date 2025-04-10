@@ -1,0 +1,14 @@
+{
+  "name": "Frost (Final Form)",
+  "id": 1026511,
+  "hp_max": 8243,
+  "atk_max": 8838,
+  "def_max": 5604,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2023-08-11 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Extreme",
+  "type": "TEQ"
+}

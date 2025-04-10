@@ -1,0 +1,14 @@
+{
+  "name": "Obotchaman",
+  "id": 1009051,
+  "hp_max": 8959,
+  "atk_max": 7482,
+  "def_max": 4642,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2017-05-11 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "AGL"
+}

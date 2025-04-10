@@ -1,0 +1,14 @@
+{
+  "name": "Super Saiyan 2 Goku (Angel)",
+  "id": 1004211,
+  "hp_max": 8583,
+  "atk_max": 7873,
+  "def_max": 4154,
+  "is_f2p": false,
+  "is_dokkan_fes": false,
+  "is_carnival_only": false,
+  "open_at": "2016-08-12 06:30:00",
+  "has_optimal_awakening_growths": false,
+  "class": "Super",
+  "type": "TEQ"
+}
