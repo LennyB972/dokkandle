@@ -12,6 +12,7 @@
   "class": "Extreme",
   "type": "PHY",
   "active_skill_id": 8457,
+  "has_ultimate": false,
   "entree_id": 7,
   "fukkatsu_id": -1,
   "standby_id": -1,

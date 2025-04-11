@@ -12,6 +12,7 @@
   "class": "Super",
   "type": "INT",
   "active_skill_id": 7877,
+  "has_ultimate": true,
   "entree_id": -1,
   "fukkatsu_id": -1,
   "standby_id": -1,

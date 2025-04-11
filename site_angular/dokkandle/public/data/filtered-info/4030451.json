@@ -12,6 +12,7 @@
   "class": "Super",
   "type": "TEQ",
   "active_skill_id": 15805,
+  "has_ultimate": true,
   "entree_id": 28,
   "fukkatsu_id": -1,
   "standby_id": -1,

@@ -12,6 +12,7 @@
   "class": "Super",
   "type": "PHY",
   "active_skill_id": 11122,
+  "has_ultimate": true,
   "entree_id": 14,
   "fukkatsu_id": -1,
   "standby_id": -1,

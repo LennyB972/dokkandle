@@ -12,6 +12,7 @@
   "class": "Super",
   "type": "STR",
   "active_skill_id": 10039,
+  "has_ultimate": false,
   "entree_id": -1,
   "fukkatsu_id": -1,
   "standby_id": -1,

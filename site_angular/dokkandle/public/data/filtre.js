@@ -49,8 +49,9 @@ const processFiles = async () => {
                     categories = data.categories.sort((a, b) => b.priority - a.priority);
                 }
 
-                // Initialisations
+                // Champs principaux
                 let active_skill_id = card.hasOwnProperty('active_skill_view_id') ? card.active_skill_view_id : -1;
+                let has_ultimate = card.hasOwnProperty('ultimate_special_id');
 
                 let entree_id = -1;
                 let fukkatsu_id = -1;
@@ -112,14 +113,12 @@ const processFiles = async () => {
                                 if (typeof value === 'number' && value > 0) {
                                     transfo_id = value;
                                     console.log(`transfo_id affecté pour la carte ${card.id} : ${transfo_id}`);
-                                    break; // ✅ Stop au premier next_card_id > card.id avec valeur > 0
+                                    break;
                                 }
                             }
                         }
                     }
                 }
-
-
 
                 const filteredData = {
                     name: card.name,
@@ -135,6 +134,7 @@ const processFiles = async () => {
                     class: classType,
                     type: unitType,
                     active_skill_id: active_skill_id,
+                    has_ultimate: has_ultimate,
                     entree_id: entree_id,
                     fukkatsu_id: fukkatsu_id,
                     standby_id: standby_id,

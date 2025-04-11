@@ -12,6 +12,7 @@
   "class": "Super",
   "type": "AGL",
   "active_skill_id": 15679,
+  "has_ultimate": false,
   "entree_id": 68,
   "fukkatsu_id": -1,
   "standby_id": -1,

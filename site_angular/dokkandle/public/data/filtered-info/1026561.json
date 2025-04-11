@@ -12,6 +12,7 @@
   "class": "Extreme",
   "type": "INT",
   "active_skill_id": 12027,
+  "has_ultimate": true,
   "entree_id": 23,
   "fukkatsu_id": -1,
   "standby_id": -1,

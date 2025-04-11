@@ -12,6 +12,7 @@
   "class": "Extreme",
   "type": "AGL",
   "active_skill_id": 12184,
+  "has_ultimate": true,
   "entree_id": 26,
   "fukkatsu_id": -1,
   "standby_id": -1,
