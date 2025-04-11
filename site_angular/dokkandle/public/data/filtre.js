@@ -1,39 +1,31 @@
 const fs = require('fs');
 const path = require('path');
 
-// Dossier où se trouvent les fichiers JSON
 const downloadsDir = path.join(__dirname, 'downloads');
-
-// Dossier où les fichiers filtrés seront sauvegardés
 const outputDir = path.join(__dirname, 'filtered-info');
 
-// Créer le dossier 'filtered-info' s'il n'existe pas
 if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
 }
 
-// Fonction pour filtrer et enregistrer les données
 const processFiles = async () => {
-    const files = fs.readdirSync(downloadsDir).filter(file => file.endsWith('.json')); // Récupérer les fichiers JSON du répertoire 'downloads'
+    const files = fs.readdirSync(downloadsDir).filter(file => file.endsWith('.json'));
 
     for (const file of files) {
         const filePath = path.join(downloadsDir, file);
         try {
-            // Lire le fichier JSON
             const data = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-            
-            // Extraire les informations nécessaires
             const card = data.card;
 
             if (card && card.id) {
                 const id = card.id;
 
-                // Déterminer la "class" et le "type" à partir de card.element
+                // Déterminer la "class" et le "type"
                 let classType = null;
                 let unitType = null;
 
                 if (typeof card.element === 'number') {
-                    const elementStr = card.element.toString().padStart(2, '0'); // S'assurer qu'on a deux chiffres
+                    const elementStr = card.element.toString().padStart(2, '0');
                     const firstDigit = elementStr[0];
                     const secondDigit = elementStr[1];
 
@@ -51,11 +43,83 @@ const processFiles = async () => {
                     unitType = typeMap[secondDigit] || null;
                 }
 
+                // Catégories
                 let categories = [];
                 if (Array.isArray(data.categories)) {
-                    categories = data.categories
-                        .sort((a, b) => b.priority - a.priority);
+                    categories = data.categories.sort((a, b) => b.priority - a.priority);
                 }
+
+                // Initialisations
+                let active_skill_id = card.hasOwnProperty('active_skill_view_id') ? card.active_skill_view_id : -1;
+
+                let entree_id = -1;
+                let fukkatsu_id = -1;
+                if (Array.isArray(data.passive_animations)) {
+                    for (const passive of data.passive_animations) {
+                        if (passive.type === "lua" && passive.hasOwnProperty("id")) {
+                            entree_id = passive.id;
+                        }
+                        if (passive.type === "effect" && passive.hasOwnProperty("id")) {
+                            fukkatsu_id = passive.id;
+                        }
+                    }
+                }
+
+                let standby_id = -1;
+                if (Array.isArray(data.standby_skills)) {
+                    for (const standby of data.standby_skills) {
+                        if (standby.hasOwnProperty("special_view_id")) {
+                            standby_id = standby.special_view_id;
+                            break;
+                        }
+                    }
+                }
+
+                let finish_1_id = -1;
+                let finish_2_id = -1;
+                if (Array.isArray(data.finish_skills)) {
+                    if (data.finish_skills[0]?.special_view_id) {
+                        finish_1_id = data.finish_skills[0].special_view_id;
+                    }
+                    if (data.finish_skills[1]?.special_view_id) {
+                        finish_2_id = data.finish_skills[1].special_view_id;
+                    }
+                }
+
+                let transfo_id = -1;
+                if (Array.isArray(data.transformations)) {
+                    for (const transfo of data.transformations) {
+                        if (
+                            transfo &&
+                            typeof transfo === 'object' &&
+                            typeof transfo.next_card_id === 'number' &&
+                            transfo.next_card_id > card.id &&
+                            transfo.next_card &&
+                            typeof transfo.next_card === 'object' &&
+                            typeof transfo.next_card.eff_value3 !== 'undefined'
+                        ) {
+                            const effKey = transfo.next_card.eff_value3;
+                            const battleParams = transfo.next_card.battle_params;
+
+                            if (
+                                battleParams &&
+                                typeof battleParams === 'object' &&
+                                battleParams.hasOwnProperty(effKey) &&
+                                typeof battleParams[effKey] === 'object' &&
+                                battleParams[effKey].hasOwnProperty("1")
+                            ) {
+                                const value = battleParams[effKey]["1"];
+                                if (typeof value === 'number' && value > 0) {
+                                    transfo_id = value;
+                                    console.log(`transfo_id affecté pour la carte ${card.id} : ${transfo_id}`);
+                                    break; // ✅ Stop au premier next_card_id > card.id avec valeur > 0
+                                }
+                            }
+                        }
+                    }
+                }
+
+
 
                 const filteredData = {
                     name: card.name,
@@ -70,10 +134,16 @@ const processFiles = async () => {
                     has_optimal_awakening_growths: data.hasOwnProperty("optimal_awakening_growths"),
                     class: classType,
                     type: unitType,
+                    active_skill_id: active_skill_id,
+                    entree_id: entree_id,
+                    fukkatsu_id: fukkatsu_id,
+                    standby_id: standby_id,
+                    finish_1_id: finish_1_id,
+                    finish_2_id: finish_2_id,
+                    transfo_id: transfo_id,
                     categories: categories
                 };
 
-                // Sauvegarder le fichier filtré dans le dossier 'filtered-info'
                 const outputFilePath = path.join(outputDir, `${id}.json`);
                 fs.writeFileSync(outputFilePath, JSON.stringify(filteredData, null, 2));
                 console.log(`Fichier filtré pour ID ${id} sauvegardé dans "${outputFilePath}"`);
@@ -86,5 +156,4 @@ const processFiles = async () => {
     console.log('Traitement terminé.');
 };
 
-// Lancer la fonction de traitement
 processFiles();

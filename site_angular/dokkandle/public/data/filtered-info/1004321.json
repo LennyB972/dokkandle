@@ -11,5 +11,12 @@
   "has_optimal_awakening_growths": false,
   "class": "Extreme",
   "type": "PHY",
+  "active_skill_id": -1,
+  "entree_id": -1,
+  "fukkatsu_id": -1,
+  "standby_id": -1,
+  "finish_1_id": -1,
+  "finish_2_id": -1,
+  "transfo_id": -1,
   "categories": []
 }
